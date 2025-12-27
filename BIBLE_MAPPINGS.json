@@ -29,19 +29,6 @@
   "images": {
     "bible-001": {
       "image_file": "images/2025-12-27/bible-001.png",
-      "region": "Dead River",
-      "ore_source_id": "deadriver-001",
-      "loci": {
-        "1": { "object": "overturned bucket", "placement": "bottom-left" },
-        "2": { "object": "coiled rope", "placement": "bottom-center" },
-        "3": { "object": "leather satchel", "placement": "bottom-right" },
-        "4": { "object": "wooden cart", "placement": "top-right" },
-        "5": { "object": "hanging lantern", "placement": "top-center" },
-        "6": { "object": "clay jug", "placement": "top-left" }
-      }
-    },
-    "bible-002": {
-      "image_file": "images/2025-12-27/bible-002.png",
       "region": "Capital",
       "ore_source_id": "capital-003",
       "loci": {
@@ -52,20 +39,33 @@
         "5": { "object": "navigation compass", "placement": "top-center" },
         "6": { "object": "frayed harness", "placement": "top-left" }
       }
+    },
+    "bible-002": {
+      "image_file": "images/2025-12-27/bible-002.png",
+      "region": "Focal Meadow",
+      "ore_source_id": "focalmeadow-001",
+      "loci": {
+        "1": { "object": "open field book", "placement": "bottom-left" },
+        "2": { "object": "instrument case", "placement": "bottom-center" },
+        "3": { "object": "orange meadow plant", "placement": "bottom-right" },
+        "4": { "object": "gray boulder", "placement": "top-right" },
+        "5": { "object": "translucent tree with figure", "placement": "top-center" },
+        "6": { "object": "distant translucent grove", "placement": "top-left" }
+      }
     }
   },
   "object_registry": [
-    "overturned bucket",
-    "coiled rope",
-    "leather satchel",
-    "wooden cart",
-    "hanging lantern",
-    "clay jug",
     "worn leather seat",
     "brass control lever",
     "open storage compartment",
     "cracked windscreen",
     "navigation compass",
-    "frayed harness"
+    "frayed harness",
+    "open field book",
+    "instrument case",
+    "orange meadow plant",
+    "gray boulder",
+    "translucent tree with figure",
+    "distant translucent grove"
   ]
 }
