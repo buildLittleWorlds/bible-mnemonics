@@ -1,0 +1,3420 @@
+{
+  "metadata": {
+    "description": "Comprehensive audit of all ore fragment files for W1/W2 classification",
+    "total_files": 961,
+    "classification_summary": {
+      "w1_total": 202,
+      "w2_total": 549,
+      "ambiguous_total": 209,
+      "w1_percentage": 21.0,
+      "w2_percentage": 57.1,
+      "ambiguous_percentage": 21.7
+    },
+    "by_region": {
+      "capeast": {
+        "total": 63,
+        "w1": 8,
+        "w2": 38,
+        "ambiguous": 17
+      },
+      "capital": {
+        "total": 59,
+        "w1": 24,
+        "w2": 29,
+        "ambiguous": 6
+      },
+      "yeller-quarry": {
+        "total": 54,
+        "w1": 41,
+        "w2": 8,
+        "ambiguous": 5
+      },
+      "dens": {
+        "total": 61,
+        "w1": 33,
+        "w2": 17,
+        "ambiguous": 11
+      },
+      "densmok": {
+        "total": 104,
+        "w1": 20,
+        "w2": 17,
+        "ambiguous": 67
+      },
+      "northo": {
+        "total": 104,
+        "w1": 12,
+        "w2": 70,
+        "ambiguous": 22
+      },
+      "northo-2": {
+        "total": 15,
+        "w1": 0,
+        "w2": 12,
+        "ambiguous": 2
+      },
+      "mirado-sticks": {
+        "total": 78,
+        "w1": 23,
+        "w2": 52,
+        "ambiguous": 3
+      },
+      "tower-of-mirado": {
+        "total": 71,
+        "w1": 10,
+        "w2": 21,
+        "ambiguous": 40
+      },
+      "tower-of-mirado-2": {
+        "total": 261,
+        "w1": 1,
+        "w2": 246,
+        "ambiguous": 14
+      },
+      "dead-river": {
+        "total": 43,
+        "w1": 13,
+        "w2": 19,
+        "ambiguous": 11
+      },
+      "north-town": {
+        "total": 48,
+        "w1": 17,
+        "w2": 20,
+        "ambiguous": 11
+      }
+    },
+    "classification_key": {
+      "w1": "Pure Densworld material - suitable for mnemonic images. Contains only Densworld geography, characters, and concepts.",
+      "w2": "Real-world references - contains Alton/Illinois, Walmart, real people, missionaries, evangelical Christianity, etc.",
+      "ambiguous": "Contains real-world elements but with fantastical/transformative qualities that could work as W1, or unclear classification."
+    },
+    "w2_markers": [
+      "Alton",
+      "Illinois",
+      "Iowa",
+      "Missouri",
+      "St. Louis",
+      "Mississippi River",
+      "Godfrey",
+      "Edwardsville",
+      "Springfield",
+      "Chicago",
+      "Kansas",
+      "Colorado",
+      "Walmart",
+      "Target",
+      "Starbucks",
+      "QuickTrip",
+      "Steak n Shake",
+      "Pizza Hut",
+      "Cardinals",
+      "Cubs",
+      "NFL",
+      "NBA",
+      "ESPN",
+      "Lincoln",
+      "Douglas",
+      "Wittgenstein",
+      "Frege",
+      "Tolkien",
+      "Billy Graham",
+      "Nigeria",
+      "Kenya",
+      "Africa (as mission context)",
+      "missionaries",
+      "Lewis and Clark CC",
+      "Washington U",
+      "Yale",
+      "Harvard",
+      "Princeton",
+      "Honda",
+      "Amtrak",
+      "I-80",
+      "Highway",
+      "Jesus",
+      "Christ",
+      "Bible",
+      "evangelical",
+      "Episcopal",
+      "Methodist"
+    ],
+    "w1_markers": [
+      "Capital",
+      "Cap",
+      "Dens",
+      "Densmok",
+      "Dead River",
+      "Yeller Quarry",
+      "Mirado",
+      "Tower of Mirado",
+      "Northo",
+      "North Town",
+      "Capeast",
+      "Miasto",
+      "Gunnr Forest",
+      "Noos",
+      "Backap",
+      "graymuck",
+      "densmuck",
+      "densground",
+      "grimslew",
+      "Yeller (the fivefold being)",
+      "yeller bird",
+      "Quonxy",
+      "Little Porn",
+      "Duster",
+      "Fishboy",
+      "Grigsu",
+      "Fyncho",
+      "the mapmaker",
+      "the senator",
+      "the Colonel",
+      "archivists"
+    ],
+    "key_findings": {
+      "purest_w1_regions": [
+        "yeller-quarry (72% W1)",
+        "dens (57% W1)"
+      ],
+      "heaviest_w2_regions": [
+        "tower-of-mirado-2 (94% W2)",
+        "northo-2 (80% W2)",
+        "northo (67% W2)"
+      ],
+      "most_ambiguous_regions": [
+        "densmok (64% ambiguous)",
+        "tower-of-mirado (56% ambiguous)"
+      ],
+      "w2_themes": [
+        "Alton, Illinois and Mississippi River geography",
+        "Evangelical Christianity and missionary culture",
+        "Missionary kid (MK/TCK) experience",
+        "American suburban subdivision life",
+        "Philosophical references (Wittgenstein, Frege)",
+        "John Brown and abolition history"
+      ]
+    }
+  },
+  "files": [
+    {
+      "id": "capeast/001_untitled.txt",
+      "region": "capeast",
+      "filename": "001_untitled.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Little Porn",
+        "Quonxy"
+      ],
+      "key_moment": "Meta-planning about where characters fit in the world structure",
+      "w2_evidence": [
+        "Planning comments about Capeast vs Densmok placement"
+      ]
+    },
+    {
+      "id": "capeast/002_it_couldnt_be_called_a_house.txt",
+      "region": "capeast",
+      "filename": "002_it_couldnt_be_called_a_house.txt",
+      "classification": "w1",
+      "characters": [
+        "Eve"
+      ],
+      "key_moment": "Woman named Eve in a room at the back end of the Capital (Backap)",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/003_festival_in_capeast.txt",
+      "region": "capeast",
+      "filename": "003_festival_in_capeast.txt",
+      "classification": "w1",
+      "characters": [
+        "the mapmaker"
+      ],
+      "key_moment": "Festival night, mapmaker's women arrive at village",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/004_bare_on_their_backs.txt",
+      "region": "capeast",
+      "filename": "004_bare_on_their_backs.txt",
+      "classification": "w1",
+      "characters": [
+        "the mapmaker"
+      ],
+      "key_moment": "Mapmaker's five women with unusual clothing patterns",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/005_mice_in_the_outskirts.txt",
+      "region": "capeast",
+      "filename": "005_mice_in_the_outskirts.txt",
+      "classification": "w1",
+      "characters": [
+        "the mapmaker"
+      ],
+      "key_moment": "Five women hunting in Noos marsh gathering bones",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/006_hoole_in_capeast.txt",
+      "region": "capeast",
+      "filename": "006_hoole_in_capeast.txt",
+      "classification": "w1",
+      "characters": [
+        "Hoole",
+        "the senator"
+      ],
+      "key_moment": "Hoole asking about how father conquered Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/007_capeast_scientist_kid.txt",
+      "region": "capeast",
+      "filename": "007_capeast_scientist_kid.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Family of scientists, theological discussions",
+      "w2_evidence": [
+        "Family scientists",
+        "second grade",
+        "theologians"
+      ]
+    },
+    {
+      "id": "capeast/008_capeast_mom_of_sugar.txt",
+      "region": "capeast",
+      "filename": "008_capeast_mom_of_sugar.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Cassie"
+      ],
+      "key_moment": "Little Porn sent to Walmart for sugar, meets Cassie, Redbox incident",
+      "w2_evidence": [
+        "Walmart",
+        "Godfrey",
+        "Riversland subdivision",
+        "Saturday pancakes"
+      ]
+    },
+    {
+      "id": "capeast/009_the_dark_hump_day.txt",
+      "region": "capeast",
+      "filename": "009_the_dark_hump_day.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn"
+      ],
+      "key_moment": "Little Porn waiting in dark hump day",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/010_capeast_sachball_stare.txt",
+      "region": "capeast",
+      "filename": "010_capeast_sachball_stare.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "The Zit",
+        "Duster",
+        "Quonxy",
+        "Pastor Kline"
+      ],
+      "key_moment": "Kids with nicknames, Pastor Kline mentioned",
+      "w2_evidence": [
+        "Pastor Kline"
+      ]
+    },
+    {
+      "id": "capeast/011_mossmart_in_capeast.txt",
+      "region": "capeast",
+      "filename": "011_mossmart_in_capeast.txt",
+      "classification": "w2",
+      "characters": [
+        "Mossmart",
+        "Quonxy",
+        "Gudgiss",
+        "Jar",
+        "Terabyte"
+      ],
+      "key_moment": "Fragmentary scenes including Sunday school discussion",
+      "w2_evidence": [
+        "Sunday school",
+        "Kansas City",
+        "Hopkins"
+      ]
+    },
+    {
+      "id": "capeast/012_capeast_friend.txt",
+      "region": "capeast",
+      "filename": "012_capeast_friend.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Person offering friendship in Capeast",
+      "w2_evidence": [
+        "Lindberg (street)"
+      ]
+    },
+    {
+      "id": "capeast/013_the_lingerie_shop_picket.txt",
+      "region": "capeast",
+      "filename": "013_the_lingerie_shop_picket.txt",
+      "classification": "w2",
+      "characters": [
+        "Hm",
+        "Af",
+        "Dm"
+      ],
+      "key_moment": "Parents picketing a lingerie shop with John 3:16 sign",
+      "w2_evidence": [
+        "Bible",
+        "Broadway",
+        "John 3:16",
+        "picketing lingerie shop"
+      ]
+    },
+    {
+      "id": "capeast/014_capeast_squashmouth.txt",
+      "region": "capeast",
+      "filename": "014_capeast_squashmouth.txt",
+      "classification": "w2",
+      "characters": [
+        "Squashmouth"
+      ],
+      "key_moment": "Squashmouth playing Settlers, working at Walmart",
+      "w2_evidence": [
+        "Walmart",
+        "Settlers (board game)"
+      ]
+    },
+    {
+      "id": "capeast/015_capeast_northo_prayer.txt",
+      "region": "capeast",
+      "filename": "015_capeast_northo_prayer.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Tess"
+      ],
+      "key_moment": "Girl playing Northo game with spooky music",
+      "w2_evidence": [
+        "Northo as a video game"
+      ]
+    },
+    {
+      "id": "capeast/016_alton_capeast_mayor.txt",
+      "region": "capeast",
+      "filename": "016_alton_capeast_mayor.txt",
+      "classification": "w2",
+      "characters": [
+        "Lewis Bramford (mayor)",
+        "L (archivist)"
+      ],
+      "key_moment": "Mayor of Alton/Capeast pacing after steel industry collapse",
+      "w2_evidence": [
+        "Alton",
+        "Mississippi River",
+        "St. Louis",
+        "steel town",
+        "Lincoln",
+        "Douglas",
+        "Iowa",
+        "Yale",
+        "Harvard",
+        "Princeton"
+      ]
+    },
+    {
+      "id": "capeast/017_quit_your_grandsons_team.txt",
+      "region": "capeast",
+      "filename": "017_quit_your_grandsons_team.txt",
+      "classification": "w2",
+      "characters": [
+        "Allie",
+        "Stanley",
+        "Mike",
+        "Eric",
+        "Meg"
+      ],
+      "key_moment": "Woman writing note advising friend to quit coaching grandson's team",
+      "w2_evidence": [
+        "Coffee shop",
+        "grandson's team"
+      ]
+    },
+    {
+      "id": "capeast/018_back_of_quonxy_was_little_porn.txt",
+      "region": "capeast",
+      "filename": "018_back_of_quonxy_was_little_porn.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Quonxy",
+        "Cassie",
+        "Paine"
+      ],
+      "key_moment": "Little Porn (Paine) and Quonxy (Cassie) relationship",
+      "w2_evidence": [
+        "Paine after Thomas Paine",
+        "atheists",
+        "notebooks"
+      ]
+    },
+    {
+      "id": "capeast/019_seeding_the_five_worlds.txt",
+      "region": "capeast",
+      "filename": "019_seeding_the_five_worlds.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Quonxy"
+      ],
+      "key_moment": "Quonxy seeding five worlds including chess fantasy",
+      "w2_evidence": [
+        "Chess fantasy",
+        "community college",
+        "radio",
+        "podcasts",
+        "prayer journal from 2004"
+      ]
+    },
+    {
+      "id": "capeast/020_capeast_wind.txt",
+      "region": "capeast",
+      "filename": "020_capeast_wind.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "House Capeast wind built, last house heading east",
+      "w2_evidence": [
+        "Capeast"
+      ]
+    },
+    {
+      "id": "capeast/021_capeast_ghost_dog_latte.txt",
+      "region": "capeast",
+      "filename": "021_capeast_ghost_dog_latte.txt",
+      "classification": "w2",
+      "characters": [
+        "Malcolm",
+        "Gina",
+        "Halvord"
+      ],
+      "key_moment": "Coffee shop scene with Henry Miller Mocha reference",
+      "w2_evidence": [
+        "Coffee shop",
+        "Henry Miller",
+        "Stanley Kubrick",
+        "Malcolm McDowell"
+      ]
+    },
+    {
+      "id": "capeast/022_capeast_topless.txt",
+      "region": "capeast",
+      "filename": "022_capeast_topless.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Glover"
+      ],
+      "key_moment": "Topless woman, Tower mentioned",
+      "w2_evidence": [
+        "Monitor station",
+        "the Tower"
+      ]
+    },
+    {
+      "id": "capeast/023_capeast_velvety_incognito.txt",
+      "region": "capeast",
+      "filename": "023_capeast_velvety_incognito.txt",
+      "classification": "w2",
+      "characters": [
+        "Kasper",
+        "Little Porn",
+        "Vivian",
+        "Quonxy",
+        "Duster",
+        "Cousins"
+      ],
+      "key_moment": "Mnemonic system in subdivision",
+      "w2_evidence": [
+        "River's Edge subdivision",
+        "mnemonics",
+        "Lewis and Clark campus"
+      ]
+    },
+    {
+      "id": "capeast/024_capeast_barefoot_running.txt",
+      "region": "capeast",
+      "filename": "024_capeast_barefoot_running.txt",
+      "classification": "w2",
+      "characters": [
+        "Gerald",
+        "Amy",
+        "Kelly Resnick",
+        "Quonxy the Destroyer"
+      ],
+      "key_moment": "Gerald trying barefoot running, discovers applicant is Quonxy the Destroyer",
+      "w2_evidence": [
+        "NPR",
+        "Barefoot Jack",
+        "Roberto Bolano sci-fi poetry blog",
+        "ice cream"
+      ]
+    },
+    {
+      "id": "capeast/025_capeast_family_walks.txt",
+      "region": "capeast",
+      "filename": "025_capeast_family_walks.txt",
+      "classification": "w2",
+      "characters": [
+        "Natalie",
+        "Gretchen"
+      ],
+      "key_moment": "Family walk with daughters discussing churches",
+      "w2_evidence": [
+        "Sidewalk",
+        "churches",
+        "Jesus statue"
+      ]
+    },
+    {
+      "id": "capeast/026_i_cant_talk_to_capeast_people.txt",
+      "region": "capeast",
+      "filename": "026_i_cant_talk_to_capeast_people.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Person struggling socially at work",
+      "w2_evidence": [
+        "Office work"
+      ]
+    },
+    {
+      "id": "capeast/027_moses_morant.txt",
+      "region": "capeast",
+      "filename": "027_moses_morant.txt",
+      "classification": "w2",
+      "characters": [
+        "Moses Morant"
+      ],
+      "key_moment": "Friend Moses Morant comes for fried fish every Friday",
+      "w2_evidence": [
+        "Friday lunch",
+        "fried fish"
+      ]
+    },
+    {
+      "id": "capeast/028_kooper_capeast_preachers_kid.txt",
+      "region": "capeast",
+      "filename": "028_kooper_capeast_preachers_kid.txt",
+      "classification": "w2",
+      "characters": [
+        "Koop",
+        "Little Porn",
+        "Cassie",
+        "Amber"
+      ],
+      "key_moment": "Koop the preacher's kid who can make Little Porn laugh",
+      "w2_evidence": [
+        "Preacher's kid",
+        "Riversland subdivision",
+        "sports"
+      ]
+    },
+    {
+      "id": "capeast/029_how_to_remember_names_in_capeast.txt",
+      "region": "capeast",
+      "filename": "029_how_to_remember_names_in_capeast.txt",
+      "classification": "w2",
+      "characters": [
+        "Vivian",
+        "Little Porn",
+        "Duster",
+        "Cassie"
+      ],
+      "key_moment": "Vivian teaching mnemonics in subdivision",
+      "w2_evidence": [
+        "Homeschooler movement",
+        "Lewis and Clark campus",
+        "Walmart",
+        "River's Edge subdivision",
+        "mnemonics"
+      ]
+    },
+    {
+      "id": "capeast/030_hitchens_gym_genius.txt",
+      "region": "capeast",
+      "filename": "030_hitchens_gym_genius.txt",
+      "classification": "w2",
+      "characters": [
+        "Coach Caffey",
+        "Larron",
+        "Marvin"
+      ],
+      "key_moment": "Coach waiting for genius woman to help with basketball team",
+      "w2_evidence": [
+        "Hitchens U",
+        "basketball",
+        "conference opener"
+      ]
+    },
+    {
+      "id": "capeast/031_little_porn_goes_to_walmart.txt",
+      "region": "capeast",
+      "filename": "031_little_porn_goes_to_walmart.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Cassie"
+      ],
+      "key_moment": "Note to find Capeast name for Walmart, Redbox incident",
+      "w2_evidence": [
+        "Walmart",
+        "Redbox",
+        "Riversland"
+      ]
+    },
+    {
+      "id": "capeast/032_from_cassandra_to_cassie_to_quonxy.txt",
+      "region": "capeast",
+      "filename": "032_from_cassandra_to_cassie_to_quonxy.txt",
+      "classification": "w2",
+      "characters": [
+        "Cassie/Quonxy",
+        "Little Porn/Paine"
+      ],
+      "key_moment": "Cassandra became Cassie became Quonxy",
+      "w2_evidence": [
+        "Alton",
+        "Godfrey",
+        "atheists",
+        "Thomas Paine",
+        "TV interview",
+        "Riversland"
+      ]
+    },
+    {
+      "id": "capeast/033_always_goddamned_writing.txt",
+      "region": "capeast",
+      "filename": "033_always_goddamned_writing.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Vivian",
+        "Trevor",
+        "Pastor Kline",
+        "Cassie Kline",
+        "linguist missionary"
+      ],
+      "key_moment": "Little Porn writing little languages after missionary linguist visit",
+      "w2_evidence": [
+        "Leibniz",
+        "subdivision",
+        "school bus",
+        "missions week",
+        "Bible translation",
+        "pastor",
+        "church"
+      ]
+    },
+    {
+      "id": "capeast/034_ditzblitz_and_shodders.txt",
+      "region": "capeast",
+      "filename": "034_ditzblitz_and_shodders.txt",
+      "classification": "w2",
+      "characters": [
+        "Ditz",
+        "Pike",
+        "Mr. Shodders",
+        "Marv",
+        "Cindy"
+      ],
+      "key_moment": "Ditz and Pike start podcast attacking teacher Mr. Shodders",
+      "w2_evidence": [
+        "Alton",
+        "podcast",
+        "football",
+        "Iowa",
+        "Imo's pizza",
+        "NFL",
+        "Bill Simmons",
+        "Steak n Shake"
+      ]
+    },
+    {
+      "id": "capeast/035_capeast_neighborhood_negation.txt",
+      "region": "capeast",
+      "filename": "035_capeast_neighborhood_negation.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Ashley/Quonxy"
+      ],
+      "key_moment": "Little Porn quit meditating when became Christian, meets Quonxy",
+      "w2_evidence": [
+        "Meditation",
+        "Christian",
+        "Jesus",
+        "cookie cake",
+        "Swamp Thing"
+      ]
+    },
+    {
+      "id": "capeast/036_little_porns_capeast_little_languages.txt",
+      "region": "capeast",
+      "filename": "036_little_porns_capeast_little_languages.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Fritzy",
+        "Jimmy",
+        "Morgan"
+      ],
+      "key_moment": "Little Porn inventing little languages with single words and rules",
+      "w2_evidence": [
+        "Godfrey",
+        "fourth grade",
+        "store",
+        "Gumby video game"
+      ]
+    },
+    {
+      "id": "capeast/037_capeast_origin_of_yeller.txt",
+      "region": "capeast",
+      "filename": "037_capeast_origin_of_yeller.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller"
+      ],
+      "key_moment": "Origin theory of Yeller as five-fold being based on pocketing principle",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/038_capeast_little_porn_and_quonxy_sing_osawatomie.txt",
+      "region": "capeast",
+      "filename": "038_capeast_little_porn_and_quonxy_sing_osawatomie.txt",
+      "classification": "w2",
+      "characters": [
+        "Quonxy",
+        "Little Porn"
+      ],
+      "key_moment": "Quonxy wearing Osawatomie shirt at Walmart after quitting college job",
+      "w2_evidence": [
+        "Walmart",
+        "John Brown",
+        "Osawatomie",
+        "Harper's Ferry",
+        "community college",
+        "Honda"
+      ]
+    },
+    {
+      "id": "capeast/039_capeast_lemon_stand.txt",
+      "region": "capeast",
+      "filename": "039_capeast_lemon_stand.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Mr. Morris",
+        "Mrs. Morris"
+      ],
+      "key_moment": "Little Porn selling home-made languages for $2 instead of lemonade",
+      "w2_evidence": [
+        "Lemonade stand concept",
+        "Hempel St.",
+        "notebooks"
+      ]
+    },
+    {
+      "id": "capeast/040_the_tower_has_none_of_the_spires_and_banners.txt",
+      "region": "capeast",
+      "filename": "040_the_tower_has_none_of_the_spires_and_banners.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "The Tower in the Cap, invisible to those who don't own it",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/041_every_subdivision_of_sufficient_size.txt",
+      "region": "capeast",
+      "filename": "041_every_subdivision_of_sufficient_size.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Cassie",
+        "Hitch"
+      ],
+      "key_moment": "Every subdivision has a Little Porn; atheist families in evangelical Illinois",
+      "w2_evidence": [
+        "Riversland subdivision",
+        "Godfrey, Illinois",
+        "St. Louis",
+        "Mississippi",
+        "atheist parents",
+        "Darwin bumper stickers",
+        "Mark Twain",
+        "Voltaire",
+        "Daniel Dennett",
+        "Epicurus"
+      ]
+    },
+    {
+      "id": "capeast/042_little_porn_and_i_were_opposites_his_parents_were.txt",
+      "region": "capeast",
+      "filename": "042_little_porn_and_i_were_opposites_his_parents_were.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn"
+      ],
+      "key_moment": "Little Porn's atheist parents vs narrator's missionary parents",
+      "w2_evidence": [
+        "Atheist parents vs missionary parents"
+      ]
+    },
+    {
+      "id": "capeast/043_gerald_and_the_sci-fi_blog.txt",
+      "region": "capeast",
+      "filename": "043_gerald_and_the_sci-fi_blog.txt",
+      "classification": "w2",
+      "characters": [
+        "Gerald",
+        "Quonxy the Destroyer"
+      ],
+      "key_moment": "Gerald finding job applicant's sci-fi poetry blog",
+      "w2_evidence": [
+        "Web design company",
+        "sci-fi blog",
+        "neologisms"
+      ]
+    },
+    {
+      "id": "capeast/044_capeast_densworld_writer_worries.txt",
+      "region": "capeast",
+      "filename": "044_capeast_densworld_writer_worries.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Yeller",
+        "the colonel"
+      ],
+      "key_moment": "Writer worried about losing memory of Dens/Yeller/colonel story",
+      "w2_evidence": [
+        "Five years writing",
+        "essay",
+        "memory"
+      ]
+    },
+    {
+      "id": "capeast/045_20_tips_for_eating_right.txt",
+      "region": "capeast",
+      "filename": "045_20_tips_for_eating_right.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Ageless Inventor",
+        "crazy shaved lady",
+        "Baxter"
+      ],
+      "key_moment": "Diet tips interleaved with story of Dens origin",
+      "w2_evidence": [
+        "Diet tips framing narrative",
+        "vegetables",
+        "ice cream",
+        "NPR"
+      ]
+    },
+    {
+      "id": "capeast/046_if_nothing_else_is_working.txt",
+      "region": "capeast",
+      "filename": "046_if_nothing_else_is_working.txt",
+      "classification": "w1",
+      "characters": [
+        "Ageless Inventor",
+        "crazy shaved lady",
+        "Baxter",
+        "Yeller"
+      ],
+      "key_moment": "Dens creation story, inventor meets crazy shaved lady, Yeller creation",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/047_little_porns_notebook.txt",
+      "region": "capeast",
+      "filename": "047_little_porns_notebook.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn/Paine",
+        "Quonxy/Cassie",
+        "Mom",
+        "Dad",
+        "Yeller (character)"
+      ],
+      "key_moment": "Little Porn's notebook entries discussing God, atheism, Quonxy's Yeller stories",
+      "w2_evidence": [
+        "Riversland subdivision",
+        "atheist parents",
+        "Thomas Paine",
+        "ontological argument",
+        "Godel",
+        "Hume",
+        "Jesus",
+        "Where the Wild Things Are"
+      ]
+    },
+    {
+      "id": "capeast/048_literalists_all_of_them_small-minded.txt",
+      "region": "capeast",
+      "filename": "048_literalists_all_of_them_small-minded.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Quonxy",
+        "Yeller",
+        "Hubert Rolfe",
+        "Vivian",
+        "Jaycee",
+        "Wen"
+      ],
+      "key_moment": "Quonxy's attack on literalism in evangelicalism",
+      "w2_evidence": [
+        "C.S. Lewis",
+        "Tolkien",
+        "Narnia",
+        "Middle-earth",
+        "Sunday school",
+        "Starbucks",
+        "Emanuel Methodist in Godfrey"
+      ]
+    },
+    {
+      "id": "capeast/049_capeast_densworld_debating_club.txt",
+      "region": "capeast",
+      "filename": "049_capeast_densworld_debating_club.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Meta-note on debates about five fantasy regions/approaches",
+      "w2_evidence": [
+        "Debate format"
+      ]
+    },
+    {
+      "id": "capeast/050_capeast_mirandas_town_of_mirado.txt",
+      "region": "capeast",
+      "filename": "050_capeast_mirandas_town_of_mirado.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Miranda",
+        "Alex",
+        "Vivian (counselor)"
+      ],
+      "key_moment": "Couple worldbuilding Mirado as marriage counseling exercise",
+      "w2_evidence": [
+        "Marriage counselor",
+        "park"
+      ]
+    },
+    {
+      "id": "capeast/051_the_skull-dodger_a_capeast_theory.txt",
+      "region": "capeast",
+      "filename": "051_the_skull-dodger_a_capeast_theory.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Yeller",
+        "Kosh-Eryn/Kryn"
+      ],
+      "key_moment": "Couple creating Densworld together through relationship",
+      "w2_evidence": [
+        "Marriage/relationship framing",
+        "McDonalds",
+        "Walmart",
+        "aquariums"
+      ]
+    },
+    {
+      "id": "capeast/052_quonxy_on_the_torture_of_the_women_yeller.txt",
+      "region": "capeast",
+      "filename": "052_quonxy_on_the_torture_of_the_women_yeller.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Yeller",
+        "Branch",
+        "Quonxy",
+        "Halfbad"
+      ],
+      "key_moment": "Quonxy's sermon/exegesis on Branch's Yeller torture story",
+      "w2_evidence": [
+        "Bar or Steak 'n Shake meetings",
+        "sermon"
+      ]
+    },
+    {
+      "id": "capeast/053_if_outright_willpower_isnt_helping.txt",
+      "region": "capeast",
+      "filename": "053_if_outright_willpower_isnt_helping.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn"
+      ],
+      "key_moment": "Advice to look up Little Porn at library to distract from chocolate cravings",
+      "w2_evidence": [
+        "Library",
+        "grant"
+      ]
+    },
+    {
+      "id": "capeast/054_mk_blogs.txt",
+      "region": "capeast",
+      "filename": "054_mk_blogs.txt",
+      "classification": "w2",
+      "characters": [
+        "Linda Cole",
+        "Greg Decker",
+        "Daniel Plate",
+        "Alea Hoffman",
+        "Q Britten"
+      ],
+      "key_moment": "MK blog about missionary kid experience, profiles, education as witnessing",
+      "w2_evidence": [
+        "MK (missionary kids)",
+        "Nigeria",
+        "Kenya",
+        "China",
+        "John Hersey",
+        "Henry Luce",
+        "Good Bye Lenin",
+        "email",
+        "blog",
+        "Time",
+        "Life",
+        "New Yorker",
+        "episcopal"
+      ]
+    },
+    {
+      "id": "capeast/055_wanting_to_die_or_wanting_a_new_world.txt",
+      "region": "capeast",
+      "filename": "055_wanting_to_die_or_wanting_a_new_world.txt",
+      "classification": "w2",
+      "characters": [
+        "Dylan",
+        "narrator",
+        "Travis",
+        "Sam Deavers/Little Porn",
+        "Roger Deavers"
+      ],
+      "key_moment": "Friendship with depressed Dylan, worldbuilding as coping",
+      "w2_evidence": [
+        "Godfrey",
+        "Alton",
+        "St. Louis",
+        "Bluff's Edge subdivision",
+        "Illinois",
+        "Indiana",
+        "Nelson Lake",
+        "missionary linguist",
+        "bridge (card game)",
+        "community college"
+      ]
+    },
+    {
+      "id": "capeast/056_duster_and_the_sensory-laden_counter-self.txt",
+      "region": "capeast",
+      "filename": "056_duster_and_the_sensory-laden_counter-self.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Lily/Ria",
+        "Duster",
+        "Quonxy",
+        "Josh"
+      ],
+      "key_moment": "Lily created Duster character as Quonxy's sensory counter-self",
+      "w2_evidence": [
+        "Callie's coffee shop",
+        "mnemonist craze"
+      ]
+    },
+    {
+      "id": "capeast/057_atheists_in_densworld.txt",
+      "region": "capeast",
+      "filename": "057_atheists_in_densworld.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Meditations on atheism, old woman wandering",
+      "w2_evidence": [
+        "Prayer references",
+        "Sunday keeping"
+      ]
+    },
+    {
+      "id": "capeast/058_poetry_stuff.txt",
+      "region": "capeast",
+      "filename": "058_poetry_stuff.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Empty file marked 'poetry stuff'",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/059_planning_comments.txt",
+      "region": "capeast",
+      "filename": "059_planning_comments.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Ria",
+        "Little Porn"
+      ],
+      "key_moment": "Planning notes on poetry/lyrics, Capeast fantasy",
+      "w2_evidence": [
+        "Community college",
+        "Jay-Z style"
+      ]
+    },
+    {
+      "id": "capeast/060_getting_out_of_hell.txt",
+      "region": "capeast",
+      "filename": "060_getting_out_of_hell.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Garlin",
+        "Jack",
+        "Ethan",
+        "Charlie",
+        "Jenny",
+        "Xillich"
+      ],
+      "key_moment": "Verse drama/poetry about characters in hell trying to escape",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/061_stronger_lungs.txt",
+      "region": "capeast",
+      "filename": "061_stronger_lungs.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Ethan"
+      ],
+      "key_moment": "Poetry fragment about being pulled into someone's lungs",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/062_the_islands.txt",
+      "region": "capeast",
+      "filename": "062_the_islands.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Poetry fragment about islands with green and blue",
+      "w2_evidence": []
+    },
+    {
+      "id": "capeast/063_a_little_requiem.txt",
+      "region": "capeast",
+      "filename": "063_a_little_requiem.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Ada Budny"
+      ],
+      "key_moment": "Little Porn mourning fictional Polish logician Ada Budny who killed herself",
+      "w2_evidence": [
+        "Polish logician",
+        "Peirce",
+        "Quine",
+        "Latin hymn"
+      ]
+    },
+    {
+      "id": "capital/001_ive_got_a_lot_of_stuff_about_prayer_being_in_the.txt",
+      "region": "capital",
+      "filename": "001_ive_got_a_lot_of_stuff_about_prayer_being_in_the.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Meta-planning document about VR access from Cap",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/002_the_minor_archivist.txt",
+      "region": "capital",
+      "filename": "002_the_minor_archivist.txt",
+      "classification": "w1",
+      "characters": [
+        "minor archivist"
+      ],
+      "key_moment": "Archivist at window in Capital near Senate-house",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/003_two_densworld_plotlines.txt",
+      "region": "capital",
+      "filename": "003_two_densworld_plotlines.txt",
+      "classification": "w1",
+      "characters": [
+        "Colonel",
+        "Fincho",
+        "Colonel's daughter",
+        "crazy shaved lady",
+        "Yeller"
+      ],
+      "key_moment": "Siege of Mirado, Colonel's conquest of Dens, daughter's journey",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/004_oldest_theory_about_the_dens.txt",
+      "region": "capital",
+      "filename": "004_oldest_theory_about_the_dens.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Theoretical discourse about Dens being oldest thing",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/005_archivists_outside_the_capital.txt",
+      "region": "capital",
+      "filename": "005_archivists_outside_the_capital.txt",
+      "classification": "w1",
+      "characters": [
+        "mapmaker"
+      ],
+      "key_moment": "Archivist discovers technique for trapping yeller fives west of Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/006_the_senator_had_more_couriers.txt",
+      "region": "capital",
+      "filename": "006_the_senator_had_more_couriers.txt",
+      "classification": "w1",
+      "characters": [
+        "senator J",
+        "Hoole",
+        "couriers",
+        "Colonel"
+      ],
+      "key_moment": "Senator's mysterious couriers and coded messages in Capital",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/007_if_the_preacher_was_a_mapmaker_like_he_said_he.txt",
+      "region": "capital",
+      "filename": "007_if_the_preacher_was_a_mapmaker_like_he_said_he.txt",
+      "classification": "w1",
+      "characters": [
+        "preacher/mapmaker",
+        "Colonel",
+        "Colonel's daughter",
+        "chief of police"
+      ],
+      "key_moment": "Preacher tells story to town, Colonel's daughter's journey",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/008_yeller_birds_in_the_capital.txt",
+      "region": "capital",
+      "filename": "008_yeller_birds_in_the_capital.txt",
+      "classification": "w1",
+      "characters": [
+        "Puncho",
+        "Maya",
+        "senator"
+      ],
+      "key_moment": "Yeller birds brought to Capital as fashion",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/009_coast_to_the_capital.txt",
+      "region": "capital",
+      "filename": "009_coast_to_the_capital.txt",
+      "classification": "w1",
+      "characters": [
+        "Doyl",
+        "Crazy Shaved Lady/Crishl",
+        "chief of police",
+        "Colonel's daughter"
+      ],
+      "key_moment": "Multiple narrative threads about crime-solving and mysterious woman",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/010_capital_bad_luck.txt",
+      "region": "capital",
+      "filename": "010_capital_bad_luck.txt",
+      "classification": "w1",
+      "characters": [
+        "Doyl",
+        "Crazy Shaved Lady"
+      ],
+      "key_moment": "Unlucky policeman helped by mysterious woman with shaved head",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/011_densworld_eulogy.txt",
+      "region": "capital",
+      "filename": "011_densworld_eulogy.txt",
+      "classification": "w1",
+      "characters": [
+        "Colonel",
+        "Fincho",
+        "Yeller",
+        "Boss"
+      ],
+      "key_moment": "Meta-eulogy for unwritten Densworld story about Mirado siege",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/012_trying_everything_in_the_cap.txt",
+      "region": "capital",
+      "filename": "012_trying_everything_in_the_cap.txt",
+      "classification": "w1",
+      "characters": [
+        "senator",
+        "Alva",
+        "Q",
+        "Fulgor",
+        "Grigsu"
+      ],
+      "key_moment": "Capital civilization testing limits, senator's wife murdered",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/013_the_siege_of_mirado_did_not_begin_in_mirado.txt",
+      "region": "capital",
+      "filename": "013_the_siege_of_mirado_did_not_begin_in_mirado.txt",
+      "classification": "w1",
+      "characters": [
+        "Colonel Mirado"
+      ],
+      "key_moment": "Origin of Colonel's journey from mapmaker to military leader",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/014_capital_traveler.txt",
+      "region": "capital",
+      "filename": "014_capital_traveler.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Description of traveling through Capital",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/015_guess-again_jackie.txt",
+      "region": "capital",
+      "filename": "015_guess-again_jackie.txt",
+      "classification": "w2",
+      "characters": [
+        "Jackie",
+        "Illinois Johnson",
+        "Bobbie Pong"
+      ],
+      "key_moment": "Woman struggles with attention/focus",
+      "w2_evidence": [
+        "Illinois as name",
+        "references to modern attention issues"
+      ]
+    },
+    {
+      "id": "capital/016_quonxys_hypothetical_scrounge_part1.txt",
+      "region": "capital",
+      "filename": "016_quonxys_hypothetical_scrounge_part1.txt",
+      "classification": "w2",
+      "characters": [
+        "Quonxy"
+      ],
+      "key_moment": "Quonxy as indexer, logician, and evangelical Christian in Alton",
+      "w2_evidence": [
+        "Iowa City",
+        "U of Chicago",
+        "Alton Illinois",
+        "Lewis and Clark CC",
+        "Walmart",
+        "Target",
+        "Starbucks",
+        "QuickTrip",
+        "Bible",
+        "Oswald Chambers",
+        "Wittgenstein",
+        "Frege"
+      ]
+    },
+    {
+      "id": "capital/017_quonxys_hypothetical_scrounge_part2.txt",
+      "region": "capital",
+      "filename": "017_quonxys_hypothetical_scrounge_part2.txt",
+      "classification": "w2",
+      "characters": [
+        "Quonxy",
+        "Larry Stump"
+      ],
+      "key_moment": "Quonxy learns from logician Larry Stump about literal prayers",
+      "w2_evidence": [
+        "Community college",
+        "logic course",
+        "tautology"
+      ]
+    },
+    {
+      "id": "capital/018_wrickly_and_gogit.txt",
+      "region": "capital",
+      "filename": "018_wrickly_and_gogit.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Wrickly",
+        "Gogit"
+      ],
+      "key_moment": "Two beings traveling through 'small worlds' and 'World world'",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/019_shodders.txt",
+      "region": "capital",
+      "filename": "019_shodders.txt",
+      "classification": "w2",
+      "characters": [
+        "Shodders"
+      ],
+      "key_moment": "Meditation on violence, sports, and civilization",
+      "w2_evidence": [
+        "Football references"
+      ]
+    },
+    {
+      "id": "capital/020_archive_lecturer.txt",
+      "region": "capital",
+      "filename": "020_archive_lecturer.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Mr. Martin",
+        "lecturer"
+      ],
+      "key_moment": "Lecturer speaks about Mulca Doon and mysterious interviewer",
+      "w2_evidence": [
+        "Archives",
+        "futuristic cafe setting"
+      ]
+    },
+    {
+      "id": "capital/021_a_closer_look_at_dens_from_the_cap.txt",
+      "region": "capital",
+      "filename": "021_a_closer_look_at_dens_from_the_cap.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Nelphl",
+        "Bincher",
+        "Dr. Smint Corpo"
+      ],
+      "key_moment": "Cap VR system connecting to Dens",
+      "w2_evidence": [
+        "VR technology",
+        "OneRide vehicles"
+      ]
+    },
+    {
+      "id": "capital/022_a_child_with_connotations.txt",
+      "region": "capital",
+      "filename": "022_a_child_with_connotations.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "If woman sings during pregnancy, child born with linguistic connotations in Cap",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/023_keras_clunch.txt",
+      "region": "capital",
+      "filename": "023_keras_clunch.txt",
+      "classification": "w2",
+      "characters": [
+        "Kera Qine",
+        "Luci's Fur",
+        "Zizzy",
+        "Sunxy",
+        "Hatcheret Hinley"
+      ],
+      "key_moment": "Celebrity fashion scandal, clone revelation",
+      "w2_evidence": [
+        "New York",
+        "Baton Rouge",
+        "Mecca",
+        "Buenos Aires",
+        "Target"
+      ]
+    },
+    {
+      "id": "capital/024_old_cap_women.txt",
+      "region": "capital",
+      "filename": "024_old_cap_women.txt",
+      "classification": "w2",
+      "characters": [
+        "Quonxy",
+        "Little Porn"
+      ],
+      "key_moment": "Old woman walking, Quonxy as tutor using memory palace techniques",
+      "w2_evidence": [
+        "John Brown",
+        "Bible memorization",
+        "evangelical context"
+      ]
+    },
+    {
+      "id": "capital/025_cap_stalker.txt",
+      "region": "capital",
+      "filename": "025_cap_stalker.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Narrator follows someone on busy Cap thoroughfare",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/026_no_way_through_the_cap.txt",
+      "region": "capital",
+      "filename": "026_no_way_through_the_cap.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Can't drive into real Cap without being a driver, Capeast different",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/027_what_is_it_gets_quarried_in_the_quarry.txt",
+      "region": "capital",
+      "filename": "027_what_is_it_gets_quarried_in_the_quarry.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Quarry workers converting bodies to cash for Cap consumption",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/028_cap_and_a_few_towns_over.txt",
+      "region": "capital",
+      "filename": "028_cap_and_a_few_towns_over.txt",
+      "classification": "w1",
+      "characters": [
+        "Moss",
+        "Ria"
+      ],
+      "key_moment": "Driver Moss has daughter Ria living east of Northtown",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/029_my_cap_wisdom_wife_outsources_to_northo.txt",
+      "region": "capital",
+      "filename": "029_my_cap_wisdom_wife_outsources_to_northo.txt",
+      "classification": "w2",
+      "characters": [
+        "Roberto Bolano",
+        "Robert Crumb",
+        "Gina"
+      ],
+      "key_moment": "Haunted house tour guide becomes sci-fi poet after Bolano haunts her",
+      "w2_evidence": [
+        "Alton Illinois",
+        "Lewis and Clark CC",
+        "Lincoln",
+        "Douglas",
+        "McPike Mansion",
+        "Target",
+        "Walmart",
+        "St. Louis",
+        "Mississippi River",
+        "Washington U"
+      ]
+    },
+    {
+      "id": "capital/030_stell_hears_a_bird.txt",
+      "region": "capital",
+      "filename": "030_stell_hears_a_bird.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Stell",
+        "Jack"
+      ],
+      "key_moment": "Stell learns dark vision, node plotting",
+      "w2_evidence": [
+        "Plot Enabler technology",
+        "futuristic plotting system"
+      ]
+    },
+    {
+      "id": "capital/031_my_kid_wont_be_a_billionaire.txt",
+      "region": "capital",
+      "filename": "031_my_kid_wont_be_a_billionaire.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Parent accepts kid won't be billionaire",
+      "w2_evidence": [
+        "Billionaire as contemporary concept"
+      ]
+    },
+    {
+      "id": "capital/032_northo-cap_park_system_tball.txt",
+      "region": "capital",
+      "filename": "032_northo-cap_park_system_tball.txt",
+      "classification": "w2",
+      "characters": [
+        "Paul",
+        "Maggie",
+        "Carson",
+        "Landon",
+        "Opal"
+      ],
+      "key_moment": "Father confronts bullies at son's tee-ball game",
+      "w2_evidence": [
+        "Tee-ball",
+        "American suburban life",
+        "Pujols reference"
+      ]
+    },
+    {
+      "id": "capital/033_nickels_and_puckerbutt_slumming_in_densmok.txt",
+      "region": "capital",
+      "filename": "033_nickels_and_puckerbutt_slumming_in_densmok.txt",
+      "classification": "w1",
+      "characters": [
+        "Nickels",
+        "Pete"
+      ],
+      "key_moment": "Couple in Densmok has breakfast in bed",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/034_holding_out_for_more.txt",
+      "region": "capital",
+      "filename": "034_holding_out_for_more.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Woman waits for old man's will, contemplates inheritance",
+      "w2_evidence": [
+        "Summer home",
+        "yacht",
+        "mortgage"
+      ]
+    },
+    {
+      "id": "capital/035_winter_in_the_cap.txt",
+      "region": "capital",
+      "filename": "035_winter_in_the_cap.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Girl from Quarry/Mirado Sticks works in pristine Cap winter",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/036_walking_in_the_cap.txt",
+      "region": "capital",
+      "filename": "036_walking_in_the_cap.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Girl walking from Cole Bridge to Sutter Farms in Cap",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/037_can_a_town_live_on_addiction.txt",
+      "region": "capital",
+      "filename": "037_can_a_town_live_on_addiction.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Test of whether town can function on addiction",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/038_cap_tax_on_reminders.txt",
+      "region": "capital",
+      "filename": "038_cap_tax_on_reminders.txt",
+      "classification": "w2",
+      "characters": [
+        "Mike",
+        "Hailey",
+        "Courtney",
+        "Dr. Monica Larson",
+        "Dan"
+      ],
+      "key_moment": "Man obsessed with lists, fertility struggles, affair temptation",
+      "w2_evidence": [
+        "Citibank",
+        "AT&T",
+        "Lowe's",
+        "Red Lobster",
+        "Alton Illinois",
+        "Wisconsin"
+      ]
+    },
+    {
+      "id": "capital/039_imitation_affair.txt",
+      "region": "capital",
+      "filename": "039_imitation_affair.txt",
+      "classification": "w2",
+      "characters": [
+        "Mark",
+        "Jane"
+      ],
+      "key_moment": "Man imitates stranger across restaurant while with wife",
+      "w2_evidence": [
+        "Modern restaurant setting"
+      ]
+    },
+    {
+      "id": "capital/040_topless_as_a_cap_aboretum.txt",
+      "region": "capital",
+      "filename": "040_topless_as_a_cap_aboretum.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Woman poses for man on frozen pond, priest temptation narrative",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/041_what_do_i_know_about_quitting_anything.txt",
+      "region": "capital",
+      "filename": "041_what_do_i_know_about_quitting_anything.txt",
+      "classification": "w2",
+      "characters": [
+        "Hal",
+        "Amelia",
+        "Angie",
+        "Darlene",
+        "Malcolm"
+      ],
+      "key_moment": "67-year-old Hal quits coaching to study philosophy at coffee shop",
+      "w2_evidence": [
+        "Godfrey",
+        "Alton",
+        "St. Louis",
+        "Lewis and Clark CC",
+        "Cardinals",
+        "Chaplin",
+        "Marx Brothers",
+        "Tarantino",
+        "Bresson",
+        "Ebert",
+        "Mississippi River"
+      ]
+    },
+    {
+      "id": "capital/042_ghostdog_cap_latte_part1.txt",
+      "region": "capital",
+      "filename": "042_ghostdog_cap_latte_part1.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Coffee shop narrative",
+      "w2_evidence": [
+        "Latte",
+        "modern coffee shop"
+      ]
+    },
+    {
+      "id": "capital/043_ghostdog_cap_latte_part2.txt",
+      "region": "capital",
+      "filename": "043_ghostdog_cap_latte_part2.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Coffee shop narrative part 2",
+      "w2_evidence": [
+        "Coffee shop continuation"
+      ]
+    },
+    {
+      "id": "capital/044_ghostdog_cap_latte_part3.txt",
+      "region": "capital",
+      "filename": "044_ghostdog_cap_latte_part3.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Coffee shop narrative part 3",
+      "w2_evidence": [
+        "Coffee shop continuation"
+      ]
+    },
+    {
+      "id": "capital/045_ms_mason_and_the_yeller_birds.txt",
+      "region": "capital",
+      "filename": "045_ms_mason_and_the_yeller_birds.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Ms. Mason"
+      ],
+      "key_moment": "Yeller birds reference",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/046_underground_capital_bathroom.txt",
+      "region": "capital",
+      "filename": "046_underground_capital_bathroom.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Underground Capital bathroom",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/047_lpn_and_the_quonxy_tutorials_part1.txt",
+      "region": "capital",
+      "filename": "047_lpn_and_the_quonxy_tutorials_part1.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Quonxy"
+      ],
+      "key_moment": "Quonxy tutoring Little Porn",
+      "w2_evidence": [
+        "Tutorial setting"
+      ]
+    },
+    {
+      "id": "capital/048_lpn_and_the_quonxy_tutorials_part2.txt",
+      "region": "capital",
+      "filename": "048_lpn_and_the_quonxy_tutorials_part2.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn",
+        "Quonxy"
+      ],
+      "key_moment": "Tutorial part 2",
+      "w2_evidence": [
+        "Tutorial continuation"
+      ]
+    },
+    {
+      "id": "capital/049_little_porns_language.txt",
+      "region": "capital",
+      "filename": "049_little_porns_language.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn"
+      ],
+      "key_moment": "Little Porn's linguistic development",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/050_these_wishes_are_these_problems.txt",
+      "region": "capital",
+      "filename": "050_these_wishes_are_these_problems.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Wishes and problems",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/051_vivian_the_monster.txt",
+      "region": "capital",
+      "filename": "051_vivian_the_monster.txt",
+      "classification": "w2",
+      "characters": [
+        "Vivian"
+      ],
+      "key_moment": "Vivian character",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/052_little_porns_puzzle_book.txt",
+      "region": "capital",
+      "filename": "052_little_porns_puzzle_book.txt",
+      "classification": "w2",
+      "characters": [
+        "Little Porn"
+      ],
+      "key_moment": "Puzzle book",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/053_a_little_book_of_philosophy.txt",
+      "region": "capital",
+      "filename": "053_a_little_book_of_philosophy.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Philosophy book",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/054_dual_doorway.txt",
+      "region": "capital",
+      "filename": "054_dual_doorway.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Dual doorway",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/055_on_following_things_to_the_letter_of_resignation.txt",
+      "region": "capital",
+      "filename": "055_on_following_things_to_the_letter_of_resignation.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Following to letter of resignation",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/056_a_little_book_of_philosophy.txt",
+      "region": "capital",
+      "filename": "056_a_little_book_of_philosophy.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Philosophy book duplicate",
+      "w2_evidence": []
+    },
+    {
+      "id": "capital/057_theres_a_missionary_in_every_town.txt",
+      "region": "capital",
+      "filename": "057_theres_a_missionary_in_every_town.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Every town has a missionary - planning note",
+      "w2_evidence": [
+        "Missionary concept",
+        "scholarship statistics"
+      ]
+    },
+    {
+      "id": "capital/058_due_to_missionary.txt",
+      "region": "capital",
+      "filename": "058_due_to_missionary.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Missionaries in every town worldwide",
+      "w2_evidence": [
+        "Cedar Rapids Iowa",
+        "Takum Nigeria",
+        "Moscow",
+        "Nagasaki",
+        "Mexico",
+        "Puerto Rico",
+        "Greenland",
+        "Finland",
+        "Slovakia",
+        "Alton Illinois",
+        "Mississippi"
+      ]
+    },
+    {
+      "id": "capital/059_song_of_the_lonely_stock_trader.txt",
+      "region": "capital",
+      "filename": "059_song_of_the_lonely_stock_trader.txt",
+      "classification": "w2",
+      "characters": [
+        "stock trader"
+      ],
+      "key_moment": "Song about stock trader with debts",
+      "w2_evidence": [
+        "Stock trader",
+        "modern finance"
+      ]
+    },
+    {
+      "id": "yeller-quarry/001_untitled.txt",
+      "region": "yeller-quarry",
+      "filename": "001_untitled.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Fragment",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/002_grigsu_and_yasho.txt",
+      "region": "yeller-quarry",
+      "filename": "002_grigsu_and_yasho.txt",
+      "classification": "w1",
+      "characters": [
+        "Grigsu",
+        "Yasho"
+      ],
+      "key_moment": "Grigsu and Yasho interaction",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/003_three_of_the_five_were_dark.txt",
+      "region": "yeller-quarry",
+      "filename": "003_three_of_the_five_were_dark.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller"
+      ],
+      "key_moment": "Description of Yeller's five aspects",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/004_the_preachers_urchin.txt",
+      "region": "yeller-quarry",
+      "filename": "004_the_preachers_urchin.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Preacher and urchin encounter",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/005_yeller_and_the_fivefold_stroke_part1.txt",
+      "region": "yeller-quarry",
+      "filename": "005_yeller_and_the_fivefold_stroke_part1.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller"
+      ],
+      "key_moment": "Yeller's fivefold nature explained",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/006_yeller_and_the_fivefold_stroke_part2.txt",
+      "region": "yeller-quarry",
+      "filename": "006_yeller_and_the_fivefold_stroke_part2.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller"
+      ],
+      "key_moment": "Continuation of Yeller's fivefold nature",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/007_yeller_and_the_fivefold_stroke_part3.txt",
+      "region": "yeller-quarry",
+      "filename": "007_yeller_and_the_fivefold_stroke_part3.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller"
+      ],
+      "key_moment": "Conclusion of Yeller's fivefold narrative",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/008_only_to_have_it_wind_down_again.txt",
+      "region": "yeller-quarry",
+      "filename": "008_only_to_have_it_wind_down_again.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Cyclical narrative",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/009_seven_families_and_a_bunch_of_stragglers.txt",
+      "region": "yeller-quarry",
+      "filename": "009_seven_families_and_a_bunch_of_stragglers.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Seven families in settlement",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/010_the_first_prophets_slept_at_night_and_took_what.txt",
+      "region": "yeller-quarry",
+      "filename": "010_the_first_prophets_slept_at_night_and_took_what.txt",
+      "classification": "w1",
+      "characters": [
+        "prophets"
+      ],
+      "key_moment": "Early prophets' behavior",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/011_acts_of_artifice_premised_on_the_dens.txt",
+      "region": "yeller-quarry",
+      "filename": "011_acts_of_artifice_premised_on_the_dens.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Artifice based on the Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/012_they_call_it_the_long_dusty_road_for_a_reason.txt",
+      "region": "yeller-quarry",
+      "filename": "012_they_call_it_the_long_dusty_road_for_a_reason.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Description of long dusty road",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/013_the_megathere_or_the_teratorn.txt",
+      "region": "yeller-quarry",
+      "filename": "013_the_megathere_or_the_teratorn.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Prehistoric creatures",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/014_the_protection_accorded_all_relics.txt",
+      "region": "yeller-quarry",
+      "filename": "014_the_protection_accorded_all_relics.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Protection of relics",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/015_clunch_wires_and_eilodon_part1.txt",
+      "region": "yeller-quarry",
+      "filename": "015_clunch_wires_and_eilodon_part1.txt",
+      "classification": "w2",
+      "characters": [
+        "Kera Qine",
+        "Cyberitic Sam"
+      ],
+      "key_moment": "Kera's encounter with Fantassastigmata",
+      "w2_evidence": [
+        "Walmart",
+        "Alton, Illinois",
+        "Walgreens",
+        "Super 8",
+        "Mississippi",
+        "St. Louis",
+        "evangelical context"
+      ]
+    },
+    {
+      "id": "yeller-quarry/016_clunch_wires_and_eilodon_part2.txt",
+      "region": "yeller-quarry",
+      "filename": "016_clunch_wires_and_eilodon_part2.txt",
+      "classification": "w2",
+      "characters": [
+        "Kera"
+      ],
+      "key_moment": "Kera's transformation",
+      "w2_evidence": [
+        "Walgreens"
+      ]
+    },
+    {
+      "id": "yeller-quarry/017_clunch_wires_and_eilodon_part3.txt",
+      "region": "yeller-quarry",
+      "filename": "017_clunch_wires_and_eilodon_part3.txt",
+      "classification": "w2",
+      "characters": [
+        "Kera"
+      ],
+      "key_moment": "Kera and scapes",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/018_clunch_wires_and_eilodon_part4.txt",
+      "region": "yeller-quarry",
+      "filename": "018_clunch_wires_and_eilodon_part4.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Vera J. Dorsey",
+        "Mitch",
+        "Max",
+        "Harry"
+      ],
+      "key_moment": "Vera's one-track mind - W2 family with fantastical affliction",
+      "w2_evidence": [
+        "Walmart",
+        "Quaker Oats",
+        "Nestle"
+      ]
+    },
+    {
+      "id": "yeller-quarry/019_clunch_wires_and_eilodon_part5.txt",
+      "region": "yeller-quarry",
+      "filename": "019_clunch_wires_and_eilodon_part5.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Vera",
+        "Mitch",
+        "Max"
+      ],
+      "key_moment": "Continuation - W2 setting with fantastical condition",
+      "w2_evidence": [
+        "Quaker Oats"
+      ]
+    },
+    {
+      "id": "yeller-quarry/020_clunch_wires_and_eilodon_part6.txt",
+      "region": "yeller-quarry",
+      "filename": "020_clunch_wires_and_eilodon_part6.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Duster",
+        "Quonxy",
+        "Cilli C"
+      ],
+      "key_moment": "Mixed Eilodon (fantastical) and ordinary elements",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/021_yeller_eats_our_yogurt.txt",
+      "region": "yeller-quarry",
+      "filename": "021_yeller_eats_our_yogurt.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller",
+        "Jack"
+      ],
+      "key_moment": "Yeller (fivefold being) eating yogurt with Jack",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/022_dusters_cave.txt",
+      "region": "yeller-quarry",
+      "filename": "022_dusters_cave.txt",
+      "classification": "w1",
+      "characters": [
+        "Duster",
+        "Quonxy",
+        "Devin"
+      ],
+      "key_moment": "Duster hunting salamander for Quonxy",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/023_dusters_scabrous_yearnings.txt",
+      "region": "yeller-quarry",
+      "filename": "023_dusters_scabrous_yearnings.txt",
+      "classification": "w1",
+      "characters": [
+        "Duster",
+        "Quonxy"
+      ],
+      "key_moment": "Duster's relationship with Quonxy",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/024_quarry_what_she_learned_to_wear.txt",
+      "region": "yeller-quarry",
+      "filename": "024_quarry_what_she_learned_to_wear.txt",
+      "classification": "w1",
+      "characters": [
+        "Opal",
+        "Kera"
+      ],
+      "key_moment": "Opal the corpse-woman possessing Kera's body",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/025_keras_book_of_curses.txt",
+      "region": "yeller-quarry",
+      "filename": "025_keras_book_of_curses.txt",
+      "classification": "w2",
+      "characters": [
+        "Kera Qine",
+        "Hinsin Fleer",
+        "Loomis"
+      ],
+      "key_moment": "Kera finding book of curses",
+      "w2_evidence": [
+        "Walgreens",
+        "Super 8"
+      ]
+    },
+    {
+      "id": "yeller-quarry/026_little_jim_stones_succubus.txt",
+      "region": "yeller-quarry",
+      "filename": "026_little_jim_stones_succubus.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Jim Stone"
+      ],
+      "key_moment": "Succubus legend in modern/ambiguous setting",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/027_kera_qines_witch-world_fury.txt",
+      "region": "yeller-quarry",
+      "filename": "027_kera_qines_witch-world_fury.txt",
+      "classification": "w2",
+      "characters": [
+        "Kera Qine",
+        "Loomis",
+        "Hinsin Fleer",
+        "Bronc",
+        "Dodgins",
+        "Orvis"
+      ],
+      "key_moment": "Team sent to retrieve curse book from Kera",
+      "w2_evidence": [
+        "Haunted Alton Tour Company",
+        "Alton",
+        "Mississippi River",
+        "Walmart"
+      ]
+    },
+    {
+      "id": "yeller-quarry/028_quarry_wood_turtle.txt",
+      "region": "yeller-quarry",
+      "filename": "028_quarry_wood_turtle.txt",
+      "classification": "w2",
+      "characters": [
+        "Charles"
+      ],
+      "key_moment": "Faith described as wood turtle",
+      "w2_evidence": [
+        "Christ",
+        "Dutch Reformed catechism",
+        "Christian references"
+      ]
+    },
+    {
+      "id": "yeller-quarry/029_the_terrence-pair_in_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "029_the_terrence-pair_in_the_quarry.txt",
+      "classification": "w1",
+      "characters": [
+        "Terrence-pair",
+        "Duster"
+      ],
+      "key_moment": "The Terrence-pair kicking Duster awake at Princivalli's",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/030_my_wisdom_wife.txt",
+      "region": "yeller-quarry",
+      "filename": "030_my_wisdom_wife.txt",
+      "classification": "w2",
+      "characters": [
+        "Jena Korkitz"
+      ],
+      "key_moment": "Wikipedia entry dispute about found poem",
+      "w2_evidence": [
+        "Wikipedia",
+        "Alton",
+        "Haunted Alton Tours"
+      ]
+    },
+    {
+      "id": "yeller-quarry/031_the_border_of_northtown_and_yeller_quarry_part1.txt",
+      "region": "yeller-quarry",
+      "filename": "031_the_border_of_northtown_and_yeller_quarry_part1.txt",
+      "classification": "w1",
+      "characters": [
+        "Robert",
+        "Grit",
+        "Stell",
+        "Jack"
+      ],
+      "key_moment": "Coffeehouse dialogue at Northtown/Yeller Quarry border",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/032_the_border_of_northtown_and_yeller_quarry_part2.txt",
+      "region": "yeller-quarry",
+      "filename": "032_the_border_of_northtown_and_yeller_quarry_part2.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation of Grit and Stell story",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/033_the_border_of_northtown_and_yeller_quarry_part3.txt",
+      "region": "yeller-quarry",
+      "filename": "033_the_border_of_northtown_and_yeller_quarry_part3.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/034_the_border_of_northtown_and_yeller_quarry_part4.txt",
+      "region": "yeller-quarry",
+      "filename": "034_the_border_of_northtown_and_yeller_quarry_part4.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/035_the_border_of_northtown_and_yeller_quarry_part5.txt",
+      "region": "yeller-quarry",
+      "filename": "035_the_border_of_northtown_and_yeller_quarry_part5.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/036_the_border_of_northtown_and_yeller_quarry_part6.txt",
+      "region": "yeller-quarry",
+      "filename": "036_the_border_of_northtown_and_yeller_quarry_part6.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/037_the_border_of_northtown_and_yeller_quarry_part7.txt",
+      "region": "yeller-quarry",
+      "filename": "037_the_border_of_northtown_and_yeller_quarry_part7.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/038_the_border_of_northtown_and_yeller_quarry_part8.txt",
+      "region": "yeller-quarry",
+      "filename": "038_the_border_of_northtown_and_yeller_quarry_part8.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/039_the_border_of_northtown_and_yeller_quarry_part9.txt",
+      "region": "yeller-quarry",
+      "filename": "039_the_border_of_northtown_and_yeller_quarry_part9.txt",
+      "classification": "w1",
+      "characters": [
+        "Grit",
+        "Stell"
+      ],
+      "key_moment": "Conclusion of Grit/Stell narrative",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/040_im_not_sure_why_this_is_in_here_i_dont_think_i.txt",
+      "region": "yeller-quarry",
+      "filename": "040_im_not_sure_why_this_is_in_here_i_dont_think_i.txt",
+      "classification": "w2",
+      "characters": [
+        "R",
+        "H",
+        "Amma"
+      ],
+      "key_moment": "Two Indian-American brothers visiting comatose mother - explicitly W2 material",
+      "w2_evidence": [
+        "Hospital",
+        "India",
+        "Chicago",
+        "U of I",
+        "Uncle J",
+        "New Zealand",
+        "Infiniti (car)",
+        "Pastor P"
+      ]
+    },
+    {
+      "id": "yeller-quarry/041_binary_naturalist.txt",
+      "region": "yeller-quarry",
+      "filename": "041_binary_naturalist.txt",
+      "classification": "w1",
+      "characters": [
+        "Half Bad",
+        "Grit"
+      ],
+      "key_moment": "Half Bad as binary naturalist - planning notes",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/042_cousin_in_yeller_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "042_cousin_in_yeller_quarry.txt",
+      "classification": "w1",
+      "characters": [
+        "Eddie",
+        "Rose",
+        "narrator"
+      ],
+      "key_moment": "Cousin Eddie who burns down towns, living in Yeller Quarry",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/043_ria_in_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "043_ria_in_the_quarry.txt",
+      "classification": "w1",
+      "characters": [
+        "Ria",
+        "Monkton"
+      ],
+      "key_moment": "Ria on third day in Yeller Quarry",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/044_garage_in_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "044_garage_in_the_quarry.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "Evans",
+        "Georgia",
+        "Ria",
+        "Eddie"
+      ],
+      "key_moment": "Evans in garage waiting - mentions real-world places as distant forces",
+      "w2_evidence": [
+        "Texas",
+        "California",
+        "Utah",
+        "Midwest",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "yeller-quarry/045_killing_a_guy_in_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "045_killing_a_guy_in_the_quarry.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Reflection on killing in the Quarry based on origins",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/046_moss_in_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "046_moss_in_the_quarry.txt",
+      "classification": "w1",
+      "characters": [
+        "Moss",
+        "Ria",
+        "Georgia",
+        "Eddie",
+        "Bitsy",
+        "Klya",
+        "Dozer"
+      ],
+      "key_moment": "Moss searching for missing daughter Ria in Yeller Quarry",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/047_moss_was_out.txt",
+      "region": "yeller-quarry",
+      "filename": "047_moss_was_out.txt",
+      "classification": "w1",
+      "characters": [
+        "Moss"
+      ],
+      "key_moment": "Moss continuation",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/048_moss_driving_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "048_moss_driving_the_quarry.txt",
+      "classification": "w1",
+      "characters": [
+        "Moss"
+      ],
+      "key_moment": "Moss driving",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/049_moss_and_georgias_brother.txt",
+      "region": "yeller-quarry",
+      "filename": "049_moss_and_georgias_brother.txt",
+      "classification": "w1",
+      "characters": [
+        "Moss",
+        "Georgia"
+      ],
+      "key_moment": "Family relationships",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/050_mosss_ex-wifes_ex-husband.txt",
+      "region": "yeller-quarry",
+      "filename": "050_mosss_ex-wifes_ex-husband.txt",
+      "classification": "w1",
+      "characters": [
+        "Moss"
+      ],
+      "key_moment": "Complex relationships",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/051_dead_river_through_the_quarry.txt",
+      "region": "yeller-quarry",
+      "filename": "051_dead_river_through_the_quarry.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Dead River and Yeller Quarry connection",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/052_untitled.txt",
+      "region": "yeller-quarry",
+      "filename": "052_untitled.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Untitled fragment",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/053_poetry_stuff.txt",
+      "region": "yeller-quarry",
+      "filename": "053_poetry_stuff.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Poetry fragments",
+      "w2_evidence": []
+    },
+    {
+      "id": "yeller-quarry/054_planning_comments.txt",
+      "region": "yeller-quarry",
+      "filename": "054_planning_comments.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Empty planning file",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/001_untitled.txt",
+      "region": "dens",
+      "filename": "001_untitled.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Anti-literalist manifesto discussing removing religious references",
+      "w2_evidence": [
+        "References to Jesus, Christ, God, Mary, Paul",
+        "Biblical terms"
+      ]
+    },
+    {
+      "id": "dens/002_planning_comments.txt",
+      "region": "dens",
+      "filename": "002_planning_comments.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Planning notes about Dens, Densmok, Northo, Yeller Quarry",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/003_every_true_journey_begins_in_yeller_quarry_it.txt",
+      "region": "dens",
+      "filename": "003_every_true_journey_begins_in_yeller_quarry_it.txt",
+      "classification": "w1",
+      "characters": [
+        "the Colonel"
+      ],
+      "key_moment": "Journey from Yeller Quarry through Capital to Mirado tower",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/004_not_sure_im_interested_any_longer_in_writing_part1.txt",
+      "region": "dens",
+      "filename": "004_not_sure_im_interested_any_longer_in_writing_part1.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "the Colonel",
+        "mystery girl",
+        "grimslew",
+        "children",
+        "mapmaker"
+      ],
+      "key_moment": "Author discusses memorization project while developing Densworld narratives",
+      "w2_evidence": [
+        "Author's personal reflections",
+        "Tolkien reference"
+      ]
+    },
+    {
+      "id": "dens/005_not_sure_im_interested_any_longer_in_writing_part2.txt",
+      "region": "dens",
+      "filename": "005_not_sure_im_interested_any_longer_in_writing_part2.txt",
+      "classification": "w2",
+      "characters": [
+        "Miss Vivian",
+        "girl",
+        "Northtown folk"
+      ],
+      "key_moment": "Northtown quarantine during pandemic with Evey system",
+      "w2_evidence": [
+        "Pandemic quarantine references",
+        "Gas stations",
+        "Real-world infrastructure"
+      ]
+    },
+    {
+      "id": "dens/006_not_sure_im_interested_any_longer_in_writing_part3.txt",
+      "region": "dens",
+      "filename": "006_not_sure_im_interested_any_longer_in_writing_part3.txt",
+      "classification": "w1",
+      "characters": [
+        "Queever",
+        "Senator Polkopo"
+      ],
+      "key_moment": "Senate structure and archivist systems in the Capital",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/007_dance_steps_and_hand_signs.txt",
+      "region": "dens",
+      "filename": "007_dance_steps_and_hand_signs.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller (five women)"
+      ],
+      "key_moment": "Ancient children navigating Dens with songs and dances",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/008_the_fifty-finned_twin-tailed_grimslew.txt",
+      "region": "dens",
+      "filename": "008_the_fifty-finned_twin-tailed_grimslew.txt",
+      "classification": "w1",
+      "characters": [
+        "Nehlhen",
+        "Derrk",
+        "lookout man"
+      ],
+      "key_moment": "Councilwoman Nehlhen investigates grimslew",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/009_the_fat_boy_tud_the_slopsucker.txt",
+      "region": "dens",
+      "filename": "009_the_fat_boy_tud_the_slopsucker.txt",
+      "classification": "w1",
+      "characters": [
+        "Tud",
+        "Maya",
+        "two women"
+      ],
+      "key_moment": "Fat boy kidnapped from Dens village",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/010_the_sludge_as_it_sandpapers.txt",
+      "region": "dens",
+      "filename": "010_the_sludge_as_it_sandpapers.txt",
+      "classification": "w1",
+      "characters": [
+        "boy",
+        "Yeller",
+        "Mar"
+      ],
+      "key_moment": "Boy catching stonefrog, kidnapped by Yeller group",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/011_the_shifting_dens_by_day_a_normal_mind_by_night.txt",
+      "region": "dens",
+      "filename": "011_the_shifting_dens_by_day_a_normal_mind_by_night.txt",
+      "classification": "w1",
+      "characters": [
+        "witch/mapmaker"
+      ],
+      "key_moment": "Mapmaker with cart wandering Dens edge at night",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/012_the_man_who_buried_his_daughter_in_dens.txt",
+      "region": "dens",
+      "filename": "012_the_man_who_buried_his_daughter_in_dens.txt",
+      "classification": "w1",
+      "characters": [
+        "father",
+        "two daughters"
+      ],
+      "key_moment": "Man buried daughter in Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/013_the_dens_girl_with_the_looping_spine.txt",
+      "region": "dens",
+      "filename": "013_the_dens_girl_with_the_looping_spine.txt",
+      "classification": "w1",
+      "characters": [
+        "girl"
+      ],
+      "key_moment": "Girl with looping spine living in Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/014_hungry_for_portents.txt",
+      "region": "dens",
+      "filename": "014_hungry_for_portents.txt",
+      "classification": "w1",
+      "characters": [
+        "girl",
+        "mapmaker"
+      ],
+      "key_moment": "Silent girl captured by mapmaker with bone-wheeled machine",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/015_the_densmongers_daughter.txt",
+      "region": "dens",
+      "filename": "015_the_densmongers_daughter.txt",
+      "classification": "w1",
+      "characters": [
+        "Cass",
+        "preacher"
+      ],
+      "key_moment": "Densmonger's daughter who climbs everything",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/016_reckoning_up_the_days_advances.txt",
+      "region": "dens",
+      "filename": "016_reckoning_up_the_days_advances.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Planning notes about reckoning Dens advances",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/017_nine_walks_into_dens.txt",
+      "region": "dens",
+      "filename": "017_nine_walks_into_dens.txt",
+      "classification": "w1",
+      "characters": [
+        "Helen",
+        "Gargon",
+        "daughters",
+        "lookout"
+      ],
+      "key_moment": "Helen wanders into Dens nine times",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/018_secrets_of_the_denstower_gearboxes.txt",
+      "region": "dens",
+      "filename": "018_secrets_of_the_denstower_gearboxes.txt",
+      "classification": "w1",
+      "characters": [
+        "lookouts"
+      ],
+      "key_moment": "Secret machinery in seventy towers",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/019_building_a_house_on_the_dens.txt",
+      "region": "dens",
+      "filename": "019_building_a_house_on_the_dens.txt",
+      "classification": "w1",
+      "characters": [
+        "botanist woman"
+      ],
+      "key_moment": "Botanist wanted for crimes attempts to build house on Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/020_drowning_in_dried_ooze.txt",
+      "region": "dens",
+      "filename": "020_drowning_in_dried_ooze.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Theoretical reversal: Dens as desiccating force",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/021_rain_on_the_dens_and_the_senators_wife.txt",
+      "region": "dens",
+      "filename": "021_rain_on_the_dens_and_the_senators_wife.txt",
+      "classification": "w1",
+      "characters": [
+        "Senator's wife"
+      ],
+      "key_moment": "Murder investigation in Dens landscape",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/022_why_was_dens_even_here.txt",
+      "region": "dens",
+      "filename": "022_why_was_dens_even_here.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Geography lesson",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/023_the_daughter_of_shifting_woods.txt",
+      "region": "dens",
+      "filename": "023_the_daughter_of_shifting_woods.txt",
+      "classification": "w1",
+      "characters": [
+        "man"
+      ],
+      "key_moment": "Man in shifting woods dreams of a girl",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/024_yeller_and_dens.txt",
+      "region": "dens",
+      "filename": "024_yeller_and_dens.txt",
+      "classification": "w1",
+      "characters": [
+        "Yeller (fivefold)",
+        "Crishl",
+        "the Colonel",
+        "Fyncho"
+      ],
+      "key_moment": "Crishl harnesses fivefold Yeller, Colonel's siege of Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/025_the_dens_dodger.txt",
+      "region": "dens",
+      "filename": "025_the_dens_dodger.txt",
+      "classification": "w1",
+      "characters": [
+        "Fincho",
+        "Wen",
+        "dodger",
+        "scholar",
+        "Yeller"
+      ],
+      "key_moment": "Dodger arrives seeking Yeller, expedition into Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/026_ground_to_walk_on.txt",
+      "region": "dens",
+      "filename": "026_ground_to_walk_on.txt",
+      "classification": "w1",
+      "characters": [
+        "mapmaker",
+        "child",
+        "woman"
+      ],
+      "key_moment": "Mapmaker explains how maps turn Dens grit into ground",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/027_the_roots_of_fire_are_made_of_fire.txt",
+      "region": "dens",
+      "filename": "027_the_roots_of_fire_are_made_of_fire.txt",
+      "classification": "w2",
+      "characters": [
+        "dirty boy",
+        "two women"
+      ],
+      "key_moment": "Mnemonic story about boy digging at Dens edge",
+      "w2_evidence": [
+        "References to Missouri, Arkansas, Michigan",
+        "Modern collectives"
+      ]
+    },
+    {
+      "id": "dens/028_shell_cross_rathers_later.txt",
+      "region": "dens",
+      "filename": "028_shell_cross_rathers_later.txt",
+      "classification": "w1",
+      "characters": [
+        "Rathers",
+        "Halfbad/Hungry/Hooch/Wires"
+      ],
+      "key_moment": "Winter morning car retrieval in Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/029_dusters_feelers_find_a_will.txt",
+      "region": "dens",
+      "filename": "029_dusters_feelers_find_a_will.txt",
+      "classification": "w1",
+      "characters": [
+        "Duster",
+        "Quonxy"
+      ],
+      "key_moment": "Duster collects wills, finds black eyes with orange edges",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/030_he_laughs_like_a_fish.txt",
+      "region": "dens",
+      "filename": "030_he_laughs_like_a_fish.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "W2 narrator observing mnemonic collectives",
+      "w2_evidence": [
+        "Missouri",
+        "Five family collectives in Ohio",
+        "Public schools"
+      ]
+    },
+    {
+      "id": "dens/031_the_dens_worm_ghost.txt",
+      "region": "dens",
+      "filename": "031_the_dens_worm_ghost.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Planning note suggesting urban fantasy treatment",
+      "w2_evidence": [
+        "West Alton reference"
+      ]
+    },
+    {
+      "id": "dens/032_grizzled_gets_the_memo.txt",
+      "region": "dens",
+      "filename": "032_grizzled_gets_the_memo.txt",
+      "classification": "w1",
+      "characters": [
+        "Grizzled",
+        "Hatchback",
+        "Quonxy",
+        "Freddie",
+        "Little Porn"
+      ],
+      "key_moment": "Grizzled's perfect mnemonics",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/033_meter_readers_in_dens.txt",
+      "region": "dens",
+      "filename": "033_meter_readers_in_dens.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Meter readers in Dens compared to whores in Cap",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/034_saturdays_i_used_to_drive_into_dens_and_see_my.txt",
+      "region": "dens",
+      "filename": "034_saturdays_i_used_to_drive_into_dens_and_see_my.txt",
+      "classification": "w1",
+      "characters": [
+        "Aunt Margaret/Tuttie"
+      ],
+      "key_moment": "Visiting aunt in heart of Dens",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/035_the_hawk_seller_tells_me_about_spedometers.txt",
+      "region": "dens",
+      "filename": "035_the_hawk_seller_tells_me_about_spedometers.txt",
+      "classification": "w2",
+      "characters": [
+        "hawk seller",
+        "father"
+      ],
+      "key_moment": "Alton stories: man going over rail, hawk seller",
+      "w2_evidence": [
+        "Alton, Illinois",
+        "Grafton",
+        "Great River Road",
+        "Mississippi River",
+        "Halvord Ave",
+        "Semple St",
+        "Alton library",
+        "Underground railroad",
+        "Lovejoy"
+      ]
+    },
+    {
+      "id": "dens/036_double-wipe_philosophy.txt",
+      "region": "dens",
+      "filename": "036_double-wipe_philosophy.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Bathroom philosophy about wiping and towel disposal",
+      "w2_evidence": [
+        "EPA",
+        "Paper towels",
+        "Workplace bathroom"
+      ]
+    },
+    {
+      "id": "dens/037_jaclyn_digging.txt",
+      "region": "dens",
+      "filename": "037_jaclyn_digging.txt",
+      "classification": "w2",
+      "characters": [
+        "Jaclyn",
+        "Bill",
+        "Mrs. Bolden"
+      ],
+      "key_moment": "Jaclyn's life in Alton, mysterious trailer",
+      "w2_evidence": [
+        "Alton",
+        "Broadway",
+        "Wendy's",
+        "Movie rental",
+        "Modern suburban life"
+      ]
+    },
+    {
+      "id": "dens/038_charles_in_winter.txt",
+      "region": "dens",
+      "filename": "038_charles_in_winter.txt",
+      "classification": "w2",
+      "characters": [
+        "Charles",
+        "Mark",
+        "William",
+        "Vincent",
+        "Emily",
+        "Alea",
+        "Guster",
+        "Nickles"
+      ],
+      "key_moment": "Charles camping story merging into Alton Belle casino narrative",
+      "w2_evidence": [
+        "Missouri",
+        "St. Charles",
+        "St. Louis",
+        "Alton Belle Casino",
+        "Florissant",
+        "Hazelwood",
+        "Chicago"
+      ]
+    },
+    {
+      "id": "dens/039_the_day_i_started_talking.txt",
+      "region": "dens",
+      "filename": "039_the_day_i_started_talking.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Father able to talk to wife again after child born",
+      "w2_evidence": [
+        "Diaper changing",
+        "Modern family life"
+      ]
+    },
+    {
+      "id": "dens/040_west_branchs_tongue_bubble.txt",
+      "region": "dens",
+      "filename": "040_west_branchs_tongue_bubble.txt",
+      "classification": "w1",
+      "characters": [
+        "West Branch",
+        "Hoover/Hungry/Half Bad/Heavy/Henry/Broke"
+      ],
+      "key_moment": "West Branch's tongue bubble",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/041_rudge_holvin.txt",
+      "region": "dens",
+      "filename": "041_rudge_holvin.txt",
+      "classification": "w2",
+      "characters": [
+        "Rudge Holvin",
+        "Kimmy Kuhlman"
+      ],
+      "key_moment": "EPA deputy Rudge transforms into river",
+      "w2_evidence": [
+        "Alton",
+        "EPA",
+        "Dead River",
+        "Alton Telegraph",
+        "Mississippi River",
+        "New Orleans",
+        "Minnesota",
+        "Iowa",
+        "St. Paul"
+      ]
+    },
+    {
+      "id": "dens/042_under_moss_grow_thoughts_prepared_for_light.txt",
+      "region": "dens",
+      "filename": "042_under_moss_grow_thoughts_prepared_for_light.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Stream of consciousness philosophical writing",
+      "w2_evidence": [
+        "Modern technology references"
+      ]
+    },
+    {
+      "id": "dens/043_a_person_on_the_move.txt",
+      "region": "dens",
+      "filename": "043_a_person_on_the_move.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Abstract: two people on the move stick together",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/044_how_the_world_saved_my_life.txt",
+      "region": "dens",
+      "filename": "044_how_the_world_saved_my_life.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Meta-commentary on the imagined world",
+      "w2_evidence": [
+        "Author discussing 'made-up world'"
+      ]
+    },
+    {
+      "id": "dens/045_imagine_a_middle_it_doesnt_have_to_be_the_middle.txt",
+      "region": "dens",
+      "filename": "045_imagine_a_middle_it_doesnt_have_to_be_the_middle.txt",
+      "classification": "w2",
+      "characters": [
+        "Jim Mathers",
+        "Karen",
+        "Maria Lopez"
+      ],
+      "key_moment": "Philosophy of clearing space in chaos",
+      "w2_evidence": [
+        "Modern life: dentist, taxes, baseball",
+        "Gas station"
+      ]
+    },
+    {
+      "id": "dens/046_seven_shoes.txt",
+      "region": "dens",
+      "filename": "046_seven_shoes.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Abstract meditation on making sentences from objects",
+      "w2_evidence": [
+        "Modern shoes"
+      ]
+    },
+    {
+      "id": "dens/047_try_something_different.txt",
+      "region": "dens",
+      "filename": "047_try_something_different.txt",
+      "classification": "w2",
+      "characters": [
+        "woman",
+        "Frank",
+        "Devin",
+        "dad"
+      ],
+      "key_moment": "Woman trying to care about basketball",
+      "w2_evidence": [
+        "Modern office work",
+        "Emails",
+        "Boss",
+        "Basketball"
+      ]
+    },
+    {
+      "id": "dens/048_you_didnt_pray_now_look_what_happened.txt",
+      "region": "dens",
+      "filename": "048_you_didnt_pray_now_look_what_happened.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Planning notes about prayer and causation",
+      "w2_evidence": [
+        "Prayer discussion"
+      ]
+    },
+    {
+      "id": "dens/049_the_circle_negates.txt",
+      "region": "dens",
+      "filename": "049_the_circle_negates.txt",
+      "classification": "ambiguous",
+      "characters": [
+        "CPS",
+        "Rachel"
+      ],
+      "key_moment": "Abstract philosophy of enclosure and negation",
+      "w2_evidence": [
+        "Modern therapy/counseling context"
+      ]
+    },
+    {
+      "id": "dens/050_n-state_objects.txt",
+      "region": "dens",
+      "filename": "050_n-state_objects.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Empty list of n-state objects",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/051_the_beginning_of_meaning.txt",
+      "region": "dens",
+      "filename": "051_the_beginning_of_meaning.txt",
+      "classification": "w2",
+      "characters": [
+        "Dr. Plate"
+      ],
+      "key_moment": "Philosophy email about truth, meaning, and bees",
+      "w2_evidence": [
+        "Class email",
+        "Wittgenstein",
+        "Kripke",
+        "Modern academic setting"
+      ]
+    },
+    {
+      "id": "dens/052_the_whole_cannot_be_saved.txt",
+      "region": "dens",
+      "filename": "052_the_whole_cannot_be_saved.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Abstract: systemic transformation impossible",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/053_introductions_and_conversation_starters.txt",
+      "region": "dens",
+      "filename": "053_introductions_and_conversation_starters.txt",
+      "classification": "w2",
+      "characters": [],
+      "key_moment": "Planning notes about conversation difficulties",
+      "w2_evidence": [
+        "HR department",
+        "Insurance rebate form",
+        "OED"
+      ]
+    },
+    {
+      "id": "dens/054_untitled.txt",
+      "region": "dens",
+      "filename": "054_untitled.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Single horizontal line",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/055_poetry_stuff.txt",
+      "region": "dens",
+      "filename": "055_poetry_stuff.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Title only",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/056_planning_comments.txt",
+      "region": "dens",
+      "filename": "056_planning_comments.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Planning notes about Ria-Dead River/Little Porn-Capeast",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/057_it_looked_like_it_would_rain.txt",
+      "region": "dens",
+      "filename": "057_it_looked_like_it_would_rain.txt",
+      "classification": "ambiguous",
+      "characters": [],
+      "key_moment": "Fragmentary poem about rain",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/058_song_of_the_rock-finned_eel.txt",
+      "region": "dens",
+      "filename": "058_song_of_the_rock-finned_eel.txt",
+      "classification": "w1",
+      "characters": [
+        "Ria Levin"
+      ],
+      "key_moment": "Title for Ria Levin discography project",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/059_song_of_the_rock-finned_eel.txt",
+      "region": "dens",
+      "filename": "059_song_of_the_rock-finned_eel.txt",
+      "classification": "w1",
+      "characters": [],
+      "key_moment": "Title only",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/060_a_patient_worm_will_wake.txt",
+      "region": "dens",
+      "filename": "060_a_patient_worm_will_wake.txt",
+      "classification": "w1",
+      "characters": [
+        "mapmaker"
+      ],
+      "key_moment": "Poems about worms and ground movement",
+      "w2_evidence": []
+    },
+    {
+      "id": "dens/061_duster_and_quonxy_on_the_dens_moors.txt",
+      "region": "dens",
+      "filename": "061_duster_and_quonxy_on_the_dens_moors.txt",
+      "classification": "w2",
+      "characters": [
+        "Duster",
+        "Quonxy"
+      ],
+      "key_moment": "Poetry about Duster and Quonxy with Iowa and St. Paul references",
+      "w2_evidence": [
+        "St. Paul reference",
+        "Iowa"
+      ]
+    }
+  ]
+}

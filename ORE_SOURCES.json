@@ -1,609 +1,136 @@
 {
   "metadata": {
     "description": "Curated W1 ore sources for Bible mnemonic image generation",
-    "count": 103,
+    "count": 275,
     "created": "2025-12-27",
-    "notes": "Randomly select from 'available' sources. Move to 'exhausted' when all vivid moments have been used."
+    "last_audit": "2025-12-27",
+    "notes": "Canonical W1 ore sources for Bible mnemonic image generation. 275 total sources (187 from ore-fragments + 113 from ore-fragments-generated, deduplicated). Audit completed 2025-12-27."
   },
   "available": [
     {
       "id": "dens-001",
       "path": "_source/ore-fragments/dens/008_the_fifty-finned_twin-tailed_grimslew.txt",
       "region": "Dens",
-      "description": "Grimslew creature narrative; council intrigue; woman descending with etched directions",
+      "description": "Grimslew creature narrative; Nehlhen descending stone stairs following blood-red etchings; council intrigue",
       "image_potential": "high",
+      "key_moment": "Woman descending into darkness following moss-filled grimslew etchings",
       "images_extracted": []
     },
     {
       "id": "dens-002",
-      "path": "_source/ore-fragments/dens/003_every_true_journey_begins_in_yeller_quarry_it.txt",
+      "path": "_source/ore-fragments/dens/010_the_sludge_as_it_sandpapers.txt",
       "region": "Dens",
-      "description": "Journey narrative, concrete scenes",
-      "image_potential": "medium",
+      "description": "Young scavenger caught mid-stride by Yeller group; ambush scene",
+      "image_potential": "high",
+      "key_moment": "Child pivots into ambush of two Yellers waiting to bag him",
       "images_extracted": []
     },
     {
       "id": "dens-003",
-      "path": "_source/ore-fragments/dens/024_yeller_and_dens.txt",
+      "path": "_source/ore-fragments/dens/015_the_densmongers_daughter.txt",
       "region": "Dens",
-      "description": "Yeller character interaction with landscape",
-      "image_potential": "medium",
+      "description": "Cass climbing 48 lookout towers at night; machine-towers grinding back Dens muck",
+      "image_potential": "high",
+      "key_moment": "Cass at night on lookout tower watching machines grind muck",
       "images_extracted": []
     },
     {
       "id": "dens-004",
-      "path": "_source/ore-fragments/dens/007_dance_steps_and_hand_signs.txt",
+      "path": "_source/ore-fragments/dens/017_nine_walks_into_dens.txt",
       "region": "Dens",
-      "description": "Physical movement, ritual",
-      "image_potential": "medium",
+      "description": "Daughter following mother on nocturnal walks; mother stepping into graymuck",
+      "image_potential": "high",
+      "key_moment": "Mother stepping out into graymuck while daughter shivers at edge",
       "images_extracted": []
     },
     {
       "id": "dens-005",
-      "path": "_source/ore-fragments/dens/009_the_fat_boy_tud_the_slopsucker.txt",
+      "path": "_source/ore-fragments/dens/023_the_daughter_of_shifting_woods.txt",
       "region": "Dens",
-      "description": "Character study with physicality",
-      "image_potential": "medium",
+      "description": "Man in shifting woods built from bones/hides; dreams of a girl every third morning",
+      "image_potential": "high",
+      "key_moment": "Haunting figure in bone-and-hide woods moving nightly",
       "images_extracted": []
     },
     {
       "id": "dens-006",
-      "path": "_source/ore-fragments/dens/010_the_sludge_as_it_sandpapers.txt",
+      "path": "_source/ore-fragments/dens/025_the_dens_dodger.txt",
       "region": "Dens",
-      "description": "Landscape description, tactile detail",
-      "image_potential": "medium",
+      "description": "Dodger arriving at dusk; Yeller's screams transforming; Wen following Yeller into Dens",
+      "image_potential": "high",
+      "key_moment": "Yeller's screams transforming from rage to unbearable suffering",
       "images_extracted": []
     },
     {
       "id": "dens-007",
-      "path": "_source/ore-fragments/dens/011_the_shifting_dens_by_day_a_normal_mind_by_night.txt",
+      "path": "_source/ore-fragments/dens/029_dusters_feelers_find_a_will.txt",
       "region": "Dens",
-      "description": "Duality, transformation",
-      "image_potential": "medium",
+      "description": "Duster waking under stairs; creature with black eyes rimmed in orange flame-darts",
+      "image_potential": "high",
+      "key_moment": "Duster finding creature beneath vine bolus - a week's work dropped in front of him",
       "images_extracted": []
     },
     {
       "id": "dens-008",
-      "path": "_source/ore-fragments/dens/012_the_man_who_buried_his_daughter_in_dens.txt",
+      "path": "_source/ore-fragments/dens/009_the_fat_boy_tud_the_slopsucker.txt",
       "region": "Dens",
-      "description": "Dark narrative moment",
-      "image_potential": "high",
+      "description": "Boy Tud carried in leather bag by two silent women through Dens night",
+      "image_potential": "medium",
+      "key_moment": "Fat boy carried in leather bag through darkness",
       "images_extracted": []
     },
     {
       "id": "dens-009",
-      "path": "_source/ore-fragments/dens/013_the_dens_girl_with_the_looping_spine.txt",
+      "path": "_source/ore-fragments/dens/019_building_a_house_on_the_dens.txt",
       "region": "Dens",
-      "description": "Character with distinctive physiology",
+      "description": "Woman cataloger building shelter on Dens itself; defying the axiom",
       "image_potential": "medium",
+      "key_moment": "Woman constructing shelter where nothing should stand",
       "images_extracted": []
     },
     {
       "id": "dens-010",
-      "path": "_source/ore-fragments/dens/061_duster_and_quonxy_on_the_dens_moors.txt",
+      "path": "_source/ore-fragments/dens/021_rain_on_the_dens_and_the_senators_wife.txt",
       "region": "Dens",
-      "description": "Named characters Duster and Quonxy in landscape",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "tower2-001",
-      "path": "_source/ore-fragments/tower-of-mirado-2/253_untitled_part12.txt",
-      "region": "Tower of Mirado",
-      "description": "Part of larger narrative arc",
+      "description": "Murder investigation; metal eagle falling into muck with head separating",
       "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "tower2-002",
-      "path": "_source/ore-fragments/tower-of-mirado-2/244_untitled_part3.txt",
-      "region": "Tower of Mirado",
-      "description": "Substantial narrative",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "tower2-004",
-      "path": "_source/ore-fragments/tower-of-mirado-2/011_the_diary_of_all_puzzles_part1.txt",
-      "region": "Tower of Mirado",
-      "description": "Opening of puzzle narrative",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "tower2-005",
-      "path": "_source/ore-fragments/tower-of-mirado-2/027_one_for_the_road_two_for_the_toad_nobody_knows_part2.txt",
-      "region": "Tower of Mirado",
-      "description": "Unusual imagery (road/toad)",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-001",
-      "path": "_source/ore-fragments/tower-of-mirado/066_some_puzzle_poems_part1.txt",
-      "region": "Tower of Mirado",
-      "description": "Visual puzzle descriptions",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-002",
-      "path": "_source/ore-fragments/tower-of-mirado/051_big_old_memorizing_theoretical_journal_thing_part1.txt",
-      "region": "Tower of Mirado",
-      "description": "Character study with theory",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-003",
-      "path": "_source/ore-fragments/tower-of-mirado/019_dead_river_hausa_part1.txt",
-      "region": "Tower of Mirado",
-      "description": "Cross-regional narrative",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-004",
-      "path": "_source/ore-fragments/tower-of-mirado/017_abraham_lincoln_part1.txt",
-      "region": "Tower of Mirado",
-      "description": "Surreal hotel scene; Lincoln reimagined in Densworld",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-005",
-      "path": "_source/ore-fragments/tower-of-mirado/033_the_library_of_all_the_worlds_and_the_tower_of_broken_names.txt",
-      "region": "Tower of Mirado",
-      "description": "Library/archive imagery",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-006",
-      "path": "_source/ore-fragments/tower-of-mirado/025_the_garden_of_perfect_memory.txt",
-      "region": "Tower of Mirado",
-      "description": "Garden setting",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-007",
-      "path": "_source/ore-fragments/tower-of-mirado/031_archons_and_scholars.txt",
-      "region": "Tower of Mirado",
-      "description": "Character group; scholarly setting",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "tower-008",
-      "path": "_source/ore-fragments/tower-of-mirado/014_mapping_the_interior.txt",
-      "region": "Tower of Mirado",
-      "description": "Interior/spatial description",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-001",
-      "path": "_source/ore-fragments/northo/050_xyly_and_quonxy.txt",
-      "region": "Northo",
-      "description": "Xyly & Quonxy character study; concrete domestic scenes; mystery of heavy hands",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-002",
-      "path": "_source/ore-fragments/northo/069_she_is_not_morally_conservative.txt",
-      "region": "Northo",
-      "description": "Character portrait",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-003",
-      "path": "_source/ore-fragments/northo/055_i_crush_his_body_he_burns_mine.txt",
-      "region": "Northo",
-      "description": "Intense physical/emotional narrative",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-004",
-      "path": "_source/ore-fragments/northo/070_boner_for_comics_part1.txt",
-      "region": "Northo",
-      "description": "Narrative opening with detail",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-005",
-      "path": "_source/ore-fragments/northo/031_somers_and_the_queen_of_spades_part1.txt",
-      "region": "Northo",
-      "description": "Named character interaction; card game imagery",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-006",
-      "path": "_source/ore-fragments/northo/041_theres_never_been_a_good_story_about_a_christian_part4.txt",
-      "region": "Northo",
-      "description": "Thematic narrative piece",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northo-007",
-      "path": "_source/ore-fragments/northo/038_theres_never_been_a_good_story_about_a_christian_part1.txt",
-      "region": "Northo",
-      "description": "Opening of extended narrative",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-001",
-      "path": "_source/ore-fragments/densmok/023_the_girl_in_the_densmok_basement.txt",
-      "region": "Densmok",
-      "description": "Household drama; girl/woman/man triangle; atmospheric detail",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-002",
-      "path": "_source/ore-fragments/densmok/004_the_mapmaker_who_wasnt_a_preacher.txt",
-      "region": "Densmok",
-      "description": "Character with title; substantial narrative",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-003",
-      "path": "_source/ore-fragments/densmok/005_the_cagemaker.txt",
-      "region": "Densmok",
-      "description": "Craftsperson narrative",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-004",
-      "path": "_source/ore-fragments/densmok/034_the_wind_that_middleman.txt",
-      "region": "Densmok",
-      "description": "Personified element; 391 lines",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-005",
-      "path": "_source/ore-fragments/densmok/067_what_god_gave_me_in_densmok_part1.txt",
-      "region": "Densmok",
-      "description": "Spiritual/personal narrative; 362 lines",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-006",
-      "path": "_source/ore-fragments/densmok/071_decision_books.txt",
-      "region": "Densmok",
-      "description": "Decision-making narrative; 395 lines",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-007",
-      "path": "_source/ore-fragments/densmok/082_stellas_space_part1.txt",
-      "region": "Densmok",
-      "description": "Character named Stella; 322 lines",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-008",
-      "path": "_source/ore-fragments/densmok/083_stellas_space_part2.txt",
-      "region": "Densmok",
-      "description": "Stella continuation",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-009",
-      "path": "_source/ore-fragments/densmok/025_a_world_without_tempters_part1.txt",
-      "region": "Densmok",
-      "description": "Conceptual narrative; 399 lines",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-010",
-      "path": "_source/ore-fragments/densmok/092_alea_hatford_part1.txt",
-      "region": "Densmok",
-      "description": "Character Alea Hatford",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "densmok-011",
-      "path": "_source/ore-fragments/densmok/093_alea_hatford_part2.txt",
-      "region": "Densmok",
-      "description": "Alea Hatford continuation",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-001",
-      "path": "_source/ore-fragments/capeast/002_it_couldnt_be_called_a_house.txt",
-      "region": "Capeast",
-      "description": "Architecture as character",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-003",
-      "path": "_source/ore-fragments/capeast/006_hoole_in_capeast.txt",
-      "region": "Capeast",
-      "description": "Named character Hoole; location specificity",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-004",
-      "path": "_source/ore-fragments/capeast/007_capeast_scientist_kid.txt",
-      "region": "Capeast",
-      "description": "Character type + location",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-005",
-      "path": "_source/ore-fragments/capeast/009_the_dark_hump_day.txt",
-      "region": "Capeast",
-      "description": "Temporal/atmospheric",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-006",
-      "path": "_source/ore-fragments/capeast/016_alton_capeast_mayor.txt",
-      "region": "Capeast",
-      "description": "Mayor character; authority figure",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-007",
-      "path": "_source/ore-fragments/capeast/027_moses_morant.txt",
-      "region": "Capeast",
-      "description": "Named character narrative",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-008",
-      "path": "_source/ore-fragments/capeast/030_hitchens_gym_genius.txt",
-      "region": "Capeast",
-      "description": "Character + location (gym)",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capeast-009",
-      "path": "_source/ore-fragments/capeast/037_capeast_origin_of_yeller.txt",
-      "region": "Capeast",
-      "description": "Origin narrative for Yeller entity",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-001",
-      "path": "_source/ore-fragments/mirado-sticks/031_barb_and_anne_and_jack_and_robert_part1.txt",
-      "region": "Mirado Sticks",
-      "description": "Named characters; mysterious light; observation scene",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-002",
-      "path": "_source/ore-fragments/mirado-sticks/063_privacy_in_mirado_sticks_part1.txt",
-      "region": "Mirado Sticks",
-      "description": "Privacy theme; 385 lines",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-003",
-      "path": "_source/ore-fragments/mirado-sticks/064_privacy_in_mirado_sticks_part2.txt",
-      "region": "Mirado Sticks",
-      "description": "Privacy continuation; 399 lines",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-004",
-      "path": "_source/ore-fragments/mirado-sticks/065_privacy_in_mirado_sticks_part3.txt",
-      "region": "Mirado Sticks",
-      "description": "Privacy conclusion; 399 lines",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-005",
-      "path": "_source/ore-fragments/mirado-sticks/034_cars_on_an_icy_road.txt",
-      "region": "Mirado Sticks",
-      "description": "Environmental scenario",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-006",
-      "path": "_source/ore-fragments/mirado-sticks/043_jackson_is_finally_called_to_account.txt",
-      "region": "Mirado Sticks",
-      "description": "Jackson character; accountability narrative",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-007",
-      "path": "_source/ore-fragments/mirado-sticks/046_queenmater_in_mirado_sticks.txt",
-      "region": "Mirado Sticks",
-      "description": "Named character Queenmater",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "sticks-008",
-      "path": "_source/ore-fragments/mirado-sticks/068_spindly_bugeta_in_mirado_sticks.txt",
-      "region": "Mirado Sticks",
-      "description": "Named character Bugeta; physical description",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-001",
-      "path": "_source/ore-fragments/north-town/016_two_breakfasts_part3.txt",
-      "region": "North Town",
-      "description": "Domestic narrative; 399 lines",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-002",
-      "path": "_source/ore-fragments/north-town/014_two_breakfasts_part1.txt",
-      "region": "North Town",
-      "description": "Opening of breakfast narrative",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-003",
-      "path": "_source/ore-fragments/north-town/035_snipe_crab_north_town_scuttle.txt",
-      "region": "North Town",
-      "description": "Creature movement; 361 lines",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-004",
-      "path": "_source/ore-fragments/north-town/030_his_sternum_part1.txt",
-      "region": "North Town",
-      "description": "Body-focused narrative",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-005",
-      "path": "_source/ore-fragments/north-town/031_his_sternum_part2.txt",
-      "region": "North Town",
-      "description": "Body narrative continuation",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-006",
-      "path": "_source/ore-fragments/north-town/026_little_league_serial_killer.txt",
-      "region": "North Town",
-      "description": "Darkly absurd scenario",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-007",
-      "path": "_source/ore-fragments/north-town/022_moss_at_the_door.txt",
-      "region": "North Town",
-      "description": "Character named Moss",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "northtown-008",
-      "path": "_source/ore-fragments/north-town/020_moss_didnt_care_but_his_ex-wife_would.txt",
-      "region": "North Town",
-      "description": "Moss character; relationship dynamic",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capital-001",
-      "path": "_source/ore-fragments/capital/038_cap_tax_on_reminders.txt",
-      "region": "Capital",
-      "description": "Abstract concept made concrete; 355 lines",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capital-002",
-      "path": "_source/ore-fragments/capital/009_coast_to_the_capital.txt",
-      "region": "Capital",
-      "description": "Journey narrative; directional imagery",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "capital-003",
-      "path": "_source/ore-fragments/capital/021_a_closer_look_at_dens_from_the_cap.txt",
-      "region": "Capital",
-      "description": "Nelphl's abandoned Oneride; translucent trees; inter-regional perspective",
-      "image_potential": "high",
-      "images_extracted": ["bible-001"]
-    },
-    {
-      "id": "capital-004",
-      "path": "_source/ore-fragments/capital/006_the_senator_had_more_couriers.txt",
-      "region": "Capital",
-      "description": "Senator J and couriers; Traddler Boulevard bar; coded messages; four wooden blocks; references to Colonel and Dens expedition",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "capital-007",
-      "path": "_source/ore-fragments/capital/024_old_cap_women.txt",
-      "region": "Capital",
-      "description": "Character group; age/experience",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capital-008",
-      "path": "_source/ore-fragments/capital/049_little_porns_language.txt",
-      "region": "Capital",
-      "description": "Character Little Porn; language theme",
-      "image_potential": "medium",
-      "images_extracted": []
-    },
-    {
-      "id": "capital-009",
-      "path": "_source/ore-fragments/capital/052_little_porns_puzzle_book.txt",
-      "region": "Capital",
-      "description": "Little Porn; puzzle/object theme",
-      "image_potential": "high",
+      "key_moment": "Metal eagle falling into muck, head separating",
       "images_extracted": []
     },
     {
       "id": "deadriver-001",
       "path": "_source/ore-fragments/dead-river/002_dead_river_girl-snatcher.txt",
       "region": "Dead River",
-      "description": "Girl-snatcher character; pickbox carts; dark narrative",
+      "description": "Girl-snatcher in Miasto watching child; pickbox cart from Gunnr Forest; Yeller fivefold being",
       "image_potential": "high",
+      "key_moment": "Man watching girl on street corner in Miasto, cart waiting outside city",
       "images_extracted": []
     },
     {
       "id": "deadriver-002",
-      "path": "_source/ore-fragments/dead-river/005_dead_river_whores.txt",
+      "path": "_source/ore-fragments/dead-river/010_fishboy_and_duster_in_dead_river.txt",
       "region": "Dead River",
-      "description": "Transgressive character group",
-      "image_potential": "medium",
+      "description": "Fishboy emerging from river; barbed hands and feet with seven holes worn smooth",
+      "image_potential": "high",
+      "key_moment": "Fishboy pulling himself onto concrete in darkness, water running off barbed hands",
       "images_extracted": []
     },
     {
       "id": "deadriver-003",
       "path": "_source/ore-fragments/dead-river/014_gunt_part1.txt",
       "region": "Dead River",
-      "description": "Character Gunt; 321 lines",
+      "description": "Gunt before old man on woodpile; raising branch to strike",
       "image_potential": "high",
+      "key_moment": "Gunt standing before old man, raising branch, moment before wrench thrown back",
       "images_extracted": []
     },
     {
       "id": "deadriver-004",
       "path": "_source/ore-fragments/dead-river/015_gunt_part2.txt",
       "region": "Dead River",
-      "description": "Gunt continuation; 324 lines",
+      "description": "Gunt continuation; rusted tub behind shed",
       "image_potential": "high",
+      "key_moment": "Rusted tub behind shed with Gunt preparing while woman watches from house",
       "images_extracted": []
     },
     {
@@ -612,135 +139,2502 @@
       "region": "Dead River",
       "description": "Gunt conclusion",
       "image_potential": "high",
+      "key_moment": "Conclusion of Gunt narrative arc",
       "images_extracted": []
     },
     {
       "id": "deadriver-006",
-      "path": "_source/ore-fragments/dead-river/010_fishboy_and_duster_in_dead_river.txt",
+      "path": "_source/ore-fragments/dead-river/004_the_boss_in_dead_river.txt",
       "region": "Dead River",
-      "description": "Characters Fishboy and Duster",
+      "description": "Boss and fivefold Yeller arriving in first winter days; five women, one old and tough",
       "image_potential": "high",
+      "key_moment": "Five women riding into Dead River in cold, one old and tough",
       "images_extracted": []
     },
     {
       "id": "deadriver-007",
-      "path": "_source/ore-fragments/dead-river/018_to_purge_this_land_with_blood.txt",
+      "path": "_source/ore-fragments/dead-river/008_fishboy_in_dead_river.txt",
       "region": "Dead River",
-      "description": "Dark title; violent imagery",
+      "description": "Scaly creature diving in river; dredging cables; addicted to mixfix; eyes below fountain surface",
       "image_potential": "high",
+      "key_moment": "Fishboy in Densmok fountain with eyes just below surface",
       "images_extracted": []
     },
     {
       "id": "deadriver-008",
-      "path": "_source/ore-fragments/dead-river/013_rantil_specula_coffee_meeting.txt",
+      "path": "_source/ore-fragments/dead-river/042_the_town_of_dead_river_had_nor_river_nor_whores.txt",
       "region": "Dead River",
-      "description": "Named characters; meeting scenario",
-      "image_potential": "medium",
+      "description": "Cole Sawyer Stump and cousin Linnie; winter caves; hermit's cache",
+      "image_potential": "high",
+      "key_moment": "Cole and Linnie in winter survival arc through caves",
       "images_extracted": []
     },
     {
       "id": "deadriver-009",
-      "path": "_source/ore-fragments/dead-river/034_ria.txt",
+      "path": "_source/ore-fragments/dead-river/003_yeller_in_dead_river.txt",
       "region": "Dead River",
-      "description": "Character Ria; standalone narrative",
+      "description": "Yeller passing clay canister of fire among travelers",
       "image_potential": "medium",
+      "key_moment": "Fire canister ritual passed among travelers",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-010",
+      "path": "_source/ore-fragments/dead-river/007_an_old_man_lived_with_a_fish.txt",
+      "region": "Dead River",
+      "description": "Old man living with fish by night, fishing by day",
+      "image_potential": "medium",
+      "key_moment": "Old man's dual life with fish",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-001",
+      "path": "_source/ore-fragments/capital/006_the_senator_had_more_couriers.txt",
+      "region": "Capital",
+      "description": "Senator J obsessing over wooden blocks; couriers watching; bizarre trio walking in unison",
+      "image_potential": "high",
+      "key_moment": "Senator at window with wooden blocks, trio chanting 'Sizers, wizers, minimizers'",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-002",
+      "path": "_source/ore-fragments/capital/002_the_minor_archivist.txt",
+      "region": "Capital",
+      "description": "Archivist waiting at window with round hole a third the size of his head",
+      "image_potential": "high",
+      "key_moment": "Stark institutional geometry, archivist at window",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-003",
+      "path": "_source/ore-fragments/capital/008_yeller_birds_in_the_capital.txt",
+      "region": "Capital",
+      "description": "Puncho carrying cage in alley; Maya's face in door; yeller bird in stone vase; half-sized mirrored house",
+      "image_potential": "high",
+      "key_moment": "Multiple: Maya's face appearing in half-open door, or yeller bird poking head in/out of vase",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-004",
+      "path": "_source/ore-fragments/capital/021_a_closer_look_at_dens_from_the_cap.txt",
+      "region": "Capital",
+      "description": "Nelphl's abandoned Oneride; translucent trees; inter-regional perspective",
+      "image_potential": "high",
+      "key_moment": "Abandoned Oneride flying craft among translucent trees",
+      "images_extracted": [
+        "bible-001"
+      ]
+    },
+    {
+      "id": "capital-005",
+      "path": "_source/ore-fragments/capital/005_archivists_outside_the_capital.txt",
+      "region": "Capital",
+      "description": "Archivist trapping yeller fives in shallow grit swales",
+      "image_potential": "medium",
+      "key_moment": "Trapping yellers in landscape swales",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-006",
+      "path": "_source/ore-fragments/capital/013_the_siege_of_mirado_did_not_begin_in_mirado.txt",
+      "region": "Capital",
+      "description": "Colonel's backstory; siege preparation",
+      "image_potential": "medium",
+      "key_moment": "Siege preparation narrative",
       "images_extracted": []
     },
     {
       "id": "yeller-001",
       "path": "_source/ore-fragments/yeller-quarry/005_yeller_and_the_fivefold_stroke_part1.txt",
       "region": "Yeller Quarry",
-      "description": "Yeller entity; expedition crew (Gull, Truck, Black Yeller, White Yeller); cave entrance; 385 lines",
+      "description": "Expedition crew at cave entrance; Gull, Truck, Black Yeller, White Yeller; fire-stories about witches",
       "image_potential": "high",
+      "key_moment": "Men bedded near cave dreaming of desiccate walkers carrying spells",
       "images_extracted": []
     },
     {
       "id": "yeller-002",
       "path": "_source/ore-fragments/yeller-quarry/006_yeller_and_the_fivefold_stroke_part2.txt",
       "region": "Yeller Quarry",
-      "description": "Expedition continuation; 339 lines",
+      "description": "Bartender opening bag of severed heads; Black Yeller drawing blade; execution sequence",
       "image_potential": "high",
+      "key_moment": "Black Yeller's execution ritual - blade drawn repeatedly, boss's head dropped, blood pouring",
       "images_extracted": []
     },
     {
       "id": "yeller-003",
-      "path": "_source/ore-fragments/yeller-quarry/031_the_border_of_northtown_and_yeller_quarry_part1.txt",
+      "path": "_source/ore-fragments/yeller-quarry/007_yeller_and_the_fivefold_stroke_part3.txt",
       "region": "Yeller Quarry",
-      "description": "Regional boundary narrative; 319 lines",
+      "description": "Boss at cave mouth with maze-braided red hair; three men exploding from dark covered in blood-mud",
       "image_potential": "high",
+      "key_moment": "Three men bursting from cave darkness covered in viscous blood-mud sheath",
       "images_extracted": []
     },
     {
       "id": "yeller-004",
-      "path": "_source/ore-fragments/yeller-quarry/033_the_border_of_northtown_and_yeller_quarry_part3.txt",
+      "path": "_source/ore-fragments/yeller-quarry/031_the_border_of_northtown_and_yeller_quarry_part1.txt",
       "region": "Yeller Quarry",
-      "description": "Border continuation; 320 lines",
+      "description": "Regional boundary; Grit's binary naturalist discipline; eye-observation ritual",
       "image_potential": "high",
+      "key_moment": "Grit's mirror ritual - both eyes shut, alternating, assigning binary values",
       "images_extracted": []
     },
     {
       "id": "yeller-005",
-      "path": "_source/ore-fragments/yeller-quarry/035_the_border_of_northtown_and_yeller_quarry_part5.txt",
+      "path": "_source/ore-fragments/yeller-quarry/033_the_border_of_northtown_and_yeller_quarry_part3.txt",
       "region": "Yeller Quarry",
-      "description": "Border imagery; 320 lines",
+      "description": "Border continuation",
       "image_potential": "medium",
+      "key_moment": "Border imagery continuation",
       "images_extracted": []
     },
     {
       "id": "yeller-006",
-      "path": "_source/ore-fragments/yeller-quarry/037_the_border_of_northtown_and_yeller_quarry_part7.txt",
+      "path": "_source/ore-fragments/yeller-quarry/002_grigsu_and_yasho.txt",
       "region": "Yeller Quarry",
-      "description": "Border continuation; 319 lines",
-      "image_potential": "medium",
+      "description": "Grigsu appearing from smoke in archival rooms; five women on road raising hand to curse",
+      "image_potential": "high",
+      "key_moment": "Bagbu encountering five women on road - they turn, look long, raise hand to curse, vanish",
       "images_extracted": []
     },
     {
       "id": "yeller-007",
-      "path": "_source/ore-fragments/yeller-quarry/038_the_border_of_northtown_and_yeller_quarry_part8.txt",
+      "path": "_source/ore-fragments/yeller-quarry/003_three_of_the_five_were_dark.txt",
       "region": "Yeller Quarry",
-      "description": "Border conclusion; 319 lines",
+      "description": "Five gathered eating; three dark-skinned, two light; transition into twilight",
       "image_potential": "medium",
+      "key_moment": "Five women eating together, staggered colors enacting twilight transition",
       "images_extracted": []
     },
     {
-      "id": "northo2-001",
+      "id": "densmok-001",
+      "path": "_source/ore-fragments/densmok/023_the_girl_in_the_densmok_basement.txt",
+      "region": "Densmok",
+      "description": "Woman, girl, man in basement; water obsession and drought fear",
+      "image_potential": "medium",
+      "key_moment": "Basement confinement scene with questions about going/coming",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-002",
+      "path": "_source/ore-fragments/densmok/004_the_mapmaker_who_wasnt_a_preacher.txt",
+      "region": "Densmok",
+      "description": "Colonel beneath giant pipe-stilts; Lieutenant's body recovered; siege camp at dusk",
+      "image_potential": "high",
+      "key_moment": "Colonel putting ear to pipe, hearing water rumbling through city above",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-003",
+      "path": "_source/ore-fragments/densmok/007_after_the_war_the_mapmaker.txt",
+      "region": "Densmok",
+      "description": "Mapmaker in muddy gutter; hairless woman stooping over; Truck pulling contract",
+      "image_potential": "high",
+      "key_moment": "Mapmaker slumped in gutter, woman with no hair stooping over him",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-004",
+      "path": "_source/ore-fragments/densmok/008_the_mapmakers_contest.txt",
+      "region": "Densmok",
+      "description": "Five women emerging from shack with white braided hair; preacher entering gray interior",
+      "image_potential": "high",
+      "key_moment": "Five tall women emerging one-by-one from shack, all with white braided hair",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-005",
+      "path": "_source/ore-fragments/densmok/009_stoning_the_mapmaker.txt",
+      "region": "Densmok",
+      "description": "Shoe striking mapmaker mid-speech; girl with black hair climbing through window",
+      "image_potential": "high",
+      "key_moment": "Girl with black hair and lips like night climbing through window to mapmaker",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-006",
+      "path": "_source/ore-fragments/densmok/011_civilizing_the_dens.txt",
+      "region": "Densmok",
+      "description": "Pehr asleep mid-work holding shovel; woman watching Truck consult men in black",
+      "image_potential": "high",
+      "key_moment": "Pehr asleep still holding shovel propped by handle",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-007",
+      "path": "_source/ore-fragments/densmok/010_a_story_of_ruin.txt",
+      "region": "Densmok",
+      "description": "Shaved-head woman at campfire negotiating; five identical young people speaking in loops",
+      "image_potential": "medium",
+      "key_moment": "Five identical people speaking in endless loops following man through mud",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-008",
+      "path": "_source/ore-fragments/densmok/012_piles_of_maps_instead_of_holy_living.txt",
+      "region": "Densmok",
+      "description": "Preacher staked in town square with maps; innkeeper's wife seeing girl climb down",
+      "image_potential": "medium",
+      "key_moment": "Preacher staked with maps unfolded before him instead of holy books",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-001",
+      "path": "_source/ore-fragments/tower-of-mirado/019_dead_river_hausa_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Kano on Mississippi with ten Hausa men and drums; returning with strange cabinetry and scarred woman",
+      "image_potential": "high",
+      "key_moment": "Kano returning in boat filled with strange cabinetry and ugly white woman with scars",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-002",
+      "path": "_source/ore-fragments/tower-of-mirado/025_the_garden_of_perfect_memory.txt",
+      "region": "Tower of Mirado",
+      "description": "Old man with two-pronged beard and four hands offering miniature scroll in tower garden",
+      "image_potential": "high",
+      "key_moment": "Four-handed figure with two-pronged beard offering scroll to young visitor in ruined wing",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-003",
+      "path": "_source/ore-fragments/tower-of-mirado/066_some_puzzle_poems_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Visual puzzle descriptions",
+      "image_potential": "high",
+      "key_moment": "Puzzle imagery and riddles",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-004",
+      "path": "_source/ore-fragments/tower-of-mirado/051_big_old_memorizing_theoretical_journal_thing_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Character study with memory theory",
+      "image_potential": "medium",
+      "key_moment": "Theoretical but with character moments",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-005",
+      "path": "_source/ore-fragments/tower-of-mirado/014_mapping_the_interior.txt",
+      "region": "Tower of Mirado",
+      "description": "Prophet-wanderer in 40-year desert; fire and vision",
+      "image_potential": "high",
+      "key_moment": "Old man in wilderness, 40-year journey behind, describing fire 'the Lord never fashioned'",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-001",
+      "path": "_source/ore-fragments/mirado-sticks/031_barb_and_anne_and_jack_and_robert_part1.txt",
+      "region": "Mirado Sticks",
+      "description": "Jack at kitchen window; Robert descending; mutual shock through glass",
+      "image_potential": "high",
+      "key_moment": "Jack creeping along house, peering through window, spotted by Robert",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-002",
+      "path": "_source/ore-fragments/mirado-sticks/046_queenmater_in_mirado_sticks.txt",
+      "region": "Mirado Sticks",
+      "description": "Allie May chess master; trance-walk pacing; Queenmater's challenge",
+      "image_potential": "high",
+      "key_moment": "Allie pacing corner-to-corner while reading Queenmater's message, husband's breath interrupting",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-001",
+      "path": "_source/ore-fragments/northo/050_xyly_and_quonxy.txt",
+      "region": "Northo",
+      "description": "Quonxy's presence causing physical response; hands/feet/eyelids growing heavy",
+      "image_potential": "high",
+      "key_moment": "Spiritual weight manifesting as visible bodily change - heaviness spreading",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-001",
+      "path": "_source/ore-fragments/north-town/016_two_breakfasts_part3.txt",
+      "region": "North Town",
+      "description": "Domestic narrative; substantial development",
+      "image_potential": "high",
+      "key_moment": "Breakfast scene with character tension",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-002",
+      "path": "_source/ore-fragments/north-town/014_two_breakfasts_part1.txt",
+      "region": "North Town",
+      "description": "Opening of breakfast narrative",
+      "image_potential": "high",
+      "key_moment": "First breakfast scene setup",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-011",
+      "path": "_source/ore-fragments/dens/003_every_true_journey_begins_in_yeller_quarry_it.txt",
+      "region": "Dens",
+      "description": "Journey narrative beginning in Yeller Quarry",
+      "image_potential": "medium",
+      "key_moment": "Journey opening scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-012",
+      "path": "_source/ore-fragments/dens/007_dance_steps_and_hand_signs.txt",
+      "region": "Dens",
+      "description": "Physical movement and ritual description",
+      "image_potential": "medium",
+      "key_moment": "Dance ritual movements",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-013",
+      "path": "_source/ore-fragments/dens/012_the_man_who_buried_his_daughter_in_dens.txt",
+      "region": "Dens",
+      "description": "Father carrying daughter through mist to Dens edge; grief narrative",
+      "image_potential": "high",
+      "key_moment": "Father carrying daughter through mist to burial at Dens edge",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-014",
+      "path": "_source/ore-fragments/dens/024_yeller_and_dens.txt",
+      "region": "Dens",
+      "description": "Yeller character interaction with Dens landscape",
+      "image_potential": "medium",
+      "key_moment": "Yeller in Dens terrain",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-015",
+      "path": "_source/ore-fragments/dens/058_song_of_the_rock-finned_eel.txt",
+      "region": "Dens",
+      "description": "Song/poetry about rock-finned eel creature",
+      "image_potential": "medium",
+      "key_moment": "Eel creature imagery",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-016",
+      "path": "_source/ore-fragments/dens/061_duster_and_quonxy_on_the_dens_moors.txt",
+      "region": "Dens",
+      "description": "Lyric poetry; oak dwarf, granite wren, molten rings, fossils",
+      "image_potential": "medium",
+      "key_moment": "Abstract but visually evocative moors imagery",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-011",
+      "path": "_source/ore-fragments/dead-river/006_the_funeral_of_fullman_grist.txt",
+      "region": "Dead River",
+      "description": "Lord Fullman Grist before paintings creating verbal maps",
+      "image_potential": "medium",
+      "key_moment": "Funeral ceremony scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-012",
+      "path": "_source/ore-fragments/dead-river/005_dead_river_whores.txt",
+      "region": "Dead River",
+      "description": "Transgressive character group in Dead River",
+      "image_potential": "medium",
+      "key_moment": "Character group scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-013",
+      "path": "_source/ore-fragments/dead-river/013_rantil_specula_coffee_meeting.txt",
+      "region": "Dead River",
+      "description": "Named characters meeting over coffee",
+      "image_potential": "medium",
+      "key_moment": "Coffee meeting scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-007",
+      "path": "_source/ore-fragments/capital/004_oldest_theory_about_the_dens.txt",
+      "region": "Capital",
+      "description": "Theoretical discourse on Dens origins",
+      "image_potential": "low",
+      "key_moment": "Scholarly discussion",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-008",
+      "path": "_source/ore-fragments/capital/049_little_porns_language.txt",
+      "region": "Capital",
+      "description": "Little Porn character; language creation theme",
+      "image_potential": "medium",
+      "key_moment": "Language creation scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-009",
+      "path": "_source/ore-fragments/capital/052_little_porns_puzzle_book.txt",
+      "region": "Capital",
+      "description": "Little Porn with puzzle/object",
+      "image_potential": "high",
+      "key_moment": "Puzzle book interaction",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-010",
+      "path": "_source/ore-fragments/capital/038_cap_tax_on_reminders.txt",
+      "region": "Capital",
+      "description": "Abstract concept made concrete; tax system",
+      "image_potential": "medium",
+      "key_moment": "Tax/reminder system imagery",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-008",
+      "path": "_source/ore-fragments/yeller-quarry/035_the_border_of_northtown_and_yeller_quarry_part5.txt",
+      "region": "Yeller Quarry",
+      "description": "Border imagery continuation",
+      "image_potential": "medium",
+      "key_moment": "Border landscape",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-009",
+      "path": "_source/ore-fragments/yeller-quarry/037_the_border_of_northtown_and_yeller_quarry_part7.txt",
+      "region": "Yeller Quarry",
+      "description": "Border continuation",
+      "image_potential": "medium",
+      "key_moment": "Continued border narrative",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-010",
+      "path": "_source/ore-fragments/yeller-quarry/038_the_border_of_northtown_and_yeller_quarry_part8.txt",
+      "region": "Yeller Quarry",
+      "description": "Border conclusion",
+      "image_potential": "medium",
+      "key_moment": "Border narrative resolution",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-011",
+      "path": "_source/ore-fragments/yeller-quarry/008_only_to_have_it_wind_down_again.txt",
+      "region": "Yeller Quarry",
+      "description": "Yeller observing clockmaker; house on dens that doesn't disappear",
+      "image_potential": "medium",
+      "key_moment": "Simple house standing straight while everything sinks",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-009",
+      "path": "_source/ore-fragments/densmok/067_what_god_gave_me_in_densmok_part1.txt",
+      "region": "Densmok",
+      "description": "Father spreading daughter's fingers comparing to crabs, birds, cats",
+      "image_potential": "medium",
+      "key_moment": "Hands comparison moment - tools inherited from creation",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-010",
+      "path": "_source/ore-fragments/densmok/034_the_wind_that_middleman.txt",
+      "region": "Densmok",
+      "description": "Personified element; wind as character",
+      "image_potential": "medium",
+      "key_moment": "Wind characterization scene",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-011",
+      "path": "_source/ore-fragments/densmok/082_stellas_space_part1.txt",
+      "region": "Densmok",
+      "description": "Character named Stella",
+      "image_potential": "medium",
+      "key_moment": "Stella introduction scene",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-012",
+      "path": "_source/ore-fragments/densmok/083_stellas_space_part2.txt",
+      "region": "Densmok",
+      "description": "Stella continuation",
+      "image_potential": "medium",
+      "key_moment": "Stella narrative development",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-013",
+      "path": "_source/ore-fragments/densmok/025_a_world_without_tempters_part1.txt",
+      "region": "Densmok",
+      "description": "Conceptual narrative; temptation theme",
+      "image_potential": "medium",
+      "key_moment": "Tempter-free world concept",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-014",
+      "path": "_source/ore-fragments/densmok/092_alea_hatford_part1.txt",
+      "region": "Densmok",
+      "description": "Character Alea Hatford",
+      "image_potential": "medium",
+      "key_moment": "Alea Hatford introduction",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-015",
+      "path": "_source/ore-fragments/densmok/093_alea_hatford_part2.txt",
+      "region": "Densmok",
+      "description": "Alea Hatford continuation",
+      "image_potential": "medium",
+      "key_moment": "Alea narrative development",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-016",
+      "path": "_source/ore-fragments/densmok/071_decision_books.txt",
+      "region": "Densmok",
+      "description": "Decision-making narrative",
+      "image_potential": "medium",
+      "key_moment": "Decision book concept",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-006",
+      "path": "_source/ore-fragments/tower-of-mirado/031_archons_and_scholars.txt",
+      "region": "Tower of Mirado",
+      "description": "Character group in scholarly setting",
+      "image_potential": "medium",
+      "key_moment": "Archon-scholar interaction",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-003",
+      "path": "_source/ore-fragments/tower-of-mirado-2/011_the_diary_of_all_puzzles_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Opening of puzzle narrative",
+      "image_potential": "high",
+      "key_moment": "Puzzle diary opening",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-004",
+      "path": "_source/ore-fragments/tower-of-mirado-2/027_one_for_the_road_two_for_the_toad_nobody_knows_part2.txt",
+      "region": "Tower of Mirado",
+      "description": "Unusual road/toad imagery",
+      "image_potential": "medium",
+      "key_moment": "Road and toad symbolism",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-003",
+      "path": "_source/ore-fragments/mirado-sticks/068_spindly_bugeta_in_mirado_sticks.txt",
+      "region": "Mirado Sticks",
+      "description": "Character Bugeta with physical description",
+      "image_potential": "medium",
+      "key_moment": "Spindly Bugeta characterization",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-004",
+      "path": "_source/ore-fragments/mirado-sticks/034_cars_on_an_icy_road.txt",
+      "region": "Mirado Sticks",
+      "description": "Environmental scenario on ice",
+      "image_potential": "medium",
+      "key_moment": "Icy road tension",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-002",
+      "path": "_source/ore-fragments/northo-2/008_giving_up_his_addiction_in_northo.txt",
+      "region": "Northo",
+      "description": "Addiction recovery theme in Northo setting",
+      "image_potential": "high",
+      "key_moment": "Recovery narrative scene",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-003",
+      "path": "_source/ore-fragments/northo-2/013_spiritual_hawk_table_setting.txt",
+      "region": "Northo",
+      "description": "Spiritual and domestic imagery combined",
+      "image_potential": "high",
+      "key_moment": "Hawk and table setting symbolism",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-004",
+      "path": "_source/ore-fragments/northo-2/011_the_more_pressing_problem.txt",
+      "region": "Northo",
+      "description": "Philosophical/practical tension",
+      "image_potential": "medium",
+      "key_moment": "Problem-solving scene",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-005",
       "path": "_source/ore-fragments/northo-2/001_untitled_part1.txt",
       "region": "Northo",
       "description": "Opening narrative",
       "image_potential": "medium",
+      "key_moment": "Narrative opening",
       "images_extracted": []
     },
     {
-      "id": "northo2-002",
+      "id": "northo-006",
       "path": "_source/ore-fragments/northo-2/003_untitled_part3.txt",
       "region": "Northo",
       "description": "Narrative development",
       "image_potential": "medium",
+      "key_moment": "Continued story",
       "images_extracted": []
     },
     {
-      "id": "northo2-003",
-      "path": "_source/ore-fragments/northo-2/008_giving_up_his_addiction_in_northo.txt",
-      "region": "Northo",
-      "description": "Addiction recovery theme",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northo2-004",
-      "path": "_source/ore-fragments/northo-2/013_spiritual_hawk_table_setting.txt",
-      "region": "Northo",
-      "description": "Spiritual + domestic imagery",
-      "image_potential": "high",
-      "images_extracted": []
-    },
-    {
-      "id": "northo2-005",
-      "path": "_source/ore-fragments/northo-2/011_the_more_pressing_problem.txt",
-      "region": "Northo",
-      "description": "Philosophical/practical title",
+      "id": "northtown-003",
+      "path": "_source/ore-fragments/north-town/030_his_sternum_part1.txt",
+      "region": "North Town",
+      "description": "Body-focused narrative",
       "image_potential": "medium",
+      "key_moment": "Physical/anatomical focus",
       "images_extracted": []
+    },
+    {
+      "id": "northtown-004",
+      "path": "_source/ore-fragments/north-town/031_his_sternum_part2.txt",
+      "region": "North Town",
+      "description": "Body narrative continuation",
+      "image_potential": "medium",
+      "key_moment": "Continued physical focus",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-005",
+      "path": "_source/ore-fragments/north-town/022_moss_at_the_door.txt",
+      "region": "North Town",
+      "description": "Character Moss at threshold",
+      "image_potential": "medium",
+      "key_moment": "Moss at doorway scene",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-006",
+      "path": "_source/ore-fragments/north-town/020_moss_didnt_care_but_his_ex-wife_would.txt",
+      "region": "North Town",
+      "description": "Moss character with relationship dynamic",
+      "image_potential": "medium",
+      "key_moment": "Ex-wife tension scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-011",
+      "path": "_source/ore-fragments/capital/014_capital_traveler.txt",
+      "region": "Capital",
+      "description": "Traveler in Capital city",
+      "image_potential": "medium",
+      "key_moment": "Traveler scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-012",
+      "path": "_source/ore-fragments/capital/018_wrickly_and_gogit.txt",
+      "region": "Capital",
+      "description": "Gogit swallowed by expanding plug in dry riverbed; dramatic",
+      "image_potential": "high",
+      "key_moment": "Gogit being swallowed by plug while Wrickly watches frozen on bank",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-013",
+      "path": "_source/ore-fragments/capital/020_archive_lecturer.txt",
+      "region": "Capital",
+      "description": "Archive lecturer exhausted; mysterious woman with silver eyes",
+      "image_potential": "medium",
+      "key_moment": "Woman with silver eyes approaching at dusk",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-014",
+      "path": "_source/ore-fragments/capital/033_nickels_and_puckerbutt_slumming_in_densmok.txt",
+      "region": "Capital",
+      "description": "Characters Nickels and Puckerbutt visiting Densmok",
+      "image_potential": "medium",
+      "key_moment": "Cross-regional visit scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-015",
+      "path": "_source/ore-fragments/capital/035_winter_in_the_cap.txt",
+      "region": "Capital",
+      "description": "Winter setting in Capital",
+      "image_potential": "medium",
+      "key_moment": "Winter Capital scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-016",
+      "path": "_source/ore-fragments/capital/036_walking_in_the_cap.txt",
+      "region": "Capital",
+      "description": "Walking through Capital streets",
+      "image_potential": "medium",
+      "key_moment": "Capital street scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-014",
+      "path": "_source/ore-fragments/dead-river/017_hard_luck_in_dead_river.txt",
+      "region": "Dead River",
+      "description": "Hard luck narrative in Dead River",
+      "image_potential": "medium",
+      "key_moment": "Hard luck scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-015",
+      "path": "_source/ore-fragments/dead-river/022_east_of_dead_river.txt",
+      "region": "Dead River",
+      "description": "Eastern Dead River landscape",
+      "image_potential": "medium",
+      "key_moment": "Eastern geography",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-016",
+      "path": "_source/ore-fragments/dead-river/024_dead_river_limits.txt",
+      "region": "Dead River",
+      "description": "Boundary/limit exploration",
+      "image_potential": "medium",
+      "key_moment": "River limits scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-017",
+      "path": "_source/ore-fragments/dens/014_hungry_for_portents.txt",
+      "region": "Dens",
+      "description": "Portent-seeking narrative",
+      "image_potential": "medium",
+      "key_moment": "Portent discovery",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-018",
+      "path": "_source/ore-fragments/dens/016_reckoning_up_the_days_advances.txt",
+      "region": "Dens",
+      "description": "Daily accounting narrative",
+      "image_potential": "medium",
+      "key_moment": "Reckoning scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-019",
+      "path": "_source/ore-fragments/dens/018_secrets_of_the_denstower_gearboxes.txt",
+      "region": "Dens",
+      "description": "Gearbox machinery and lookout secrecy",
+      "image_potential": "medium",
+      "key_moment": "Gearbox machinery detail",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-020",
+      "path": "_source/ore-fragments/dens/026_ground_to_walk_on.txt",
+      "region": "Dens",
+      "description": "Ground/terrain narrative",
+      "image_potential": "medium",
+      "key_moment": "Walking on Dens ground",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-021",
+      "path": "_source/ore-fragments/dens/027_the_roots_of_fire_are_made_of_fire.txt",
+      "region": "Dens",
+      "description": "Fire imagery and philosophy",
+      "image_potential": "medium",
+      "key_moment": "Fire roots concept",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-022",
+      "path": "_source/ore-fragments/dens/030_he_laughs_like_a_fish.txt",
+      "region": "Dens",
+      "description": "Character with fish-like laughter",
+      "image_potential": "medium",
+      "key_moment": "Fish-laugh characterization",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-023",
+      "path": "_source/ore-fragments/dens/032_grizzled_gets_the_memo.txt",
+      "region": "Dens",
+      "description": "Character Grizzled receiving information",
+      "image_potential": "medium",
+      "key_moment": "Memo delivery scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-024",
+      "path": "_source/ore-fragments/dens/033_meter_readers_in_dens.txt",
+      "region": "Dens",
+      "description": "Meter readers working in Dens",
+      "image_potential": "medium",
+      "key_moment": "Meter reading scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-025",
+      "path": "_source/ore-fragments/dens/035_the_hawk_seller_tells_me_about_spedometers.txt",
+      "region": "Dens",
+      "description": "Hawk seller character explaining instruments",
+      "image_potential": "medium",
+      "key_moment": "Hawk seller explanation",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-026",
+      "path": "_source/ore-fragments/dens/037_jaclyn_digging.txt",
+      "region": "Dens",
+      "description": "Character Jaclyn excavating",
+      "image_potential": "medium",
+      "key_moment": "Digging scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-027",
+      "path": "_source/ore-fragments/dens/041_rudge_holvin.txt",
+      "region": "Dens",
+      "description": "Character Rudge Holvin",
+      "image_potential": "medium",
+      "key_moment": "Rudge Holvin scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-028",
+      "path": "_source/ore-fragments/dens/042_under_moss_grow_thoughts_prepared_for_light.txt",
+      "region": "Dens",
+      "description": "Moss and thought imagery",
+      "image_potential": "medium",
+      "key_moment": "Moss-thought metaphor scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-029",
+      "path": "_source/ore-fragments/dens/043_a_person_on_the_move.txt",
+      "region": "Dens",
+      "description": "Movement narrative",
+      "image_potential": "medium",
+      "key_moment": "Person moving through Dens",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-030",
+      "path": "_source/ore-fragments/dens/044_how_the_world_saved_my_life.txt",
+      "region": "Dens",
+      "description": "Salvation narrative in Dens context",
+      "image_potential": "medium",
+      "key_moment": "Life-saving moment",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-031",
+      "path": "_source/ore-fragments/dens/046_seven_shoes.txt",
+      "region": "Dens",
+      "description": "Seven shoes imagery",
+      "image_potential": "medium",
+      "key_moment": "Seven shoes scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-032",
+      "path": "_source/ore-fragments/dens/057_it_looked_like_it_would_rain.txt",
+      "region": "Dens",
+      "description": "Rain approaching in Dens",
+      "image_potential": "medium",
+      "key_moment": "Impending rain scene",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-033",
+      "path": "_source/ore-fragments/dens/060_a_patient_worm_will_wake.txt",
+      "region": "Dens",
+      "description": "Worm creature awakening",
+      "image_potential": "medium",
+      "key_moment": "Worm waking scene",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-012",
+      "path": "_source/ore-fragments/yeller-quarry/010_the_first_prophets_slept_at_night_and_took_what_came.txt",
+      "region": "Yeller Quarry",
+      "description": "Prophet narrative; vision theme",
+      "image_potential": "medium",
+      "key_moment": "Prophet sleeping scene",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-017",
+      "path": "_source/ore-fragments/densmok/005_the_cagemaker.txt",
+      "region": "Densmok",
+      "description": "Craftsperson making cages",
+      "image_potential": "high",
+      "key_moment": "Cage construction scene",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-018",
+      "path": "_source/ore-fragments/densmok/006_blightfinger.txt",
+      "region": "Densmok",
+      "description": "Character with blighted finger",
+      "image_potential": "medium",
+      "key_moment": "Blightfinger characterization",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-017",
+      "path": "_source/ore-fragments/capital/010_capital_bad_luck.txt",
+      "region": "Capital",
+      "description": "Bad luck in Capital",
+      "image_potential": "medium",
+      "key_moment": "Bad luck scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-018",
+      "path": "_source/ore-fragments/capital/011_densworld_eulogy.txt",
+      "region": "Capital",
+      "description": "Eulogy in Densworld context",
+      "image_potential": "medium",
+      "key_moment": "Eulogy scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-019",
+      "path": "_source/ore-fragments/capital/012_trying_everything_in_the_cap.txt",
+      "region": "Capital",
+      "description": "Trying various approaches in Capital",
+      "image_potential": "medium",
+      "key_moment": "Experimentation scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-020",
+      "path": "_source/ore-fragments/capital/022_a_child_with_connotations.txt",
+      "region": "Capital",
+      "description": "Child character with deeper meaning",
+      "image_potential": "medium",
+      "key_moment": "Child scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-021",
+      "path": "_source/ore-fragments/capital/023_keras_clunch.txt",
+      "region": "Capital",
+      "description": "Kera character with clunch",
+      "image_potential": "medium",
+      "key_moment": "Kera clunch scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-022",
+      "path": "_source/ore-fragments/capital/025_cap_stalker.txt",
+      "region": "Capital",
+      "description": "Stalker narrative in Capital",
+      "image_potential": "medium",
+      "key_moment": "Stalking scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-023",
+      "path": "_source/ore-fragments/capital/026_no_way_through_the_cap.txt",
+      "region": "Capital",
+      "description": "Blocked passage in Capital",
+      "image_potential": "medium",
+      "key_moment": "Blocked path scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-024",
+      "path": "_source/ore-fragments/capital/027_what_is_it_gets_quarried_in_the_quarry.txt",
+      "region": "Capital",
+      "description": "Quarry extraction question",
+      "image_potential": "medium",
+      "key_moment": "Quarry scene",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-025",
+      "path": "_source/ore-fragments/capital/030_stell_hears_a_bird.txt",
+      "region": "Capital",
+      "description": "Character Stell hearing bird",
+      "image_potential": "medium",
+      "key_moment": "Bird hearing moment",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-026",
+      "path": "_source/ore-fragments/capital/040_topless_as_a_cap_aboretum.txt",
+      "region": "Capital",
+      "description": "Arboretum imagery",
+      "image_potential": "medium",
+      "key_moment": "Arboretum scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-017",
+      "path": "_source/ore-fragments/dead-river/009_dead_river_scavenge.txt",
+      "region": "Dead River",
+      "description": "Scavenging in Dead River",
+      "image_potential": "medium",
+      "key_moment": "Scavenging scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-018",
+      "path": "_source/ore-fragments/dead-river/011_molok_alien.txt",
+      "region": "Dead River",
+      "description": "Molok alien character",
+      "image_potential": "medium",
+      "key_moment": "Alien encounter",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-019",
+      "path": "_source/ore-fragments/dead-river/012_dead_river_login.txt",
+      "region": "Dead River",
+      "description": "Login/entry to Dead River",
+      "image_potential": "medium",
+      "key_moment": "Entry scene",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-020",
+      "path": "_source/ore-fragments/dead-river/043_dead_river_dens.txt",
+      "region": "Dead River",
+      "description": "Connection between Dead River and Dens",
+      "image_potential": "medium",
+      "key_moment": "Regional connection scene",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-007",
+      "path": "_source/ore-fragments/tower-of-mirado/017_abraham_lincoln_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Surreal hotel scene; Lincoln reimagined in Densworld",
+      "image_potential": "high",
+      "key_moment": "Surreal Lincoln scene",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-008",
+      "path": "_source/ore-fragments/tower-of-mirado/033_the_library_of_all_the_worlds_and_the_tower_of_broken_names.txt",
+      "region": "Tower of Mirado",
+      "description": "Library/archive imagery; Tower of Broken Names",
+      "image_potential": "high",
+      "key_moment": "Library in tower scene",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-005",
+      "path": "_source/ore-fragments/mirado-sticks/063_privacy_in_mirado_sticks_part1.txt",
+      "region": "Mirado Sticks",
+      "description": "Privacy theme narrative",
+      "image_potential": "medium",
+      "key_moment": "Privacy exploration",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-006",
+      "path": "_source/ore-fragments/mirado-sticks/064_privacy_in_mirado_sticks_part2.txt",
+      "region": "Mirado Sticks",
+      "description": "Privacy continuation",
+      "image_potential": "medium",
+      "key_moment": "Continued privacy theme",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-007",
+      "path": "_source/ore-fragments/mirado-sticks/065_privacy_in_mirado_sticks_part3.txt",
+      "region": "Mirado Sticks",
+      "description": "Privacy conclusion",
+      "image_potential": "medium",
+      "key_moment": "Privacy resolution",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-001",
+      "path": "_source/ore-fragments/capeast/002_it_couldnt_be_called_a_house.txt",
+      "region": "Capeast",
+      "description": "Eve in precarious room hanging over back of Capital; weaving wire through leather hinges",
+      "image_potential": "high",
+      "key_moment": "Woman with strong hands in room threatening to tear apart in wind, hanging over Capital edge",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-002",
+      "path": "_source/ore-fragments/capeast/003_festival_in_capeast.txt",
+      "region": "Capeast",
+      "description": "Morning after harvest festival; people sweeping overturned benches",
+      "image_potential": "medium",
+      "key_moment": "Mapmaker's women arriving at village amid festival cleanup",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-003",
+      "path": "_source/ore-fragments/capeast/004_bare_on_their_backs.txt",
+      "region": "Capeast",
+      "description": "Mapmaker's five women in shifting clothing patterns approaching settlements",
+      "image_potential": "high",
+      "key_moment": "Five women with one breast bare on one, bare circular patches on others' backs",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-004",
+      "path": "_source/ore-fragments/capeast/005_mice_in_the_outskirts.txt",
+      "region": "Capeast",
+      "description": "Hairless woman in leather hunting in Noos marsh with four paired women",
+      "image_potential": "high",
+      "key_moment": "Woman with no hair and four paired companions gathering bones in marshwood",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-005",
+      "path": "_source/ore-fragments/capeast/006_hoole_in_capeast.txt",
+      "region": "Capeast",
+      "description": "Hoole confused with paper directions; courier approaching with news about senator",
+      "image_potential": "medium",
+      "key_moment": "Hoole standing confused with jumbled directions when courier says 'Psssst'",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-006",
+      "path": "_source/ore-fragments/capeast/010_capeast_sachball_stare.txt",
+      "region": "Capeast",
+      "description": "The Zit and Duster making fistwise pact; snowballs, forts and fights",
+      "image_potential": "medium",
+      "key_moment": "Two characters in winter pact, ones and sevens in snow warfare",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-007",
+      "path": "_source/ore-fragments/capeast/011_mossmart_in_capeast.txt",
+      "region": "Capeast",
+      "description": "Four wanderers (Jar, Gudgiss, Terabyte, Moss) venturing from Capital into woods",
+      "image_potential": "medium",
+      "key_moment": "Branches taking up fires and branching them this way and that as four venture out",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-008",
+      "path": "_source/ore-fragments/capeast/018_back_of_quonxy_was_little_porn.txt",
+      "region": "Capeast",
+      "description": "Little Porn hunting bugs, writing in continuous notebook",
+      "image_potential": "medium",
+      "key_moment": "Little Porn collecting stories like old lady who lived under hill",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-009",
+      "path": "_source/ore-fragments/capeast/020_capeast_wind.txt",
+      "region": "Capeast",
+      "description": "Woman in last house of Capeast at edge heading east",
+      "image_potential": "medium",
+      "key_moment": "House built by Capeast wind at edge where you can only head east",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-001",
+      "path": "_source/ore-fragments/tower-of-mirado-2/019_in_a_lull_in_the_protests.txt",
+      "region": "Tower of Mirado",
+      "description": "Judge Kantor on angled bench in spiraling Mirado with granddaughter Grinalda",
+      "image_potential": "high",
+      "key_moment": "Judge on down-angling bench staring over parapet to housetops below, city with 70 pristine pools",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-vells-001",
+      "path": "_source/ore-fragments-generated/journey-accounts/001_vells_expedition_journal.txt",
+      "region": "Dens",
+      "description": "Archon Vells expedition diary; Dens as ash-colored skin; wet-boot dreams; five women at town edge",
+      "image_potential": "high",
+      "key_moment": "Waking with boots wet after dreaming of walking in graymuck, dawn light through tent",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-vells-002",
+      "path": "_source/ore-fragments-generated/journey-accounts/002_the_spatial_naturalists_notes.txt",
+      "region": "Dens",
+      "description": "Dendra Coss field notes; focal dot phenomenon; feet sticking to ground; two simultaneous horizons",
+      "image_potential": "high",
+      "key_moment": "Orange-red focal dot appearing in center of vision as feet sink slowly into ground",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-thurmond-001",
+      "path": "_source/ore-fragments-generated/naive-observer/001_letter_from_a_capital_surveyor.txt",
+      "region": "Denstone",
+      "description": "Thurmond Gast letters; survey markers sinking when unobserved; ground that knows when watched",
+      "image_potential": "high",
+      "key_moment": "Surveyor hearing sucking sound, looking down to find marker sunk while reading notebook",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-thurmond-002",
+      "path": "_source/ore-fragments-generated/naive-observer/002_thurmonds_second_report.txt",
+      "region": "Denstone",
+      "description": "Second report; markers in pack despite memory of placing them; Yeller in common room",
+      "image_potential": "high",
+      "key_moment": "Five women walking away together toward southern edge of town, synchronized steps",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-survey-001",
+      "path": "_source/ore-fragments-generated/boundary-studies/001_quarterly_survey_report_1847.txt",
+      "region": "Denstone",
+      "description": "Chief Surveyor Torvun Kell; sector breathing phenomenon; Yeller tract spatial confusion; marker subsidence",
+      "image_potential": "high",
+      "key_moment": "Surveyor Korrith unable to tell which direction is town, lost for 40 minutes in two sectors",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-smint-001",
+      "path": "_source/ore-fragments-generated/spatial-philosophy/003_smint_corpo_correspondence.txt",
+      "region": "Dens",
+      "description": "Dr. Smint Corpo letters; translucent trees; orange focal point; Nelphl's jump into crater",
+      "image_potential": "high",
+      "key_moment": "Woman standing at crater edge shouting at something invisible, then jumping in",
+      "images_extracted": []
+    },
+    {
+      "id": "generated-007",
+      "path": "_source/ore-fragments-generated/iterative-cartography/001_vells_journal_olt_creek.md",
+      "region": "Dens",
+      "description": "Carten Vells at Olt Creek drawing blind with eyes closed",
+      "image_potential": "medium",
+      "key_moment": "Drawing while feeling territory's pressure, letting it shift how he holds pencil",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-brent-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/005_brents_report_on_the_scavenger.txt",
+      "region": "Yeller Quarry",
+      "description": "Pollus Brent interviewing Old Gritts; shapes that sleep; reading forms in the dark",
+      "image_potential": "high",
+      "key_moment": "Old Gritts at edge of eastern tunnels with pale colorless eyes, collecting scraps",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-gatherers-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/synthetic-beings/fragments/003_the_gatherers.txt",
+      "region": "Dens",
+      "description": "Synthetic beings forming prime-numbered groups; unprogrammed behavior; gathering in fives",
+      "image_potential": "high",
+      "key_moment": "Synthetic creatures clustering into groups of three and five, refusing even numbers",
+      "images_extracted": []
+    },
+    {
+      "id": "generated-010",
+      "path": "_source/ore-fragments-generated/levin-aragon-synthesis/04-ghost-persistence/fragments/001_moll_investigation_of_ghosts.txt",
+      "region": "Capital",
+      "description": "Sareth Moll at Third Mill site 76 years after fire",
+      "image_potential": "high",
+      "key_moment": "Feeling ghost of rotation, weight pressing against resistance, space that remembers grinding",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-005",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/007_the_incident.txt",
+      "region": "Yeller Quarry",
+      "description": "Yeller speaking in the gorge; Ellin's death; burial at gorge mouth",
+      "image_potential": "high",
+      "key_moment": "Five mouths opening simultaneously, speaking words that vanish as they're heard",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-moll-001",
+      "path": "_source/ore-fragments-generated/mapping-practices/002_on_the_mapping_of_plural_beings.txt",
+      "region": "Denstone",
+      "description": "Esseny Moll's notes on mapping Yeller; the hub woman; four orbiting bodies; Moll's contradicting maps",
+      "image_potential": "high",
+      "key_moment": "Four women orbiting fifth, touching her hair, whispering in her ear, sniffing behind knees",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-019",
+      "path": "_source/ore-fragments/densmok/051_densmok_files_and_files_and_files_and_files.txt",
+      "region": "Densmok",
+      "description": "Woman at computer workspace cluttered with 'untitled' icons",
+      "image_potential": "high",
+      "key_moment": "Finally opening worthless file and naming it 'Delete' as one-time mark before closing",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-020",
+      "path": "_source/ore-fragments/densmok/053_klutch_cc_densmok.txt",
+      "region": "Densmok",
+      "description": "Students at old soldier fountain discussing Miss Kitchum who gives everyone A's",
+      "image_potential": "high",
+      "key_moment": "Gathering at soldier statue fountain, discussing math instructor who never reads assignments",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-021",
+      "path": "_source/ore-fragments/densmok/054_little_pops_math_cans.txt",
+      "region": "Densmok",
+      "description": "Little Pop at desk doing math about ladybugs and lions",
+      "image_potential": "high",
+      "key_moment": "Screaming in her head while Dad makes omelette in kitchen",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-022",
+      "path": "_source/ore-fragments/densmok/061_its_only_the_chill_of_lathering_winds.txt",
+      "region": "Densmok",
+      "description": "Man at public bathroom trying sensor faucets with soapy hands",
+      "image_potential": "high",
+      "key_moment": "Walking out with lathered hands, unable to rinse, searching for manager",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-023",
+      "path": "_source/ore-fragments/densmok/063_densmok_flower_shop.txt",
+      "region": "Densmok",
+      "description": "Nathan entering Upland Flower Shop; door bells ringing",
+      "image_potential": "high",
+      "key_moment": "Ribbons bringing owner to counter, balloons on right, fresh flowers on left",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-024",
+      "path": "_source/ore-fragments/densmok/064_he_wouldnt_he_never_had.txt",
+      "region": "Densmok",
+      "description": "Stephen at party leaning against hallway wall with Kelly",
+      "image_potential": "high",
+      "key_moment": "Painting between them showing his reflection as she reaches up to tickle his ear",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-025",
+      "path": "_source/ore-fragments/densmok/066_quonxy_in_the_basement.txt",
+      "region": "Densmok",
+      "description": "Quonxy with white hair moving into Haley's basement on hot July night",
+      "image_potential": "high",
+      "key_moment": "Middle-school aged but unchanging for three years, cicadas going, air like gauze",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-026",
+      "path": "_source/ore-fragments/densmok/076_each_one_could_be_something.txt",
+      "region": "Densmok",
+      "description": "Person in bathroom seeing floor tiles as desert game with creatures",
+      "image_potential": "high",
+      "key_moment": "Coming out to see all kitchen tiles as potential worlds",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-027",
+      "path": "_source/ore-fragments/densmok/080_we_havent_forgotten_about_language.txt",
+      "region": "Densmok",
+      "description": "Meg finding 3-inch aluminum cube with half-sphere indent while running",
+      "image_potential": "high",
+      "key_moment": "Pressing finger into indent creates blue line visible only with eyes closed",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-022",
+      "path": "_source/ore-fragments/dead-river/027_dead_river_cheat_codes.txt",
+      "region": "Dead River",
+      "description": "Handouts listing Seven Ways of Words with cheat codes for each region",
+      "image_potential": "medium",
+      "key_moment": "Paper circulating with codes for Yeller Quarry, North, Mirado Tower, Dens, Dead River, Capital",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-023",
+      "path": "_source/ore-fragments/dead-river/029_dead_river_addict_game.txt",
+      "region": "Dead River",
+      "description": "Gamer controls AI addict trying to become conscious",
+      "image_potential": "high",
+      "key_moment": "Player trying to lock behavior in ruts while AI seeks freedom",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-024",
+      "path": "_source/ore-fragments/dead-river/030_dead_river_game-changer.txt",
+      "region": "Dead River",
+      "description": "Vivian teaching about the ruler of this world who watches",
+      "image_potential": "high",
+      "key_moment": "Father of lies can't see into love - live in every world of love to hide",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-025",
+      "path": "_source/ore-fragments/dead-river/031_dead_river_cure.txt",
+      "region": "Dead River",
+      "description": "Video game with seven worlds that cures cravings",
+      "image_potential": "high",
+      "key_moment": "Millions of gamers emerging from desert of Mirado with calm awareness",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-026",
+      "path": "_source/ore-fragments/dead-river/033_dead_river_addiction_cheat-sheet.txt",
+      "region": "Dead River",
+      "description": "Queenmater transforms addiction research into game with seven worlds",
+      "image_potential": "high",
+      "key_moment": "Seven worlds mapping to seven addictions: Yeller/sex, Dead River/drugs, Dens/planning, Capital/buying",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-027",
+      "path": "_source/ore-fragments/dead-river/036_prologue_to_game_reviews.txt",
+      "region": "Dead River",
+      "description": "Person clicking through 3489 pages to find 'This is Dens'",
+      "image_potential": "high",
+      "key_moment": "Link reading 'This is what you want. This is Dens' after endless searching",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-028",
+      "path": "_source/ore-fragments/dead-river/039_densworld_gaming.txt",
+      "region": "Dead River",
+      "description": "Mewer laying kindling in mushy rows by hearth in little hut",
+      "image_potential": "medium",
+      "key_moment": "Week's work to dry kindling, remembering when fire went out once in five years",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-029",
+      "path": "_source/ore-fragments/dead-river/041_1.txt",
+      "region": "Dead River",
+      "description": "Man and woman run out of gas east of Dead River; she vanishes with money",
+      "image_potential": "high",
+      "key_moment": "Returns from town with gas to find barn empty, car gone, woman gone",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-009",
+      "path": "_source/ore-fragments/tower-of-mirado/038_tower_residential_guidelines.txt",
+      "region": "Tower of Mirado",
+      "description": "Tower resident at end of twenty years; longest running term vs two-week normal visit",
+      "image_potential": "medium",
+      "key_moment": "Resident standing at boundary between extended stay and impossible realm beyond money's reach",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-010",
+      "path": "_source/ore-fragments/tower-of-mirado/039_craving_with_your_eyes_closed.txt",
+      "region": "Tower of Mirado",
+      "description": "Rehab meeting in Cap-Tower-Mirado border place",
+      "image_potential": "high",
+      "key_moment": "Lady leading meeting asking about craving with eyes open versus closed",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-007",
+      "path": "_source/ore-fragments/north-town/044_north_river_bottom_green.txt",
+      "region": "North Town",
+      "description": "River bottom covered in moss-green-silver; river-fire color",
+      "image_potential": "high",
+      "key_moment": "Moss-green-silver on river rocks creating river-fire, known only to river-merchants",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-008",
+      "path": "_source/ore-fragments/north-town/045_a_dead_habit.txt",
+      "region": "North Town",
+      "description": "Vision of Yeller Quarry; cryptic poetic imagery",
+      "image_potential": "medium",
+      "key_moment": "Monster's living worth a habit dead in Yeller Quarry where visions are caged",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-009",
+      "path": "_source/ore-fragments/north-town/046_a_yeller_bird_is_a_little_flock_of_five.txt",
+      "region": "North Town",
+      "description": "Yeller bird as flock of five; yeller girl as missing child",
+      "image_potential": "high",
+      "key_moment": "Five birds clustered together, yeller bloom as broken promise, superstition twittering in shade",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-010",
+      "path": "_source/ore-fragments/north-town/047_one_of_my_last_badgers.txt",
+      "region": "North Town",
+      "description": "Badger catching and crushing something",
+      "image_potential": "medium",
+      "key_moment": "Badger crushing break by arm and chest, thing well understood becoming distant",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-011",
+      "path": "_source/ore-fragments/north-town/048_a_bird_so_grounded.txt",
+      "region": "North Town",
+      "description": "Swan with feathered chamber opened; grounded bird made of wire",
+      "image_potential": "medium",
+      "key_moment": "Swan slitting open inner chamber for combustion but remaining grounded with wire soldered from old resolves",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-001",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/001_on_words_and_stones.txt",
+      "region": "Capital",
+      "description": "Grigsu's early philosophy; debates at Murky's cardhouse; trapper tells of Yeller; first seeds of obsession",
+      "image_potential": "high",
+      "key_moment": "Trapper with trembling hand approaches Grigsu at cardhouse table, tells of creature whose words vanish",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-002",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/002_the_capital_years.txt",
+      "region": "Capital",
+      "description": "Kachot games with Yasho, Boffa, Mink; trapper encounter expanded; stone-tossing ritual from Vellmarsh",
+      "image_potential": "high",
+      "key_moment": "Four scholars at cardhouse table playing kachot, trapper lurching toward them with sunburned face",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-003",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/005_expedition_journal_part1.txt",
+      "region": "Yeller Quarry",
+      "description": "Cave lizards basking; Maw Beast sleeping; first Yeller sighting on ridgeline at twilight",
+      "image_potential": "high",
+      "key_moment": "Five synchronized figures walking on ridgeline, amber twilight making them glow",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-004",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/006_expedition_journal_part2.txt",
+      "region": "Yeller Quarry",
+      "description": "Prime day observations; Yeller watching from ridgeline; Ellin's obsession growing; approaching the gorge",
+      "image_potential": "high",
+      "key_moment": "All five Yeller faces turning together to look up at observer through spyglass, quarter mile away",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-006",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/008_tracking_yeller.txt",
+      "region": "Yeller Quarry",
+      "description": "Systematic Yeller tracking; Ellin's grave cairn of pale stones; twilight sightings",
+      "image_potential": "high",
+      "key_moment": "Dannkit tending cairn of pale stones at gorge mouth with trembling hands",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-007",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/009_creature_behavior_notes.txt",
+      "region": "Yeller Quarry",
+      "description": "Systematic creature observations; cave lizards on prime days; bat swarms; Maw Beast tracks",
+      "image_potential": "medium",
+      "key_moment": "Seven cave lizards basking at tunnel entrance on prime day, arriving at dawn",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-008",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/010_the_scavenger.txt",
+      "region": "Yeller Quarry",
+      "description": "Old Gritts in eastern tunnels; sorting bones by lantern; 'the numbers weren't put in'",
+      "image_potential": "high",
+      "key_moment": "Old woman with pale colorless eyes sorting yellowed bones in deep cave by lantern light",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-009",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/011_fragmentary_entries.txt",
+      "region": "Yeller Quarry",
+      "description": "Grigsu's descent into obsession; repetitive entries; dreams of five faces; 'FIVE' written across pages",
+      "image_potential": "medium",
+      "key_moment": "Man standing at gorge edge calling into darkness, hours passing unnoticed",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-010",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/012_the_return_home.txt",
+      "region": "Yeller Quarry",
+      "description": "Grigsu's decision to leave; final weeks at the Quarry; cart departure at dawn",
+      "image_potential": "high",
+      "key_moment": "Five white stones arranged in line outside Dannkit's door after Grigsu leaves",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-011",
+      "path": "_source/ore-fragments-generated/grigsu-notebooks/fragments/014_dannkits_additions.txt",
+      "region": "Yeller Quarry",
+      "description": "Dannkit's reflections; his own Yeller encounter forty years ago; Grigsu's death in Vellmarsh",
+      "image_potential": "high",
+      "key_moment": "Dannkit finding Grigsu at gorge mouth in freezing cold, crying with too-bright fevered eyes",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-moat-001",
+      "path": "_source/ore-fragments-generated/boundary-studies/002_the_moat_engineers_testimony.txt",
+      "region": "Dens",
+      "description": "Unna Krehl oral testimony; moat failure; eight-meter channels filling overnight; Yeller's shack untouched",
+      "image_potential": "high",
+      "key_moment": "Engineer lying on bank saying dens was 'pulling at her bones,' refusing to move",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-prebel-001",
+      "path": "_source/ore-fragments-generated/spatial-philosophy/002_on_the_oldest_theory.txt",
+      "region": "Capital",
+      "description": "Archon Prebel lecture; the dens as contemporaneous not ancient; persistence vs priority",
+      "image_potential": "medium",
+      "key_moment": "Lecturer standing before students describing dens that refuses to hold shape",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-breach-001",
+      "path": "_source/ore-fragments-generated/spatial-philosophy/001_the_breach_and_the_continuous.txt",
+      "region": "Dens",
+      "description": "Dr. Smint's breach theory; the inward-growing shell; Tenniv's disappearance mentioned",
+      "image_potential": "medium",
+      "key_moment": "Fingers passing through tree trunk; crater appearing where trees had been",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-digger-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/003_the_digger_collective.txt",
+      "region": "Yeller Quarry",
+      "description": "Tessyn Mord field study; digger colony 7; coordinated repair; flood anticipation; prime groupings",
+      "image_potential": "high",
+      "key_moment": "Eleven diggers in groups of three and five reconstructing collapsed tunnel by chemical trails",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-twohead-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/signal-and-substrate/fragments/005_the_two_headed_stakdur.txt",
+      "region": "Yeller Quarry",
+      "description": "Tessaly Vorn's experiment; stakdur regenerating with cave bat influence; scanning for echoes",
+      "image_potential": "high",
+      "key_moment": "Creature with bat-shaped head trying to echo-call with wrong-pitched sounds, searching",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-editing-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/pattern-memory/fragments/003_the_editing_experiments.txt",
+      "region": "Yeller Quarry",
+      "description": "Wender Koss experiments; isolation degradation; prime-day exposure success; forms cannot be erased",
+      "image_potential": "medium",
+      "key_moment": "Fourth-generation isolated offspring showing degraded forms, proportions misaligned",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-forms-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/001_on_the_library_of_forms.txt",
+      "region": "Capital",
+      "description": "Erris Pol's Form Library hypothesis; creatures as readers not authors; forms existing prior to creatures",
+      "image_potential": "medium",
+      "key_moment": "Philosopher describing library where creatures browse for their own blueprints",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-tannick-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/002_tannicks_grandmothers_rules.txt",
+      "region": "Yeller Quarry",
+      "description": "Old Mirra Tannick's rules; prime days creatures feed; five of anything means Yeller watches; Maw Beast",
+      "image_potential": "high",
+      "key_moment": "Five lizards on one rock signaling Yeller's watching presence",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-scavenger-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/009_scavengers_testimony.txt",
+      "region": "Yeller Quarry",
+      "description": "Old Gritts found by Brent; world fell apart; primes are what survived; Yeller remembers before",
+      "image_potential": "high",
+      "key_moment": "Small bent woman with cracked leather face emerging from darkness into lantern light",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-jackson-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/012_jackson_trajectory_case_study.txt",
+      "region": "Densmok",
+      "description": "Jackson at Klutch CC; fountain group; seven years without trajectory; Miss Kitchum's deterioration",
+      "image_potential": "high",
+      "key_moment": "Man at old soldier fountain speaking words with weight, others gathered listening",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-pol-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/004_correspondence_with_pollus_brent.txt",
+      "region": "Capital",
+      "description": "Erris Pol and Pollus Brent letters; connecting philosophy to field work; forms accessed not created",
+      "image_potential": "medium",
+      "key_moment": "Scholar receiving letter that connects decades of thinking with another's observations",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-archive-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/001_the_archive_knows.txt",
+      "region": "Capital",
+      "description": "Capital Archive as collective mind; archivists as components; what the Archive remembers",
+      "image_potential": "medium",
+      "key_moment": "Archivists moving through stacks as fingers of a single reaching hand",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-class-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/004_the_class_of_912.txt",
+      "region": "Capital",
+      "description": "Students forming collective understanding; knowledge existing between not within minds",
+      "image_potential": "medium",
+      "key_moment": "Class of students suddenly understanding something none could have grasped alone",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-dens-collective-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/006_is_the_dens_a_collective.txt",
+      "region": "Dens",
+      "description": "Question of whether dens itself thinks; gray expanse as single slow mind; boundary as skin",
+      "image_potential": "medium",
+      "key_moment": "Dens boundary shifting like breathing, expanding and contracting with purpose",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-horizons-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/cognitive-horizons/fragments/001_on_the_horizons_of_care.txt",
+      "region": "Dens",
+      "description": "Mira Strand on cognitive horizons; what creatures care about defines what they perceive",
+      "image_potential": "medium",
+      "key_moment": "Creature at boundary perceiving only what its horizon permits, blind to rest",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-horizons-002",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/cognitive-horizons/fragments/004_the_jackson_horizon.txt",
+      "region": "Densmok",
+      "description": "Jackson's cognitive horizon; caring about presence not progress; horizon of location not trajectory",
+      "image_potential": "medium",
+      "key_moment": "Man sitting at fountain with horizon that encompasses only the present moment",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-ingression-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/ingression-theory/fragments/001_the_problem_of_manifestation.txt",
+      "region": "Dens",
+      "description": "Archon Vells on ingression; how forms become matter; the boundary as zone of manifestation",
+      "image_potential": "medium",
+      "key_moment": "Forms pressing into reality at dens boundary, becoming visible as they solidify",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-ingression-002",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/ingression-theory/fragments/002_ingression_and_the_boundary_regions.txt",
+      "region": "Dens",
+      "description": "Boundary regions as ingression zones; creatures more fluid near dens; forms less stable",
+      "image_potential": "high",
+      "key_moment": "Creature at boundary shifting between forms, features flickering, identity unstable",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-ingression-003",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/ingression-theory/fragments/003_the_dens_as_ingression_zone.txt",
+      "region": "Dens",
+      "description": "Dens itself as zone where forms manifest; gray expanse as creative medium; things emerging from nothing",
+      "image_potential": "high",
+      "key_moment": "Shape rising from graymuck, taking form as it emerges, born from nothing",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-memory-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/pattern-memory/fragments/005_what_the_scavenger_knows.txt",
+      "region": "Yeller Quarry",
+      "description": "Scavenger's knowledge; she knows what cannot be taught; patterns from before the world broke",
+      "image_potential": "high",
+      "key_moment": "Old woman sitting in darkness knowing things she cannot explain or share",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-healer-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/signal-and-substrate/fragments/001_the_healers_puzzle.txt",
+      "region": "Yeller Quarry",
+      "description": "Healer confronting regeneration; how bodies know what shape to become; signal from nowhere",
+      "image_potential": "medium",
+      "key_moment": "Healer watching wound close, shape emerging from nothing, guided by invisible pattern",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-body-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/signal-and-substrate/fragments/002_when_the_body_forgets.txt",
+      "region": "Yeller Quarry",
+      "description": "Bodies that lose access to their patterns; creatures degenerating near dens boundary",
+      "image_potential": "high",
+      "key_moment": "Creature forgetting its own shape, features softening, form dissolving",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-observer-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/the-observers-computation/fragments/003_the_archivist_and_the_healer.txt",
+      "region": "Capital",
+      "description": "Different observers seeing different computations in same phenomenon; archivist vs healer perspectives",
+      "image_potential": "medium",
+      "key_moment": "Two scholars looking at same creature seeing entirely different things",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-hierarchy-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/hierarchy-of-minds/fragments/003_on_communicating_with_creatures.txt",
+      "region": "Yeller Quarry",
+      "description": "Pell Anster on creature communication; some creatures persuadable, others not; levels of responsiveness",
+      "image_potential": "medium",
+      "key_moment": "Trapper attempting to redirect creature, receiving or not receiving response",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-yeller-numbers-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/004_on_the_yeller_numbers.txt",
+      "region": "Yeller Quarry",
+      "description": "Prime numbers in creature behavior; mathematical analysis of yeller numbers; why primes matter",
+      "image_potential": "medium",
+      "key_moment": "Scholar counting creature groupings finding primes everywhere, no composites",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-trapper-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/007_trapper_debate_transcript.txt",
+      "region": "Yeller Quarry",
+      "description": "Trappers debating creature behavior; folk knowledge vs Capital learning; who knows the Quarry",
+      "image_potential": "medium",
+      "key_moment": "Trappers arguing around fire about what scholars don't understand about their world",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grigsu-creature-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/008_grigsus_creature_notebook.txt",
+      "region": "Yeller Quarry",
+      "description": "Grigsu's creature observations; overlaps with main notebooks; prime day correlations",
+      "image_potential": "medium",
+      "key_moment": "Scholar obsessively counting creatures, finding patterns everywhere he looks",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-murch-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/009_old_murchs_questions.txt",
+      "region": "Densmok",
+      "description": "Old Murch questioning everything; skeptic at Twenty-Ten Coffee Shop; what can we really know",
+      "image_potential": "medium",
+      "key_moment": "Old man at coffee shop asking questions no one wants to answer",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-skeptics-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/012_scraps_notebook.txt",
+      "region": "Densmok",
+      "description": "Notebook of skeptical observations; fragments and doubts; margins filled with questions",
+      "image_potential": "medium",
+      "key_moment": "Pages covered in scribbled doubts, crossed-out conclusions, unanswered questions",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-form-architecture-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/003_on_the_architecture_of_the_library.txt",
+      "region": "Capital",
+      "description": "How the Form Library is organized; regions for different types of forms; navigation of infinite space",
+      "image_potential": "medium",
+      "key_moment": "Scholar describing infinite library with forms arranged by type, creature, region",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-skeptic-response-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/006_the_skeptics_response.txt",
+      "region": "Capital",
+      "description": "Critics of Form Library hypothesis; debate between schools; what evidence would prove it",
+      "image_potential": "low",
+      "key_moment": "Scholars arguing about existence of forms, neither able to prove their position",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-forms-dens-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/007_forms_and_the_dens.txt",
+      "region": "Dens",
+      "description": "Forms near dens boundary; library access unstable; creatures reading wrong forms",
+      "image_potential": "high",
+      "key_moment": "Creature at boundary reading mixed forms, becoming hybrid of multiple patterns",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-notebook-fragments-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/008_notebook_fragments.txt",
+      "region": "Capital",
+      "description": "Erris Pol's personal notebook; marginal notes; doubts and breakthroughs; midnight thoughts",
+      "image_potential": "medium",
+      "key_moment": "Philosopher writing by candlelight, struck by sudden understanding",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-anster-taxonomy-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/hierarchy-of-minds/fragments/001_beyond_species_a_taxonomy_of_interaction.txt",
+      "region": "Capital",
+      "description": "Pell Anster's TAME taxonomy; classifying creatures by interaction capacity not anatomy",
+      "image_potential": "medium",
+      "key_moment": "Chart showing creatures arranged by how they respond, not what they look like",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-persuadability-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/hierarchy-of-minds/fragments/002_the_persuadability_spectrum.txt",
+      "region": "Yeller Quarry",
+      "description": "Which creatures can be influenced; Maw Beast unpersuadable; cave bats trainable; Yeller unknown",
+      "image_potential": "medium",
+      "key_moment": "Trapper attempting to redirect Maw Beast, failing completely, barely escaping",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-jackson-problem-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/hierarchy-of-minds/fragments/004_the_jackson_problem_revisited.txt",
+      "region": "Densmok",
+      "description": "Jackson as unclassifiable in mind hierarchy; responding to nothing and everything; presence without persuadability",
+      "image_potential": "medium",
+      "key_moment": "Man at fountain neither persuading nor being persuaded, simply present",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-prebel-correspondence-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/hierarchy-of-minds/fragments/005_correspondence_with_archon_prebel.txt",
+      "region": "Capital",
+      "description": "Pell Anster writing to Archon Prebel; connecting mind hierarchy to spatial philosophy",
+      "image_potential": "low",
+      "key_moment": "Letter connecting two theories, scholars beginning to see same reality",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-inheritance-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/pattern-memory/fragments/001_the_problem_of_form_inheritance.txt",
+      "region": "Dens",
+      "description": "How creatures inherit forms; not genetic, not taught; something else passing between generations",
+      "image_potential": "medium",
+      "key_moment": "Offspring accessing pattern that no living creature could have taught it",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-colony-memory-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/pattern-memory/fragments/002_collective_memory_in_creature_colonies.txt",
+      "region": "Yeller Quarry",
+      "description": "Colonies remembering what individuals cannot; design persisting across complete population turnover",
+      "image_potential": "high",
+      "key_moment": "New diggers building tunnels matching centuries-old design they've never seen",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-memory-form-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/pattern-memory/fragments/004_on_the_relationship_between_memory_and_form.txt",
+      "region": "Dens",
+      "description": "Memory as form access; forgetting as losing library card; forms persisting after creatures forget",
+      "image_potential": "medium",
+      "key_moment": "Creature that has forgotten its own form, shape degrading without pattern access",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-signal-hypothesis-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/signal-and-substrate/fragments/003_the_signal_hypothesis.txt",
+      "region": "Yeller Quarry",
+      "description": "Signal as external pattern source; bodies as receivers not transmitters; healing as tuning",
+      "image_potential": "medium",
+      "key_moment": "Healer adjusting something invisible, creature's form stabilizing in response",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-letters-pol-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/signal-and-substrate/fragments/004_letters_to_erris_pol.txt",
+      "region": "Capital",
+      "description": "Healer writing to philosopher; connecting field observations to theoretical framework",
+      "image_potential": "low",
+      "key_moment": "Two distant scholars realizing they describe same phenomenon differently",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-synthesis-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/synthetic-beings/fragments/001_the_synthesis_project_proposal.txt",
+      "region": "Capital",
+      "description": "Proposal to create synthetic creatures; what could they access; experiment design",
+      "image_potential": "low",
+      "key_moment": "Scholars proposing to build creatures from scratch to test Form Library",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-synthesis-002",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/synthetic-beings/fragments/002_first_successes_and_unexpected_behaviors.txt",
+      "region": "Capital",
+      "description": "Synthetic creatures exhibiting unprogrammed behavior; accessing forms their makers didn't give them",
+      "image_potential": "high",
+      "key_moment": "Synthetic creature suddenly grouping in fives, behavior never taught or programmed",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-synthesis-003",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/synthetic-beings/fragments/004_on_the_origin_of_unprogrammed_behavior.txt",
+      "region": "Capital",
+      "description": "Where synthetic behavior comes from; creatures reading library forms not given by makers",
+      "image_potential": "medium",
+      "key_moment": "Creator watching synthetic follow patterns from nowhere, frightened by implications",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-synthesis-004",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/synthetic-beings/fragments/005_the_ethics_of_synthetic_beings.txt",
+      "region": "Capital",
+      "description": "Moral questions about creating creatures; do synthetics have souls; what do we owe them",
+      "image_potential": "low",
+      "key_moment": "Scholars debating whether their creations deserve moral consideration",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-observer-multiple-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/the-observers-computation/fragments/001_the_multiple_meanings_of_one_thing.txt",
+      "region": "Capital",
+      "description": "Same phenomenon meaning different things to different observers; multiple valid readings",
+      "image_potential": "medium",
+      "key_moment": "Three observers describing same creature, all descriptions accurate, none complete",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-observer-access-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/the-observers-computation/fragments/002_observer_access_and_computational_level.txt",
+      "region": "Capital",
+      "description": "How observer's framework determines what they can see; access levels to phenomenon",
+      "image_potential": "low",
+      "key_moment": "Scholar realizing their framework blinds them to what another framework reveals",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-prebel-effect-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/the-observers-computation/fragments/004_on_the_prebel_effect_as_observer_selection.txt",
+      "region": "Dens",
+      "description": "Prebel's discovery that observation affects outcome; observer selecting which reality manifests",
+      "image_potential": "medium",
+      "key_moment": "Scholar observing, reality collapsing into one possibility from many",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-venn-correspondence-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/the-observers-computation/fragments/005_correspondence_with_solta_venn.txt",
+      "region": "Densmok",
+      "description": "Letters between Capital philosopher and Densmok practitioner; different frameworks, same truth",
+      "image_potential": "low",
+      "key_moment": "Two scholars from different traditions recognizing same underlying reality",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-cell-city-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/cognitive-horizons/fragments/002_the_cell_and_the_city.txt",
+      "region": "Capital",
+      "description": "Horizons at different scales; cell horizon vs city horizon; nested cognition",
+      "image_potential": "medium",
+      "key_moment": "Diagram showing nested horizons from cell to creature to colony to city",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-horizons-shrink-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/cognitive-horizons/fragments/003_when_horizons_shrink.txt",
+      "region": "Dens",
+      "description": "Horizons contracting near dens; creatures caring about less and less; eventual cessation",
+      "image_potential": "high",
+      "key_moment": "Creature's horizon shrinking until it cares about nothing, stops moving, dissolves",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-horizons-boundaries-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/cognitive-horizons/fragments/005_horizons_and_boundaries.txt",
+      "region": "Dens",
+      "description": "Dens boundary affecting horizons; creatures at edge losing coherent caring; mixed horizons",
+      "image_potential": "high",
+      "key_moment": "Creature at boundary with horizon flickering, caring about incompatible things",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-agency-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/002_on_collective_agency_levels.txt",
+      "region": "Capital",
+      "description": "I-C-\u222b framework; levels of agency from reactive to anticipatory; how collectives scale",
+      "image_potential": "low",
+      "key_moment": "Chart showing agency levels, individual and collective examples at each level",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-archive-mind-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/005_on_the_archive_as_collective_mind.txt",
+      "region": "Capital",
+      "description": "Archive thinking through archivists; documents as memory; procedures as habits; building as body",
+      "image_potential": "medium",
+      "key_moment": "Archivists moving through stacks as Archive's thoughts moving through Archive's mind",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-owe-collectives-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/collective-intelligence/fragments/007_what_we_owe_collectives.txt",
+      "region": "Capital",
+      "description": "Moral obligations to collectives; if collectives are agents, do they have rights",
+      "image_potential": "low",
+      "key_moment": "Philosopher arguing that destroying Archive is murder of collective mind",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-cannot-said-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/ingression-theory/fragments/005_what_cannot_be_said.txt",
+      "region": "Dens",
+      "description": "Limits of ingression theory; what forms cannot manifest; the unspeakable patterns",
+      "image_potential": "medium",
+      "key_moment": "Scholar gesturing at something that cannot be described, only pointed toward",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-keth-pol-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/ingression-theory/fragments/004_keth_pol_and_the_unified_theory.txt",
+      "region": "Capital",
+      "description": "Vornis Keth and Erris Pol attempting synthesis; resonance meets forms; unified Densworld theory",
+      "image_potential": "medium",
+      "key_moment": "Two scholars at table with papers spread, attempting to unify competing frameworks",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-reader-text-001",
+      "path": "_source/ore-fragments-generated/levin-platonic-seeds/form-library/fragments/002_the_reader_and_the_text.txt",
+      "region": "Capital",
+      "description": "Creatures as readers of forms; what happens during reading; forms changed by being read",
+      "image_potential": "medium",
+      "key_moment": "Creature accessing form, form shifting slightly as it is read, never same twice",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-lurra-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/004_letters_lurra_solta.txt",
+      "region": "Densmok",
+      "description": "Lurra Venn correspondence; developing individual signature analysis; what careers reveal",
+      "image_potential": "low",
+      "key_moment": "Scholar developing method to read life patterns from sequence of career events",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-archetypes-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/002_four_archetypes_of_trade_journeys.txt",
+      "region": "Densmok",
+      "description": "Burnout Arc, Slow Climb, Eternal Student, Accidental Expert; patterns in lives",
+      "image_potential": "medium",
+      "key_moment": "Chart showing four career paths, some rising, some falling, some circling forever",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-bagbu-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/011_bagbu_on_archetypes.txt",
+      "region": "Densmok",
+      "description": "Bagbu challenging archetype framework; what the model misses; lives that don't fit",
+      "image_potential": "medium",
+      "key_moment": "Critic pointing at chart showing where model fails, careers that escape classification",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-provenance-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/001_skeptics_assessment_provenance_engine.txt",
+      "region": "Densmok",
+      "description": "Skeptical assessment of Capital's provenance claims; what can really be known about origins",
+      "image_potential": "low",
+      "key_moment": "Scholar questioning whether any provenance claim can be verified",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-pattern-book-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/002_skeptics_assessment_pattern_book.txt",
+      "region": "Densmok",
+      "description": "Skeptical assessment of Pattern Book predictions; what the failures reveal",
+      "image_potential": "low",
+      "key_moment": "List of Pattern Book predictions that failed, organized by type of failure",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-predictive-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/003_skeptics_assessment_predictive_cartography.txt",
+      "region": "Densmok",
+      "description": "Can maps predict? Skeptical view of Capital cartography claims",
+      "image_potential": "low",
+      "key_moment": "Map that predicted wrong, terrain that defied the lines drawn for it",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-simulated-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/004_skeptics_assessment_simulated_citizens.txt",
+      "region": "Densmok",
+      "description": "Are Capital's 'simulated citizens' real models or just stories? Skeptical analysis",
+      "image_potential": "low",
+      "key_moment": "Scholar questioning whether simulation tells us anything about real citizens",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-expeditions-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/005_skeptics_assessment_autonomous_expeditions.txt",
+      "region": "Densmok",
+      "description": "Autonomous expedition claims assessed; what explorers without oversight really find",
+      "image_potential": "medium",
+      "key_moment": "Explorer returning with report that contradicts Capital's expectations",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-capital-defense-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/006_in_defense_of_the_capitals_methods.txt",
+      "region": "Densmok",
+      "description": "Response to skeptics; Capital methods defended; what the critics miss",
+      "image_potential": "low",
+      "key_moment": "Counter-argument showing what skeptics ignore in their critique",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-skeptic-response-002",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/007_response_to_the_capital.txt",
+      "region": "Densmok",
+      "description": "Skeptics respond to defense; continuing debate; neither side yielding",
+      "image_potential": "low",
+      "key_moment": "Debate continuing, positions hardening, truth somewhere between",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-cynical-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/008_are_we_too_cynical.txt",
+      "region": "Densmok",
+      "description": "Skeptic questioning own skepticism; has doubt become dogma; what if Capital is right",
+      "image_potential": "medium",
+      "key_moment": "Skeptic in moment of doubt about own doubting, questioning the questioning",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-doubt-uses-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/010_on_the_uses_of_doubt.txt",
+      "region": "Densmok",
+      "description": "Productive vs destructive doubt; what skepticism accomplishes; limits of questioning",
+      "image_potential": "low",
+      "key_moment": "Essay on when to doubt and when to accept, neither easy",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-methodology-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/skeptics-discourse/fragments/011_methodology_for_technical_assessment.txt",
+      "region": "Densmok",
+      "description": "How to assess technical claims; methodology for skeptical evaluation",
+      "image_potential": "low",
+      "key_moment": "Checklist for evaluating claims, systematic doubt made method",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-prediction-log-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/003_field_notes_prediction_log.txt",
+      "region": "Yeller Quarry",
+      "description": "Pollus Brent's prediction log; which Pattern Book predictions worked; which failed",
+      "image_potential": "medium",
+      "key_moment": "Log showing pattern of successes and failures, pattern within pattern",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-vess-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/006_vess_corns_learning_journal.txt",
+      "region": "Yeller Quarry",
+      "description": "Apprentice trapper learning rules; mistakes and lessons; folk knowledge acquired slowly",
+      "image_potential": "high",
+      "key_moment": "Young trapper making mistake, nearly dying, learning rule the hard way",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-grammar-treatise-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/011_grammar_beneath_collaborative_treatise.txt",
+      "region": "Yeller Quarry",
+      "description": "Collaborative treatise on creature grammar; multiple authors; attempts at synthesis",
+      "image_potential": "low",
+      "key_moment": "Multiple scholars contributing to single document, ideas overlapping",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-pattern-preface-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/012_pattern_book_final_preface.txt",
+      "region": "Yeller Quarry",
+      "description": "Pollus Brent's final preface to Pattern Book; what he learned; what remains unknown",
+      "image_potential": "medium",
+      "key_moment": "Old scholar writing final preface, acknowledging limits of life's work",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-career-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/005_career_trajectories_densmok.txt",
+      "region": "Densmok",
+      "description": "Career patterns in Densmok specifically; how margin town shapes lives differently",
+      "image_potential": "medium",
+      "key_moment": "Chart showing Densmok careers diverging from Capital patterns",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-uses-limits-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/006_on_uses_and_limits.txt",
+      "region": "Densmok",
+      "description": "What individual signature analysis can and cannot tell; appropriate applications",
+      "image_potential": "low",
+      "key_moment": "Honest assessment of method's limits by its developer",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-meck-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/007_meck_drune_manifesto.txt",
+      "region": "Densmok",
+      "description": "Meck Drune rejecting classification; manifesto against being sorted; refusal of archetype",
+      "image_potential": "high",
+      "key_moment": "Individual refusing to fit any category, insisting on uniqueness",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-traders-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/individual-signatures/fragments/009_traders_guild_response.txt",
+      "region": "Densmok",
+      "description": "Traders Guild responding to classification of their careers; practical objections",
+      "image_potential": "medium",
+      "key_moment": "Guild members arguing their work resists the model applied to it",
+      "images_extracted": []
+    },
+    {
+      "id": "gen-math-letter-001",
+      "path": "_source/ore-fragments-generated/bioinformatics-seeds/creature-grammar/fragments/005_letter_to_capital_mathematical_society.txt",
+      "region": "Yeller Quarry",
+      "description": "Pollus Brent writing to Mathematical Society; requesting help with prime pattern analysis",
+      "image_potential": "low",
+      "key_moment": "Field researcher reaching out to pure mathematicians for help",
+      "images_extracted": []
+    }
+  ],
+  "removed_w2": [
+    {
+      "id": "removed-001",
+      "path": "_source/ore-fragments/northo/031_somers_and_the_queen_of_spades_part1.txt",
+      "reason": "W2 - Set in Alton Illinois with real-world references (Cardinals, Ozarks, Missouri)"
+    },
+    {
+      "id": "removed-002",
+      "path": "_source/ore-fragments/mirado-sticks/043_jackson_is_finally_called_to_account.txt",
+      "reason": "W2 - Montana, Iowa, I-80, Yellowstone, Glacier Park references"
+    },
+    {
+      "id": "removed-003",
+      "path": "_source/ore-fragments/tower-of-mirado-2/253_untitled_part12.txt",
+      "reason": "W2 - Lincoln, Illinois, Yale library, British museum references"
+    },
+    {
+      "id": "removed-004",
+      "path": "_source/ore-fragments/capital/024_old_cap_women.txt",
+      "reason": "W2 - John Brown, Lincoln, contemporary memory techniques"
+    },
+    {
+      "id": "removed-005",
+      "path": "_source/ore-fragments/north-town/035_snipe_crab_north_town_scuttle.txt",
+      "reason": "W2 - Quicktrip, St. Louis, Mississippi River, contemporary American crime"
+    },
+    {
+      "id": "removed-006",
+      "path": "_source/ore-fragments/dead-river/034_ria.txt",
+      "reason": "W2 - Contemporary Colorado, retail spaces"
+    },
+    {
+      "id": "removed-007",
+      "path": "_source/ore-fragments/northo/055_i_crush_his_body_he_burns_mine.txt",
+      "reason": "W2 - Contemporary park bench, faith struggle, no Densworld architecture"
+    },
+    {
+      "id": "removed-008",
+      "path": "_source/ore-fragments/northo/069_she_is_not_morally_conservative.txt",
+      "reason": "W2 - Planning notes for contemporary American novel"
+    },
+    {
+      "id": "removed-009",
+      "path": "_source/ore-fragments/dens/020_drowning_in_dried_ooze.txt",
+      "reason": "W2/Theory - Worldbuilding notes only, no narrative"
+    },
+    {
+      "id": "removed-010",
+      "path": "_source/ore-fragments/dens/031_the_dens_worm_ghost.txt",
+      "reason": "W2/Theory - Fragmentary notes, no narrative"
+    },
+    {
+      "id": "removed-011",
+      "path": "_source/ore-fragments/yeller-quarry/015_clunch_wires_and_eilodon_part1.txt",
+      "reason": "W2 - Eilodon parallel world, pizza joints, Mississippi"
+    },
+    {
+      "id": "removed-012",
+      "path": "_source/ore-fragments/yeller-quarry/020_clunch_wires_and_eilodon_part6.txt",
+      "reason": "W2 - Eilodon continuation, outer-world parallel fiction"
+    },
+    {
+      "id": "removed-013",
+      "path": "_source/ore-fragments/capeast/008_capeast_mom_of_sugar.txt",
+      "reason": "W2 - Walmart, Redbox, Godfrey Illinois, Riversland subdivision"
+    },
+    {
+      "id": "removed-014",
+      "path": "_source/ore-fragments/capeast/016_alton_capeast_mayor.txt",
+      "reason": "W2 - Mississippi River, St. Louis, Minnesota, Abraham Lincoln, Douglas debate, Illinois"
+    },
+    {
+      "id": "removed-015",
+      "path": "_source/ore-fragments/northo-2/*",
+      "reason": "W2 - ENTIRE DIRECTORY: All 15 files contain Alton Illinois, missionaries, real Christianity, Nigeria, real US geography"
+    },
+    {
+      "id": "removed-016",
+      "path": "_source/ore-fragments/tower-of-mirado-2/025_all_prodigies_are_not_sad_for_the_same_reasons.txt",
+      "reason": "W2 - Lincoln, Springfield, Alton, Frege, Billy Graham, Francis Schaeffer, Walmart"
+    },
+    {
+      "id": "removed-017",
+      "path": "_source/ore-fragments/tower-of-mirado-2/032_wittgenstein_vitgy_hated_tolkien.txt",
+      "reason": "W2 - Wittgenstein, Tolkien, real philosophers"
+    },
+    {
+      "id": "removed-018",
+      "path": "_source/ore-fragments/densmok/052_*.txt",
+      "reason": "W2 - Lewis and Clark CC, Steak n Shake, Alton IL, Emanuel Evangelical Free Church"
+    },
+    {
+      "id": "removed-019",
+      "path": "_source/ore-fragments/densmok/055_*.txt",
+      "reason": "W2 - St. Louis, Godfrey Illinois, Chess Club and Scholastic Center"
+    },
+    {
+      "id": "removed-020",
+      "path": "_source/ore-fragments/densmok/060_*.txt",
+      "reason": "W2 - Alton Illinois, Mississippi River, Washington U, U of Illinois"
+    },
+    {
+      "id": "removed-021",
+      "path": "_source/ore-fragments/capital/031-032_*.txt",
+      "reason": "W2 - Alton Illinois, real churches, Mississippi River geography"
+    },
+    {
+      "id": "removed-022",
+      "path": "_source/ore-fragments/capital/041-045_*.txt",
+      "reason": "W2 - Alton Illinois, St. Paul's Episcopal, Nicene Creed, real religious content"
+    },
+    {
+      "id": "removed-023",
+      "path": "_source/ore-fragments/dead-river/020-021_*.txt",
+      "reason": "W2 - St. Louis, Alton, Godfrey, Walmart, real Illinois geography"
+    },
+    {
+      "id": "removed-024",
+      "path": "_source/ore-fragments/dead-river/034_ria.txt",
+      "reason": "W2 - Colorado, Kansas, real US states"
+    },
+    {
+      "id": "removed-025",
+      "path": "_source/ore-fragments/dead-river/028_*.txt",
+      "reason": "W2 - NBA, Celtics podcast, Python/Udemy, real tech references"
+    },
+    {
+      "id": "removed-026",
+      "path": "_source/ore-fragments/northo/060-100_*.txt",
+      "reason": "W2 - ENTIRE RANGE: Pastor Josh, Faith Evangelical Church, modern apps, St. Louis bus routes, Iowa City, Frege, Bolano"
+    },
+    {
+      "id": "removed-027",
+      "path": "_source/ore-fragments/mirado-sticks/050-078_*.txt",
+      "reason": "W2 - ENTIRE RANGE: Amtrak, California, Walmart, Arkansas, St. Louis, Cape Girardeau, Alton, Bob Dylan, Iowa, Texas"
+    },
+    {
+      "id": "removed-028",
+      "path": "_source/ore-fragments/tower-of-mirado/030-037_*.txt",
+      "reason": "W2 - Illinois, Iowa, Kansas, Colorado Springs, Lindenwood, Christianity/Bible"
+    },
+    {
+      "id": "removed-029",
+      "path": "_source/ore-fragments/tower-of-mirado/044-065_*.txt",
+      "reason": "W2 - Iowa City, NPR, Diane Rehm, Cardinals, Barnes and Noble, Nigeria, Jos, Austria, Munich, Frege"
+    },
+    {
+      "id": "removed-030",
+      "path": "_source/ore-fragments/north-town/026-043_*.txt",
+      "reason": "W2 - Alton, Godfrey, Pizza Hut, St. Louis, Mississippi, Cardinals, Harvard, Tennessee, Walmart, modern church settings"
     }
   ],
   "exhausted": []
