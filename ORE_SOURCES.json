@@ -1,0 +1,747 @@
+{
+  "metadata": {
+    "description": "Curated W1 ore sources for Bible mnemonic image generation",
+    "count": 103,
+    "created": "2025-12-27",
+    "notes": "Randomly select from 'available' sources. Move to 'exhausted' when all vivid moments have been used."
+  },
+  "available": [
+    {
+      "id": "dens-001",
+      "path": "_source/ore-fragments/dens/008_the_fifty-finned_twin-tailed_grimslew.txt",
+      "region": "Dens",
+      "description": "Grimslew creature narrative; council intrigue; woman descending with etched directions",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-002",
+      "path": "_source/ore-fragments/dens/003_every_true_journey_begins_in_yeller_quarry_it.txt",
+      "region": "Dens",
+      "description": "Journey narrative, concrete scenes",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-003",
+      "path": "_source/ore-fragments/dens/024_yeller_and_dens.txt",
+      "region": "Dens",
+      "description": "Yeller character interaction with landscape",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-004",
+      "path": "_source/ore-fragments/dens/007_dance_steps_and_hand_signs.txt",
+      "region": "Dens",
+      "description": "Physical movement, ritual",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-005",
+      "path": "_source/ore-fragments/dens/009_the_fat_boy_tud_the_slopsucker.txt",
+      "region": "Dens",
+      "description": "Character study with physicality",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-006",
+      "path": "_source/ore-fragments/dens/010_the_sludge_as_it_sandpapers.txt",
+      "region": "Dens",
+      "description": "Landscape description, tactile detail",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-007",
+      "path": "_source/ore-fragments/dens/011_the_shifting_dens_by_day_a_normal_mind_by_night.txt",
+      "region": "Dens",
+      "description": "Duality, transformation",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-008",
+      "path": "_source/ore-fragments/dens/012_the_man_who_buried_his_daughter_in_dens.txt",
+      "region": "Dens",
+      "description": "Dark narrative moment",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-009",
+      "path": "_source/ore-fragments/dens/013_the_dens_girl_with_the_looping_spine.txt",
+      "region": "Dens",
+      "description": "Character with distinctive physiology",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "dens-010",
+      "path": "_source/ore-fragments/dens/061_duster_and_quonxy_on_the_dens_moors.txt",
+      "region": "Dens",
+      "description": "Named characters Duster and Quonxy in landscape",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-001",
+      "path": "_source/ore-fragments/tower-of-mirado-2/253_untitled_part12.txt",
+      "region": "Tower of Mirado",
+      "description": "Part of larger narrative arc",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-002",
+      "path": "_source/ore-fragments/tower-of-mirado-2/244_untitled_part3.txt",
+      "region": "Tower of Mirado",
+      "description": "Substantial narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-004",
+      "path": "_source/ore-fragments/tower-of-mirado-2/011_the_diary_of_all_puzzles_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Opening of puzzle narrative",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "tower2-005",
+      "path": "_source/ore-fragments/tower-of-mirado-2/027_one_for_the_road_two_for_the_toad_nobody_knows_part2.txt",
+      "region": "Tower of Mirado",
+      "description": "Unusual imagery (road/toad)",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-001",
+      "path": "_source/ore-fragments/tower-of-mirado/066_some_puzzle_poems_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Visual puzzle descriptions",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-002",
+      "path": "_source/ore-fragments/tower-of-mirado/051_big_old_memorizing_theoretical_journal_thing_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Character study with theory",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-003",
+      "path": "_source/ore-fragments/tower-of-mirado/019_dead_river_hausa_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Cross-regional narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-004",
+      "path": "_source/ore-fragments/tower-of-mirado/017_abraham_lincoln_part1.txt",
+      "region": "Tower of Mirado",
+      "description": "Surreal hotel scene; Lincoln reimagined in Densworld",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-005",
+      "path": "_source/ore-fragments/tower-of-mirado/033_the_library_of_all_the_worlds_and_the_tower_of_broken_names.txt",
+      "region": "Tower of Mirado",
+      "description": "Library/archive imagery",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-006",
+      "path": "_source/ore-fragments/tower-of-mirado/025_the_garden_of_perfect_memory.txt",
+      "region": "Tower of Mirado",
+      "description": "Garden setting",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-007",
+      "path": "_source/ore-fragments/tower-of-mirado/031_archons_and_scholars.txt",
+      "region": "Tower of Mirado",
+      "description": "Character group; scholarly setting",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "tower-008",
+      "path": "_source/ore-fragments/tower-of-mirado/014_mapping_the_interior.txt",
+      "region": "Tower of Mirado",
+      "description": "Interior/spatial description",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-001",
+      "path": "_source/ore-fragments/northo/050_xyly_and_quonxy.txt",
+      "region": "Northo",
+      "description": "Xyly & Quonxy character study; concrete domestic scenes; mystery of heavy hands",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-002",
+      "path": "_source/ore-fragments/northo/069_she_is_not_morally_conservative.txt",
+      "region": "Northo",
+      "description": "Character portrait",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-003",
+      "path": "_source/ore-fragments/northo/055_i_crush_his_body_he_burns_mine.txt",
+      "region": "Northo",
+      "description": "Intense physical/emotional narrative",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-004",
+      "path": "_source/ore-fragments/northo/070_boner_for_comics_part1.txt",
+      "region": "Northo",
+      "description": "Narrative opening with detail",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-005",
+      "path": "_source/ore-fragments/northo/031_somers_and_the_queen_of_spades_part1.txt",
+      "region": "Northo",
+      "description": "Named character interaction; card game imagery",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-006",
+      "path": "_source/ore-fragments/northo/041_theres_never_been_a_good_story_about_a_christian_part4.txt",
+      "region": "Northo",
+      "description": "Thematic narrative piece",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo-007",
+      "path": "_source/ore-fragments/northo/038_theres_never_been_a_good_story_about_a_christian_part1.txt",
+      "region": "Northo",
+      "description": "Opening of extended narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-001",
+      "path": "_source/ore-fragments/densmok/023_the_girl_in_the_densmok_basement.txt",
+      "region": "Densmok",
+      "description": "Household drama; girl/woman/man triangle; atmospheric detail",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-002",
+      "path": "_source/ore-fragments/densmok/004_the_mapmaker_who_wasnt_a_preacher.txt",
+      "region": "Densmok",
+      "description": "Character with title; substantial narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-003",
+      "path": "_source/ore-fragments/densmok/005_the_cagemaker.txt",
+      "region": "Densmok",
+      "description": "Craftsperson narrative",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-004",
+      "path": "_source/ore-fragments/densmok/034_the_wind_that_middleman.txt",
+      "region": "Densmok",
+      "description": "Personified element; 391 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-005",
+      "path": "_source/ore-fragments/densmok/067_what_god_gave_me_in_densmok_part1.txt",
+      "region": "Densmok",
+      "description": "Spiritual/personal narrative; 362 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-006",
+      "path": "_source/ore-fragments/densmok/071_decision_books.txt",
+      "region": "Densmok",
+      "description": "Decision-making narrative; 395 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-007",
+      "path": "_source/ore-fragments/densmok/082_stellas_space_part1.txt",
+      "region": "Densmok",
+      "description": "Character named Stella; 322 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-008",
+      "path": "_source/ore-fragments/densmok/083_stellas_space_part2.txt",
+      "region": "Densmok",
+      "description": "Stella continuation",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-009",
+      "path": "_source/ore-fragments/densmok/025_a_world_without_tempters_part1.txt",
+      "region": "Densmok",
+      "description": "Conceptual narrative; 399 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-010",
+      "path": "_source/ore-fragments/densmok/092_alea_hatford_part1.txt",
+      "region": "Densmok",
+      "description": "Character Alea Hatford",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "densmok-011",
+      "path": "_source/ore-fragments/densmok/093_alea_hatford_part2.txt",
+      "region": "Densmok",
+      "description": "Alea Hatford continuation",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-001",
+      "path": "_source/ore-fragments/capeast/002_it_couldnt_be_called_a_house.txt",
+      "region": "Capeast",
+      "description": "Architecture as character",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-003",
+      "path": "_source/ore-fragments/capeast/006_hoole_in_capeast.txt",
+      "region": "Capeast",
+      "description": "Named character Hoole; location specificity",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-004",
+      "path": "_source/ore-fragments/capeast/007_capeast_scientist_kid.txt",
+      "region": "Capeast",
+      "description": "Character type + location",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-005",
+      "path": "_source/ore-fragments/capeast/009_the_dark_hump_day.txt",
+      "region": "Capeast",
+      "description": "Temporal/atmospheric",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-006",
+      "path": "_source/ore-fragments/capeast/016_alton_capeast_mayor.txt",
+      "region": "Capeast",
+      "description": "Mayor character; authority figure",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-007",
+      "path": "_source/ore-fragments/capeast/027_moses_morant.txt",
+      "region": "Capeast",
+      "description": "Named character narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-008",
+      "path": "_source/ore-fragments/capeast/030_hitchens_gym_genius.txt",
+      "region": "Capeast",
+      "description": "Character + location (gym)",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capeast-009",
+      "path": "_source/ore-fragments/capeast/037_capeast_origin_of_yeller.txt",
+      "region": "Capeast",
+      "description": "Origin narrative for Yeller entity",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-001",
+      "path": "_source/ore-fragments/mirado-sticks/031_barb_and_anne_and_jack_and_robert_part1.txt",
+      "region": "Mirado Sticks",
+      "description": "Named characters; mysterious light; observation scene",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-002",
+      "path": "_source/ore-fragments/mirado-sticks/063_privacy_in_mirado_sticks_part1.txt",
+      "region": "Mirado Sticks",
+      "description": "Privacy theme; 385 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-003",
+      "path": "_source/ore-fragments/mirado-sticks/064_privacy_in_mirado_sticks_part2.txt",
+      "region": "Mirado Sticks",
+      "description": "Privacy continuation; 399 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-004",
+      "path": "_source/ore-fragments/mirado-sticks/065_privacy_in_mirado_sticks_part3.txt",
+      "region": "Mirado Sticks",
+      "description": "Privacy conclusion; 399 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-005",
+      "path": "_source/ore-fragments/mirado-sticks/034_cars_on_an_icy_road.txt",
+      "region": "Mirado Sticks",
+      "description": "Environmental scenario",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-006",
+      "path": "_source/ore-fragments/mirado-sticks/043_jackson_is_finally_called_to_account.txt",
+      "region": "Mirado Sticks",
+      "description": "Jackson character; accountability narrative",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-007",
+      "path": "_source/ore-fragments/mirado-sticks/046_queenmater_in_mirado_sticks.txt",
+      "region": "Mirado Sticks",
+      "description": "Named character Queenmater",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "sticks-008",
+      "path": "_source/ore-fragments/mirado-sticks/068_spindly_bugeta_in_mirado_sticks.txt",
+      "region": "Mirado Sticks",
+      "description": "Named character Bugeta; physical description",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-001",
+      "path": "_source/ore-fragments/north-town/016_two_breakfasts_part3.txt",
+      "region": "North Town",
+      "description": "Domestic narrative; 399 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-002",
+      "path": "_source/ore-fragments/north-town/014_two_breakfasts_part1.txt",
+      "region": "North Town",
+      "description": "Opening of breakfast narrative",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-003",
+      "path": "_source/ore-fragments/north-town/035_snipe_crab_north_town_scuttle.txt",
+      "region": "North Town",
+      "description": "Creature movement; 361 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-004",
+      "path": "_source/ore-fragments/north-town/030_his_sternum_part1.txt",
+      "region": "North Town",
+      "description": "Body-focused narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-005",
+      "path": "_source/ore-fragments/north-town/031_his_sternum_part2.txt",
+      "region": "North Town",
+      "description": "Body narrative continuation",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-006",
+      "path": "_source/ore-fragments/north-town/026_little_league_serial_killer.txt",
+      "region": "North Town",
+      "description": "Darkly absurd scenario",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-007",
+      "path": "_source/ore-fragments/north-town/022_moss_at_the_door.txt",
+      "region": "North Town",
+      "description": "Character named Moss",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northtown-008",
+      "path": "_source/ore-fragments/north-town/020_moss_didnt_care_but_his_ex-wife_would.txt",
+      "region": "North Town",
+      "description": "Moss character; relationship dynamic",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-001",
+      "path": "_source/ore-fragments/capital/038_cap_tax_on_reminders.txt",
+      "region": "Capital",
+      "description": "Abstract concept made concrete; 355 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-002",
+      "path": "_source/ore-fragments/capital/009_coast_to_the_capital.txt",
+      "region": "Capital",
+      "description": "Journey narrative; directional imagery",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-003",
+      "path": "_source/ore-fragments/capital/021_a_closer_look_at_dens_from_the_cap.txt",
+      "region": "Capital",
+      "description": "Inter-regional perspective; viewing from distance",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-004",
+      "path": "_source/ore-fragments/capital/006_the_senator_had_more_couriers.txt",
+      "region": "Capital",
+      "description": "Senator J and couriers; Traddler Boulevard bar; coded messages; four wooden blocks; references to Colonel and Dens expedition",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-007",
+      "path": "_source/ore-fragments/capital/024_old_cap_women.txt",
+      "region": "Capital",
+      "description": "Character group; age/experience",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-008",
+      "path": "_source/ore-fragments/capital/049_little_porns_language.txt",
+      "region": "Capital",
+      "description": "Character Little Porn; language theme",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "capital-009",
+      "path": "_source/ore-fragments/capital/052_little_porns_puzzle_book.txt",
+      "region": "Capital",
+      "description": "Little Porn; puzzle/object theme",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-001",
+      "path": "_source/ore-fragments/dead-river/002_dead_river_girl-snatcher.txt",
+      "region": "Dead River",
+      "description": "Girl-snatcher character; pickbox carts; dark narrative",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-002",
+      "path": "_source/ore-fragments/dead-river/005_dead_river_whores.txt",
+      "region": "Dead River",
+      "description": "Transgressive character group",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-003",
+      "path": "_source/ore-fragments/dead-river/014_gunt_part1.txt",
+      "region": "Dead River",
+      "description": "Character Gunt; 321 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-004",
+      "path": "_source/ore-fragments/dead-river/015_gunt_part2.txt",
+      "region": "Dead River",
+      "description": "Gunt continuation; 324 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-005",
+      "path": "_source/ore-fragments/dead-river/016_gunt_part3.txt",
+      "region": "Dead River",
+      "description": "Gunt conclusion",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-006",
+      "path": "_source/ore-fragments/dead-river/010_fishboy_and_duster_in_dead_river.txt",
+      "region": "Dead River",
+      "description": "Characters Fishboy and Duster",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-007",
+      "path": "_source/ore-fragments/dead-river/018_to_purge_this_land_with_blood.txt",
+      "region": "Dead River",
+      "description": "Dark title; violent imagery",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-008",
+      "path": "_source/ore-fragments/dead-river/013_rantil_specula_coffee_meeting.txt",
+      "region": "Dead River",
+      "description": "Named characters; meeting scenario",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "deadriver-009",
+      "path": "_source/ore-fragments/dead-river/034_ria.txt",
+      "region": "Dead River",
+      "description": "Character Ria; standalone narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-001",
+      "path": "_source/ore-fragments/yeller-quarry/005_yeller_and_the_fivefold_stroke_part1.txt",
+      "region": "Yeller Quarry",
+      "description": "Yeller entity; expedition crew (Gull, Truck, Black Yeller, White Yeller); cave entrance; 385 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-002",
+      "path": "_source/ore-fragments/yeller-quarry/006_yeller_and_the_fivefold_stroke_part2.txt",
+      "region": "Yeller Quarry",
+      "description": "Expedition continuation; 339 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-003",
+      "path": "_source/ore-fragments/yeller-quarry/031_the_border_of_northtown_and_yeller_quarry_part1.txt",
+      "region": "Yeller Quarry",
+      "description": "Regional boundary narrative; 319 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-004",
+      "path": "_source/ore-fragments/yeller-quarry/033_the_border_of_northtown_and_yeller_quarry_part3.txt",
+      "region": "Yeller Quarry",
+      "description": "Border continuation; 320 lines",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-005",
+      "path": "_source/ore-fragments/yeller-quarry/035_the_border_of_northtown_and_yeller_quarry_part5.txt",
+      "region": "Yeller Quarry",
+      "description": "Border imagery; 320 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-006",
+      "path": "_source/ore-fragments/yeller-quarry/037_the_border_of_northtown_and_yeller_quarry_part7.txt",
+      "region": "Yeller Quarry",
+      "description": "Border continuation; 319 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "yeller-007",
+      "path": "_source/ore-fragments/yeller-quarry/038_the_border_of_northtown_and_yeller_quarry_part8.txt",
+      "region": "Yeller Quarry",
+      "description": "Border conclusion; 319 lines",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo2-001",
+      "path": "_source/ore-fragments/northo-2/001_untitled_part1.txt",
+      "region": "Northo",
+      "description": "Opening narrative",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo2-002",
+      "path": "_source/ore-fragments/northo-2/003_untitled_part3.txt",
+      "region": "Northo",
+      "description": "Narrative development",
+      "image_potential": "medium",
+      "images_extracted": []
+    },
+    {
+      "id": "northo2-003",
+      "path": "_source/ore-fragments/northo-2/008_giving_up_his_addiction_in_northo.txt",
+      "region": "Northo",
+      "description": "Addiction recovery theme",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northo2-004",
+      "path": "_source/ore-fragments/northo-2/013_spiritual_hawk_table_setting.txt",
+      "region": "Northo",
+      "description": "Spiritual + domestic imagery",
+      "image_potential": "high",
+      "images_extracted": []
+    },
+    {
+      "id": "northo2-005",
+      "path": "_source/ore-fragments/northo-2/011_the_more_pressing_problem.txt",
+      "region": "Northo",
+      "description": "Philosophical/practical title",
+      "image_potential": "medium",
+      "images_extracted": []
+    }
+  ],
+  "exhausted": []
+}

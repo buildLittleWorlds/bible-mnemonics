@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Mnemonics | Densworld Memory Palace</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #1a1a1a;
+            color: #e5e5e5;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: normal;
+            color: #CA8A04;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+
+        header p {
+            color: #9CA3AF;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .sessions {
+            margin-bottom: 3rem;
+        }
+
+        .sessions h2 {
+            font-size: 1.1rem;
+            font-weight: normal;
+            color: #6B7280;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .session-list {
+            list-style: none;
+        }
+
+        .session-list li {
+            margin-bottom: 1rem;
+            padding: 1rem 1.5rem;
+            background: #252525;
+            border-left: 3px solid #333;
+            transition: border-color 0.2s;
+        }
+
+        .session-list li:hover {
+            border-left-color: #CA8A04;
+        }
+
+        .session-list a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .session-date {
+            font-size: 0.85rem;
+            color: #6B7280;
+            margin-bottom: 0.3rem;
+        }
+
+        .session-passage {
+            color: #f5f5f5;
+            font-size: 1.1rem;
+        }
+
+        .session-meta {
+            font-size: 0.8rem;
+            color: #4B5563;
+            margin-top: 0.5rem;
+        }
+
+        .stats {
+            padding: 1.5rem;
+            background: #252525;
+            border-radius: 4px;
+            margin-bottom: 3rem;
+        }
+
+        .stats h2 {
+            font-size: 0.9rem;
+            font-weight: normal;
+            color: #6B7280;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            text-align: center;
+        }
+
+        .stat-item .number {
+            font-size: 1.8rem;
+            color: #CA8A04;
+            display: block;
+        }
+
+        .stat-item .label {
+            font-size: 0.75rem;
+            color: #6B7280;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            color: #4B5563;
+            font-size: 0.8rem;
+        }
+
+        footer a {
+            color: #6B7280;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #CA8A04;
+        }
+
+        @media (max-width: 600px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bible Mnemonics</h1>
+            <p>Memorizing Scripture using Densworld as a memory palace. Each verse maps to objects in scenes from an imaginary world — arbitrary pairings that create unexpected resonance.</p>
+        </header>
+
+        <div class="stats">
+            <h2>Progress</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="number">3</span>
+                    <span class="label">Verses</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">2</span>
+                    <span class="label">Images</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">11</span>
+                    <span class="label">Loci</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sessions">
+            <h2>Sessions</h2>
+            <ul class="session-list">
+                <li>
+                    <a href="sessions/2025-12-27.html">
+                        <div class="session-date">December 27, 2025</div>
+                        <div class="session-passage">Matthew 10:34-36</div>
+                        <div class="session-meta">2 images · Dead River, Capital</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Part of the <a href="https://github.com/buildLittleWorlds">Densworld</a> project</p>
+        </footer>
+    </div>
+</body>
+</html>

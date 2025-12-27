@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "project": "Bible Memorization",
+    "created": "2025-12-27"
+  },
+  "verse_index": {
+    "Matthew": {
+      "10": {
+        "34": [
+          { "image": "bible-001", "locus": 1, "text": "Do not think that I have come" },
+          { "image": "bible-001", "locus": 2, "text": "to bring peace to the earth" }
+        ],
+        "35": [
+          { "image": "bible-001", "locus": 3, "text": "For I have come" },
+          { "image": "bible-001", "locus": 4, "text": "to set a man" },
+          { "image": "bible-001", "locus": 5, "text": "against his father" },
+          { "image": "bible-001", "locus": 6, "text": "and a daughter" },
+          { "image": "bible-002", "locus": 1, "text": "against her mother" },
+          { "image": "bible-002", "locus": 2, "text": "and a daughter-in-law" },
+          { "image": "bible-002", "locus": 3, "text": "against her mother-in-law" }
+        ],
+        "36": [
+          { "image": "bible-002", "locus": 4, "text": "and a person's enemies" },
+          { "image": "bible-002", "locus": 5, "text": "will be those of his own household" }
+        ]
+      }
+    }
+  },
+  "images": {
+    "bible-001": {
+      "image_file": "images/2025-12-27/bible-001.png",
+      "region": "Dead River",
+      "ore_source_id": "deadriver-001",
+      "loci": {
+        "1": { "object": "overturned bucket", "placement": "bottom-left" },
+        "2": { "object": "coiled rope", "placement": "bottom-center" },
+        "3": { "object": "leather satchel", "placement": "bottom-right" },
+        "4": { "object": "wooden cart", "placement": "top-right" },
+        "5": { "object": "hanging lantern", "placement": "top-center" },
+        "6": { "object": "clay jug", "placement": "top-left" }
+      }
+    },
+    "bible-002": {
+      "image_file": "images/2025-12-27/bible-002.png",
+      "region": "Capital",
+      "ore_source_id": "capital-003",
+      "loci": {
+        "1": { "object": "worn leather seat", "placement": "bottom-left" },
+        "2": { "object": "brass control lever", "placement": "bottom-center" },
+        "3": { "object": "open storage compartment", "placement": "bottom-right" },
+        "4": { "object": "cracked windscreen", "placement": "top-right" },
+        "5": { "object": "navigation compass", "placement": "top-center" },
+        "6": { "object": "frayed harness", "placement": "top-left" }
+      }
+    }
+  },
+  "object_registry": [
+    "overturned bucket",
+    "coiled rope",
+    "leather satchel",
+    "wooden cart",
+    "hanging lantern",
+    "clay jug",
+    "worn leather seat",
+    "brass control lever",
+    "open storage compartment",
+    "cracked windscreen",
+    "navigation compass",
+    "frayed harness"
+  ]
+}
