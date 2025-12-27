@@ -35,12 +35,12 @@
       "ore_source_path": "_source/ore-fragments/capeast/002_it_couldnt_be_called_a_house.txt",
       "scene": "Eve's precarious room at Backap, hanging over Capital's back end",
       "loci": {
-        "1": { "object": "leather door hinges", "placement": "left foreground" },
-        "2": { "object": "coil of brass wire", "placement": "center foreground" },
-        "3": { "object": "woman's strong hands", "placement": "right foreground" },
-        "4": { "object": "oil lamp on unstable shelf", "placement": "middle left" },
-        "5": { "object": "window frame with leather straps", "placement": "middle right" },
-        "6": { "object": "gap in floorboards", "placement": "background center" }
+        "1": { "object": "metal door hinge", "placement": "bottom left" },
+        "2": { "object": "coil of wire on floor", "placement": "bottom center" },
+        "3": { "object": "hands with wire tool", "placement": "bottom right" },
+        "4": { "object": "window with wooden frame", "placement": "top right" },
+        "5": { "object": "dark hole in floorboards", "placement": "top center" },
+        "6": { "object": "oil lamp on shelf", "placement": "top left" }
       }
     },
     "bible-002": {
@@ -50,27 +50,27 @@
       "ore_source_path": "_source/ore-fragments/dead-river/014_gunt_part1.txt",
       "scene": "Gunt before old man on woodpile, moment before wrench strike",
       "loci": {
-        "1": { "object": "rusted tub behind shed", "placement": "left foreground" },
-        "2": { "object": "woodpile", "placement": "center foreground" },
-        "3": { "object": "wrench in left hand", "placement": "right foreground" },
-        "4": { "object": "dead branch in Gunt's grip", "placement": "middle left" },
-        "5": { "object": "yellow shed door", "placement": "middle center" },
-        "6": { "object": "brake at property edge", "placement": "background" }
+        "1": { "object": "rusted tub", "placement": "bottom left" },
+        "2": { "object": "woodpile with boots", "placement": "bottom center" },
+        "3": { "object": "wrench in hand", "placement": "bottom right" },
+        "4": { "object": "old minivans in brake", "placement": "top right" },
+        "5": { "object": "yellow shed door", "placement": "top center" },
+        "6": { "object": "figure with raised branch", "placement": "top left" }
       }
     }
   },
   "object_registry": [
-    "leather door hinges",
-    "coil of brass wire",
-    "woman's strong hands",
-    "oil lamp on unstable shelf",
-    "window frame with leather straps",
-    "gap in floorboards",
-    "rusted tub behind shed",
-    "woodpile",
-    "wrench in left hand",
-    "dead branch in Gunt's grip",
+    "metal door hinge",
+    "coil of wire on floor",
+    "hands with wire tool",
+    "window with wooden frame",
+    "dark hole in floorboards",
+    "oil lamp on shelf",
+    "rusted tub",
+    "woodpile with boots",
+    "wrench in hand",
+    "old minivans in brake",
     "yellow shed door",
-    "brake at property edge"
+    "figure with raised branch"
   ]
 }

@@ -257,7 +257,40 @@ No text, no caption, no border, no signature.
 7. **Generate in ChatGPT**
 8. **Evaluate:** Can you find all 6 loci? Does darkness have texture? Is something watching?
 9. **Save image** to appropriate folder
-10. **Update registries** (object registry, region usage)
+10. **Map loci to verse phrases** — **CRITICAL: Follow LOCUS_PLACEMENT_GUIDE.md exactly**
+11. **Update registries** (object registry, region usage)
+
+---
+
+## Locus Assignment (MUST FOLLOW)
+
+**⚠️ ALWAYS consult `LOCUS_PLACEMENT_GUIDE.md` before assigning verse phrases to objects.**
+
+The path schema is a zigzag:
+
+```
+┌─────────────────────────────────────────┐
+│   (6)            (5)            (4)     │  ← TOP HALF
+│  left third    middle third   right third
+├─────────────────────────────────────────┤
+│   (1)            (2)            (3)     │  ← BOTTOM HALF
+│  left third    middle third   right third
+└─────────────────────────────────────────┘
+```
+
+**Order:** Bottom L→M→R, then Top R→M→L
+
+1. Phrase 1 → Bottom left
+2. Phrase 2 → Bottom center
+3. Phrase 3 → Bottom right
+4. Phrase 4 → Top right
+5. Phrase 5 → Top center
+6. Phrase 6 → Top left
+
+**Common mistakes to avoid:**
+- Confusing "left" and "right" in the top half (the path reverses direction)
+- Using vague placement terms like "middle left" — use "bottom left" or "top left"
+- Assigning loci before carefully examining where objects actually appear in the generated image
 
 ---
 
@@ -270,9 +303,10 @@ Before using an image for mnemonic work:
 - [ ] Something is watching (figures, darkness, the dens)
 - [ ] Light behaves wrongly (stops, fails, doesn't illuminate)
 - [ ] Crosshatching adds texture without obscuring
-- [ ] Caption present and readable
+- [ ] No text, caption, border, or signature in image
 - [ ] No Earth-specific architecture or cultural markers
 - [ ] Mood is heavy, murky, aware — not flat or cheerful
+- [ ] Loci assigned following LOCUS_PLACEMENT_GUIDE.md zigzag path
 
 ---
 
