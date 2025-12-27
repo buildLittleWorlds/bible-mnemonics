@@ -43,7 +43,8 @@
     "bible-002": {
       "image_file": "images/2025-12-27/bible-002.png",
       "region": "Focal Meadow",
-      "ore_source_id": "focalmeadow-001",
+      "ore_source_id": null,
+      "notes": "Generated ad-hoc; no ore-fragment source for Focal Meadow yet",
       "loci": {
         "1": { "object": "open field book", "placement": "bottom-left" },
         "2": { "object": "instrument case", "placement": "bottom-center" },

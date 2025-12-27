@@ -1,79 +1,154 @@
 # Bible Mnemonics — Planning
 
-## System Sketch
+## What This Project Is
 
-**What's established:**
+Memorizing Bible verses using Densworld images as memory palaces. Each verse maps to objects in scenes from an imaginary world — arbitrary pairings that create unexpected resonance.
 
-1. **Registry of W1 sources** — `ORE_SOURCES.json` contains ~100 curated ore fragments with high image potential, organized by region. Randomly select from these.
-
-2. **One image per verse** — Each Bible verse gets its own Densworld image.
-
-3. **Non-systematic approach** — Verses are added as they strike me during Bible study. No sequential plan, no target count.
-
-4. **6 object loci per image** — Default structure. Verse is broken into 6 phrases mapped to the zigzag path (see `LOCUS_PLACEMENT_GUIDE.md`).
+**Core principle:** The mapping between Bible text and Densworld is arbitrary. Do NOT match themes. Choose regions/ore randomly. Meaningful connections emerge through stochastic resonance, not design.
 
 ---
 
-## What Needs Development
+## Current Method (Established 2025-12-27)
 
-**Visual prompting method** — The ore fragments contain vivid narrative moments, but translating them into effective image prompts requires:
+### Session Workflow
 
-- Identifying the most imageable moment in a fragment
-- Extracting 6 distinct, spatially separable objects from that moment
-- Writing prompts that produce the cartographic illustration style
-- Ensuring objects are visually distinct and memorable
+1. I provide a verse reference (e.g., "Matthew 10:34-36")
+2. Claude randomly selects from `ORE_SOURCES.json`
+3. Claude reads the ore fragment and identifies a vivid, imageable moment
+4. Claude writes an image prompt following `VISUAL_STYLE_GUIDE.md`
+5. I generate the image in Nano Banana Pro
+6. I review and may request adjustments or regeneration
+7. Once images are final, Claude assigns verse phrases to object loci
+8. Update `BIBLE_MAPPINGS.json`, session HTML, and index
 
-This will be developed in a separate session focused on prompt engineering.
+### Phrasal Units (Critical)
+
+Break verses into **small phrasal units** (3–6 words), not sentences or clauses. Each locus holds one tight, memorable chunk. See `LOCUS_PLACEMENT_GUIDE.md` for the complete method.
+
+**Example:** Matthew 10:34-36 (3 verses) became 11 phrasal units requiring 2 images.
+
+### Image Types
+
+Four types, documented in `VISUAL_STYLE_GUIDE.md`:
+
+1. **Landscape View** — Wide exterior, objects across terrain
+2. **Narrative Scene** — Frozen moment from ore fragment with characters
+3. **Object Interior** — Close view of large object (e.g., Oneride), parts as loci
+4. **Architectural Interior** — Inside a building, furnishings as loci
+
+### Visual Style
+
+Use Densworld's own visual vocabulary (NOT real art history):
+- Cartographic Guild illustration style
+- Color palette from Densworld materials (Quarry Ochre, Iron Gall Black, etc.)
+- Clean lines, unified lighting from top-left, deep focus
+- Six distinct objects clearly separated by negative space
+
+### Object Selection
+
+- Track used objects in `object_registry` within `BIBLE_MAPPINGS.json`
+- Avoid repetition (no open books/ledgers/journals appearing too often)
+- Prefer objects specific to the ore fragment's narrative
+- Consider using parts of larger objects when variety is needed
 
 ---
 
-## Workflow (Current Understanding)
+## File Structure
 
-1. I provide a verse reference (e.g., "Matthew 10:34")
-2. Claude randomly selects from `ORE_SOURCES.json` (high-potential sources)
-3. Claude reads the selected ore fragment
-4. Claude identifies the most vivid, unused moment
-5. Claude writes an image prompt
-6. I generate the image in Nano Banana Pro
-7. Claude breaks the verse into 6 phrases and assigns to loci
-8. Update `BIBLE_MAPPINGS.json`
+```
+_bible-mnemonics/
+├── index.html                 # Home page with session list
+├── PLANNING.md                # This file
+├── VISUAL_STYLE_GUIDE.md      # Image generation guide
+├── LOCUS_PLACEMENT_GUIDE.md   # How to break verses and assign to loci
+├── BIBLE_MAPPINGS.json        # Verse→image→locus lookup + object registry
+├── ORE_SOURCES.json           # Curated W1 sources for random selection
+├── sessions/
+│   └── YYYY-MM-DD.html        # One HTML file per session
+└── images/
+    └── YYYY-MM-DD/            # Images organized by session date
+        ├── bible-001.png
+        ├── bible-002.png
+        └── ...
+```
+
+### Image Naming
+
+Images are named sequentially: `bible-001`, `bible-002`, etc. The image name does NOT reference the Bible passage — that connection lives in `BIBLE_MAPPINGS.json`.
 
 ---
 
-## Files in This Folder
+## Data Structures
 
-| File | Purpose |
-|------|---------|
-| `PLANNING.md` | This file — project overview |
-| `ORE_SOURCES.json` | Registry of ~100 curated W1 sources |
-| `LOCUS_PLACEMENT_GUIDE.md` | How to assign phrases to object loci |
-| `BIBLE_MAPPINGS.json` | Tracking data (to be created when first image is complete) |
+### BIBLE_MAPPINGS.json
+
+```json
+{
+  "verse_index": {
+    "Matthew": {
+      "10": {
+        "34": [
+          { "image": "bible-001", "locus": 1, "text": "Do not think that I have come" },
+          { "image": "bible-001", "locus": 2, "text": "to bring peace to the earth" }
+        ]
+      }
+    }
+  },
+  "images": {
+    "bible-001": {
+      "image_file": "images/2025-12-27/bible-001.png",
+      "region": "Capital",
+      "ore_source_id": "capital-003",
+      "loci": {
+        "1": { "object": "worn leather seat", "placement": "bottom-left" },
+        ...
+      }
+    }
+  },
+  "object_registry": ["worn leather seat", "brass control lever", ...]
+}
+```
+
+This structure enables efficient verse lookup: `Matthew → 10 → 34 → [image, locus, text]`
 
 ---
 
-## Source Refinement Process
+## Source Refinement
 
-The curated list in `ORE_SOURCES.json` is a starting point, not a fixed inventory. When random selection produces a source that turns out to be unsuitable (W2 material, dialogue-only, too abstract, no visual moments), the workflow is:
+The curated list in `ORE_SOURCES.json` is refined over time. When random selection produces an unsuitable source:
 
 1. **Stop** — Do not select another random source
-2. **Remove** — Delete the unsuitable source from `ORE_SOURCES.json`
-3. **Replace** — Find a suitable replacement from ore fragments in the same region
-4. **Add** — Add the replacement to the curated list
-5. **Use** — Use the replacement for the current image generation
+2. **Remove** — Delete from `ORE_SOURCES.json`
+3. **Note why** — W2 material? Too short? No visual moments?
+4. **Replace** — Find a suitable replacement from the same region
+5. **Use** — Use the replacement for the current image
 
-This refines the curated list over time, ensuring it converges toward reliably usable W1 sources.
+### W1 vs W2 Material
+
+- **W1** = True Densworld (imaginary world with its own physics, geography, characters)
+- **W2** = Real-world references (Godfrey Illinois, historical figures in Earth settings)
+
+Only W1 material is suitable. If an ore fragment references real Earth locations or people in non-Densworld contexts, remove it from the source list.
+
+---
+
+## Deployment
+
+GitHub Pages: https://buildlittleworlds.github.io/bible-mnemonics/
+
+Repository: https://github.com/buildLittleWorlds/bible-mnemonics
+
+After each session, commit and push to deploy updates.
 
 ---
 
 ## Open Questions
 
-1. **Verse phrase breaks** — Should Claude propose, or should I provide? (Current default: Claude proposes, I approve/adjust)
+1. **Cross-project object registry** — Share with Commedia or keep separate? (Current: separate)
 
-2. **Tracking "used moments"** — How granular? Per-fragment? Per-scene within fragment?
+2. **Tracking "used moments"** — Currently using `images_extracted` in ore sources. Need to actually update this when moments are used.
 
-3. **Image storage** — Folder structure TBD
-
-4. **Cross-project object registry** — Share with Commedia or keep separate?
+3. **Long verses** — What if a verse needs 10+ images? No examples yet.
 
 ---
 

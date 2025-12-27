@@ -538,9 +538,9 @@
       "id": "capital-003",
       "path": "_source/ore-fragments/capital/021_a_closer_look_at_dens_from_the_cap.txt",
       "region": "Capital",
-      "description": "Inter-regional perspective; viewing from distance",
+      "description": "Nelphl's abandoned Oneride; translucent trees; inter-regional perspective",
       "image_potential": "high",
-      "images_extracted": []
+      "images_extracted": ["bible-001"]
     },
     {
       "id": "capital-004",
