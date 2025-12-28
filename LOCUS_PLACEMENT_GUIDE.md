@@ -4,33 +4,138 @@ How to assign verse phrases to objects in Bible memory images.
 
 ---
 
-## The Path Schema
+## Flexible Arrangements
 
-The eye travels through the image in a specific order. Phrases are assigned to objects along this path:
+Images are generated with creative freedom — the model arranges objects naturally rather than to a rigid grid. After generation, identify which arrangement the image follows, then assign loci accordingly.
+
+### Arrangement A: 3 Foreground + 3 Background
+
+The classic zigzag. Three objects in foreground, three in background.
 
 ```
 ┌─────────────────────────────────────────┐
 │                                         │
-│   (6)            (5)            (4)     │   ← TOP HALF
-│  left third    middle third   right third
+│   (6)            (5)            (4)     │   ← BACKGROUND
+│   left         center         right     │
 │                                         │
-├─────────────────────────────────────────┤
+├ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┤
 │                                         │
-│   (1)            (2)            (3)     │   ← BOTTOM HALF
-│  left third    middle third   right third
+│   (1)            (2)            (3)     │   ← FOREGROUND
+│   left         center         right     │
 │                                         │
 └─────────────────────────────────────────┘
 ```
 
-**Order:**
-1. Phrase 1 → Left third, bottom half
-2. Phrase 2 → Middle third, bottom half
-3. Phrase 3 → Right third, bottom half
-4. Phrase 4 → Right third, top half
-5. Phrase 5 → Middle third, top half
-6. Phrase 6 → Left third, top half
+**Path:** Foreground L→C→R, then Background R→C→L
 
-The path moves left-to-right across the bottom, then right-to-left across the top.
+1. Phrase 1 → Foreground left
+2. Phrase 2 → Foreground center
+3. Phrase 3 → Foreground right
+4. Phrase 4 → Background right
+5. Phrase 5 → Background center
+6. Phrase 6 → Background left
+
+---
+
+### Arrangement B: 4 Foreground + 2 Background
+
+Common when the scene has a dominant foreground action. Four objects up front, two in the distance.
+
+```
+┌─────────────────────────────────────────┐
+│                                         │
+│        (6)                  (5)         │   ← BACKGROUND
+│        left                right        │
+│                                         │
+├ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┤
+│                                         │
+│   (1)       (2)       (3)       (4)     │   ← FOREGROUND
+│   left    center-L  center-R   right    │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+**Path:** Foreground L→CL→CR→R, then Background R→L
+
+1. Phrase 1 → Foreground left
+2. Phrase 2 → Foreground center-left
+3. Phrase 3 → Foreground center-right
+4. Phrase 4 → Foreground right
+5. Phrase 5 → Background right
+6. Phrase 6 → Background left
+
+---
+
+### Arrangement C: 2 Foreground + 4 Background
+
+Less common. Two objects close to viewer, four spread across the background (often figures or scene elements).
+
+```
+┌─────────────────────────────────────────┐
+│                                         │
+│   (6)       (5)       (4)       (3)     │   ← BACKGROUND
+│   left    center-L  center-R   right    │
+│                                         │
+├ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┤
+│                                         │
+│        (1)                  (2)         │   ← FOREGROUND
+│        left                right        │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+**Path:** Foreground L→R, then Background R→CR→CL→L
+
+1. Phrase 1 → Foreground left
+2. Phrase 2 → Foreground right
+3. Phrase 3 → Background right
+4. Phrase 4 → Background center-right
+5. Phrase 5 → Background center-left
+6. Phrase 6 → Background left
+
+---
+
+## Identifying the Arrangement
+
+After generating an image:
+
+1. **Count foreground objects** — How many distinct objects are in the lower half / closer to viewer?
+2. **Count background objects** — How many are in the upper half / farther away?
+3. **Match to arrangement:**
+   - A (3+3) — balanced foreground and background
+   - B (4+2) — foreground-heavy
+   - C (2+4) — background-heavy
+4. **Assign loci** — Follow the path for that arrangement
+
+If the image doesn't fit any pattern cleanly, adapt: the principle is always **foreground left-to-right, then background right-to-left**.
+
+---
+
+## Locus Specificity: One Thing Only
+
+**Each locus is ONE visual element — not a cluster, not a person-with-accessories, not a machine-with-screen.**
+
+The eye needs a single anchor point. When you look at that spot in the image, you should land on ONE thing.
+
+### Wrong (too many elements)
+- "Redbox machine with alien movie on screen" — that's a machine + a screen + an image
+- "Boy in tie-dye shirt, finger on RENT button" — that's a person + clothing + hand + button
+- "Girl bouncing, bandaged arm visible" — that's a person + pose + medical detail
+- "Woman with beanie and shopping cart" — that's a person + hat + cart
+
+### Right (single visual anchor)
+- "Alien face on screen"
+- "Tie-dye spiral pattern"
+- "Bandaged arm"
+- "Shopping cart handle"
+
+### The Test
+
+Can you point to it with one finger? If describing it requires "with" or "and," you've included too much.
+
+**Person → pick ONE detail** (their hat, their hand position, their distinctive clothing feature)
+**Machine → pick ONE part** (the screen, a button, a slot)
+**Scene element → pick the tightest visual anchor**
 
 ---
 
@@ -111,15 +216,15 @@ Prefer objects that are spatially separated from each other. A well-spaced path 
 
 Verse: "And we know that for those who love God all things work together for good, for those who are called according to his purpose."
 
-Image contains: open specimen bag (left foreground), crude trap (center foreground), iron skillet on stones (right foreground), the Boss at cave entrance (right background), White Yeller's braid (center background), toothpick on log (left background).
+**Arrangement identified:** A (3+3)
 
-**Breaking the verse:**
-1. "And we know that" → open specimen bag
-2. "for those who love God" → crude trap
-3. "all things work together" → iron skillet
-4. "for good," → the Boss at cave entrance
-5. "for those who are called" → White Yeller's braid
-6. "according to his purpose." → toothpick on log
+**Locus assignment (note single-element specificity):**
+1. "And we know that" → specimen bag opening (foreground left)
+2. "for those who love God" → trap's jaw mechanism (foreground center)
+3. "all things work together" → skillet handle (foreground right)
+4. "for good," → cave entrance darkness (background right)
+5. "for those who are called" → white braid (background center)
+6. "according to his purpose." → toothpick (background left)
 
 ---
 
@@ -127,7 +232,8 @@ Image contains: open specimen bag (left foreground), crude trap (center foregrou
 
 Before finalizing locus assignments:
 
-- [ ] Does each phrase follow the path order (bottom L→M→R, then top R→M→L)?
+- [ ] Have I identified the arrangement (A: 3+3 or B: 4+2)?
+- [ ] Does each phrase follow the path order (foreground L→R, then background R→L)?
 - [ ] Are objects spatially separated (not clumped)?
 - [ ] Is each object visually distinct from the others in this image?
 - [ ] Have I checked `object_registry` for recent repeats?
@@ -136,4 +242,4 @@ Before finalizing locus assignments:
 
 ---
 
-*Last updated: 2025-12-27*
+*Last updated: 2025-12-28*

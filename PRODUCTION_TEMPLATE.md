@@ -32,25 +32,25 @@ Every image should aim for this balance.
 ```
 Densworld field sketch: [LOCATION AND TIME]. [ATMOSPHERIC COLOR] watercolor
 wash dominates the [sky/walls/space], with ink line work defining forms.
-Crosshatching in the [shadows/background/deep spaces] suggests depth and weight.
 
-[WATCHING ELEMENT — what in this scene is aware?]
-
-Six objects rendered with clear ink lines, findable within the atmospheric murk:
-
-1. [OBJECT 1] — [position], [key visual detail]
-2. [OBJECT 2] — [position], [key visual detail]
-3. [OBJECT 3] — [position], [key visual detail]
-4. [OBJECT 4] — [position], [key visual detail]
-5. [OBJECT 5] — [position], [key visual detail]
-6. [OBJECT 6] — [position], [key visual detail]
+[SCENE DESCRIPTION — what is happening, who is present, what objects are visible.
+Weave specific visual details INTO the scene description naturally. Do NOT
+list objects separately or create a "zoomed details" section — this causes
+the model to generate segmented images with inset panels.]
 
 [BACKGROUND ELEMENTS — rendered softer, part of atmosphere]
 
-Light source: [describe — and note that it STOPS or FAILS to fully illuminate]
-
 No text, no caption, no border, no signature.
 ```
+
+### Critical: No Zoom Sections
+
+**DO NOT** include sections like:
+- "Zoomed details:"
+- "Close-up on:"
+- "Detail shots:"
+
+These cause the image model to create segmented compositions with circular inset panels instead of a single coherent scene. Weave all visual details directly into the scene description.
 
 ---
 

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "description": "Curated W1 ore sources for Bible mnemonic image generation",
+    "description": "Curated ore sources for Bible mnemonic image generation (W1 and W2)",
     "count": 275,
     "created": "2025-12-27",
-    "last_audit": "2025-12-27",
-    "notes": "Canonical W1 ore sources for Bible mnemonic image generation. 275 total sources (187 from ore-fragments + 113 from ore-fragments-generated, deduplicated). Audit completed 2025-12-27."
+    "last_audit": "2025-12-28",
+    "notes": "Curated ore sources for Bible mnemonic images. Both W1 (Densworld) and W2 (real-world settings like Alton, Godfrey) are valid. 275 sources from ore-fragments. For full source inventory including datasets and living-ledger, see SOURCE_AUDIT_LOG.json."
   },
   "available": [
     {
